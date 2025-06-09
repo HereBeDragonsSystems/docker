@@ -1,0 +1,319 @@
+services:
+  setup:
+    container_name: setup
+    hostname: setup
+    image: docker.elastic.co/elasticsearch/elasticsearch:${ELK_VERSION:-8.12.2}${ARCH-"-arm64"}
+    volumes:
+      - certs:/usr/share/elasticsearch/config/certs
+    user: "0"
+    networks:
+      - elk_network
+    environment:
+      - logger.level=${LOGGING_LEVEL:-info}
+    command: >
+      bash -c '
+        if [ x${ELK_ES_PASSWORD} == x ]; then
+          echo "Set the ELK_ES_PASSWORD environment variable in the .env file";
+          exit 1;
+        elif [ x${ELK_KIBANA_PASSWORD} == x ]; then
+          echo "Set the ELK_KIBANA_PASSWORD environment variable in the .env file";
+          exit 1;
+        fi;
+        if [ ! -f config/certs/ca.zip ]; then
+          echo "Creating CA";
+          bin/elasticsearch-certutil ca --silent --pem -out config/certs/ca.zip;
+          unzip config/certs/ca.zip -d config/certs;
+        fi;
+        if [ ! -f config/certs/certs.zip ]; then
+          echo "Creating certs";
+          echo -ne \
+          "instances:\n"\
+          "  - name: elasticsearch\n"\
+          "    dns:\n"\
+          "      - elasticsearch\n"\
+          "      - localhost\n"\
+          "    ip:\n"\
+          "      - 127.0.0.1\n"\
+          "  - name: kibana\n"\
+          "    dns:\n"\
+          "      - kibana\n"\
+          "      - localhost\n"\
+          "    ip:\n"\
+          "      - 127.0.0.1\n"\
+          > config/certs/instances.yml;
+          bin/elasticsearch-certutil cert --silent --pem -out config/certs/certs.zip --in config/certs/instances.yml --ca-cert config/certs/ca/ca.crt --ca-key config/certs/ca/ca.key;
+          unzip config/certs/certs.zip -d config/certs;
+        fi;
+        echo "Setting file permissions"
+        chown -R root:root config/certs;
+        find . -type d -exec chmod 750 \{\} \;;
+        find . -type f -exec chmod 640 \{\} \;;
+        echo "Waiting for Elasticsearch availability";
+        until curl -s --cacert config/certs/ca/ca.crt https://elasticsearch:9200 | grep -q "missing authentication credentials"; do sleep 30; done;
+        echo "Setting kibana_system password";
+        until curl -s -X POST --cacert config/certs/ca/ca.crt -u "${ELK_ES_USER:-elastic}:${ELK_ES_PASSWORD}" -H "Content-Type: application/json" https://elasticsearch:9200/_security/user/${ELK_KIBANA_USER:-kibana_system}/_password -d "{\"password\":\"${ELK_KIBANA_PASSWORD}\"}" | grep -q "^{}"; do sleep 10; done;
+        echo "All done!";
+      '
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f config/certs/elasticsearch/elasticsearch.crt ]"]
+      interval: 1s
+      timeout: 5s
+      retries: 120
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${ELK_VERSION:-8.12.2}${ARCH-"-arm64"}
+    container_name: elasticsearch
+    hostname: elasticsearch
+    depends_on:
+      setup:
+        condition: service_healthy
+    labels:
+      co.elastic.logs/enabled: true
+      co.elastic.logs/module: elasticsearch
+      co.elastic.metrics/module: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ELASTIC_USER=${ELK_ES_USER:-elastic}
+      - ELASTIC_PASSWORD=${ELK_ES_PASSWORD}
+      - bootstrap.memory_lock=true
+      - logger.level=${ELK_LOGGING_LEVEL:-${LOGGING_LEVEL:-info}}
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=true
+      - xpack.security.http.ssl.key=certs/elasticsearch/elasticsearch.key
+      - xpack.security.http.ssl.certificate=certs/elasticsearch/elasticsearch.crt
+      - xpack.security.http.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.enabled=true
+      - xpack.security.transport.ssl.key=certs/elasticsearch/elasticsearch.key
+      - xpack.security.transport.ssl.certificate=certs/elasticsearch/elasticsearch.crt
+      - xpack.security.transport.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.verification_mode=certificate
+      - xpack.license.self_generated.type=${ELK_LICENSE}
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+#    mem_limit: ${ELK_ES_MEM_LIMIT}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data:/usr/share/elasticsearch/data
+      - certs:/usr/share/elasticsearch/config/certs
+    networks:
+      - elk_network
+    ports:
+      - "${ELK_ES_PORT}:9200"
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -s --cacert config/certs/ca/ca.crt -u ${ELK_ES_USER:-elastic}:${ELK_ES_PASSWORD} https://localhost:9200/_cluster/health | grep -q '\"status\":\"green\"'" ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${ELK_VERSION:-8.12.2}${ARCH-"-arm64"}
+    container_name: kibana
+    hostname: kibana
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      - SERVERNAME=kibana
+      - LOGGING_ROOT_LEVEL=${ELK_KIBANA_LOGGING_LEVEL:-${LOGGING_LEVEL:-info}}
+      - ELASTICSEARCH_HOSTS=https://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=${ELK_KIBANA_USER:-kibana_system}
+      - ELASTICSEARCH_PASSWORD=${ELK_KIBANA_PASSWORD}
+      - ELASTICSEARCH_SSL_CERTIFICATEAUTHORITIES=config/certs/ca/ca.crt
+      - XPACK_SECURITY_ENCRYPTIONKEY=${ELK_ENCRYPTION_KEY}
+      - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=${ELK_ENCRYPTION_KEY}
+      - XPACK_REPORTING_ENCRYPTIONKEY=${ELK_ENCRYPTION_KEY}
+      - XPACK_REPORTING_KIBANASERVER_HOSTNAME=localhost
+#      - XPACK.FLEET.AGENTS.FLEET_SERVER.HOSTS=fleet-server:${FLEET_PORT}
+      - SERVER_SSL_ENABLED=true
+      - SERVER_SSL_CERTIFICATE=config/certs/kibana/kibana.crt
+      - SERVER_SSL_KEY=config/certs/kibana/kibana.key
+      - SERVER_SSL_CERTIFICATEAUTHORITIES=config/certs/ca/ca.crt
+#      - ELASTIC_APM_SECRET_TOKEN=${ELASTIC_APM_SECRET_TOKEN}
+#    mem_limit: ${ELK_KB_MEM_LIMIT}
+    labels:
+      co.elastic.logs/enabled: true
+      co.elastic.logs/module: kibana
+      co.elastic.metrics/module: kibana
+    networks:
+      - elk_network
+    volumes:
+      - certs:/usr/share/kibana/config/certs
+      - kibana_data:/usr/share/kibana/data
+#      - kibana_config:/usr/share/kibana/config
+#      - ./kibana.yml:/usr/share/kibana/config/kibana.yml:ro
+    ports:
+      - ${ELK_KIBANA_PORT}:5601
+    user: "1000:1000"
+    restart: unless-stopped
+    healthcheck:
+      test: [
+        "CMD-SHELL",
+        "curl -s --cacert /usr/share/kibana/config/certs/ca/ca.crt -u ${ELK_KIBANA_USER:-kibana_system}:${ELK_KIBANA_PASSWORD} https://localhost:5601/api/status | grep -q '\"overall\":{\"level\":\"available\"'"
+      ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:${ELK_VERSION:-8.12.2}${ARCH-"-arm64"}
+    container_name: logstash
+    hostname: logstash
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      kibana:
+        condition: service_healthy
+    labels:
+      co.elastic.logs/enabled: true
+      co.elastic.logs/module: logstash
+      co.elastic.metrics/module: logstash
+    volumes:
+      - certs:/usr/share/logstash/certs
+      - logstash_pipeline:/usr/share/logstash/pipeline
+      - logstash_data:/usr/share/logstash/data
+      - logstash_ingest:/usr/share/logstash/ingest_data/
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      - xpack.monitoring.enabled=false
+      - logger.level=${ELK_LOGSTASH_LOGGING_LEVEL:-${LOGGING_LEVEL:-info}}
+      - logger.verbosity=${LOGGING_VERBOSITY:-false}
+      - ELASTIC_USER=${ELK_ES_USER:-elastic}
+      - ELASTIC_PASSWORD=${ELK_ES_PASSWORD}
+      - ELASTIC_HOSTS=https://elasticsearch:9200
+      - "LS_JAVA_OPTS=-Xms256m -Xmx256m"
+    networks:
+      - elk_network
+    user: "1000:1000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9600"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:${ELK_VERSION:-8.12.2}${ARCH-"-arm64"}
+    container_name: filebeat
+    hostname: filebeat
+    user: root
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      kibana:
+        condition: service_healthy
+      logstash:
+        condition: service_healthy
+    environment:
+      - LOGGING_LEVEL=${ELK_FILEBEAT_LOGGING_LEVEL:-${LOGGING_LEVEL:-info}}
+      - LOGGING_VERBOSITY${LOGGING_VERBOSITY:-false}
+      - ELASTIC_USER=${ELK_ES_USER:-elastic}
+      - ELASTIC_PASSWORD=${ELK_ES_PASSWORD}
+    volumes:
+      - certs:/usr/share/filebeat/certs
+      - ${BASE_PATH-/srv/}${DISK_UUID}/elk/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - filebeat_data:/usr/share/filebeat/data
+      - filebeat_ingest_data:/usr/share/filebeat/ingest_data/"
+#    read_only: true
+    tmpfs:
+      - /tmp
+    networks:
+      - elk_network
+    healthcheck:
+      test: ["CMD-SHELL", "filebeat test config -c /usr/share/filebeat/filebeat.yml"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+#
+#  metricbeat:
+#    image: docker.elastic.co/beats/metricbeat:${ELK_VERSION:-8.12.2}-arm64
+#    container_name: metricbeat
+#    hostname: metricbeat
+#    user: root
+#    depends_on:
+#      - kibana
+#      - elasticsearch
+#    volumes:
+#      - ${BASE_PATH-/srv/}${DISK_UUID}/elk/metricbeat/metricbeat.yml:/usr/share/metricbeat/metricbeat.yml:ro
+#      - /proc:/hostfs/proc:ro
+#      - /sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro
+#      - /:/hostfs:ro
+#      - /var/run/docker.sock:/var/run/docker.sock:ro
+#      - metricbeat_data:/usr/share/metricbeat/data
+#    read_only: true
+#    tmpfs:
+#      - /tmp
+#    networks:
+#      - elk_network
+
+networks:
+  elk_network:
+    name: "elk_network"
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/data
+  certs:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/certs
+  kibana_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/kibana/data
+#  kibana_config:
+#    driver: local
+#    driver_opts:
+#      type: none
+#      o: bind
+#      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/kibana/config
+  logstash_pipeline:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/logstash/pipeline
+  logstash_ingest:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/logstash/ingest
+  logstash_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/logstash/data
+  filebeat_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/filebeat/data
+  filebeat_ingest_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/filebeat/ingest
+#  metricbeat_data:
+#    driver: local
+#    driver_opts:
+#      type: none
+#      o: bind
+#      device: ${BASE_PATH-/srv/}${DISK_UUID}/elk/metricbeat/data

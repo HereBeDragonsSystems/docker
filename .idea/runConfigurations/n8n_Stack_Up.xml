@@ -1,0 +1,32 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="n8n Stack Up" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+    <deployment type="docker-compose.yml">
+      <settings>
+        <option name="envFilePath" value="$PROJECT_DIR$/docker/n8n/.env" />
+        <option name="envVars">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="ARCH" />
+              <option name="value" value="" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="PATH_PREFIX" />
+              <option name="value" value="" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="BASE_PATH" />
+              <option name="value" value="../" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="TZ" />
+              <option name="value" value="Europe/Lisbon" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
+        <option name="removeVolumesOnComposeDown" value="true" />
+        <option name="sourceFilePath" value="docker/n8n/n8n-compose.yml" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,38 @@
+services:
+  nodered:
+    image: nodered/node-red:${NODE_RED_VERSION:-latest}
+    platform: ${PLATFORM:-linux/amd64}  # Can be set to linux/arm64
+    container_name: nodered
+    hostname: nodered
+    environment:
+      - TZ=${TZ:-UTC}
+      - NODE_RED_ENABLE_PROJECTS=${ENABLE_PROJECTS:-false}
+      - NODE_RED_ENABLE_SAFE_MODE=${SAFE_MODE:-false}
+      # Optional authentication
+      - NODE_RED_CREDENTIAL_SECRET=${CREDENTIAL_SECRET:-}
+      - NODE_RED_USERNAME=${USERNAME:-}
+      - NODE_RED_PASSWORD=${PASSWORD:-}
+    ports:
+      - "${PORT:-1880}:1880"
+    volumes:
+      - ${DATA_PATH:-./data}:/data
+    networks:
+      - nodered-net
+    restart: unless-stopped
+    # Optional resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+        reservations:
+          memory: 256m
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:1880"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+networks:
+  nodered-net:
+    driver: bridge

@@ -1,0 +1,60 @@
+logging:
+  verbose: ${LOGGING_VERBOSITY}
+  level: ${LOGGING_LEVEL}
+  to_files: true
+  files:
+    path: /var/log/filebeat
+    name: filebeat
+    keepfiles: 7
+    permissions: 0640
+
+filebeat:
+  autodiscover:
+    providers:
+      - type: docker
+        hints.enabled: true
+        templates:
+          - condition:
+              contains:
+                docker.container.labels.co.elastic.logs/enabled: "true"
+            config:
+              - type: container
+                paths:
+                  - /var/lib/docker/containers/${data.docker.container.id}/*.log
+                stream: all
+                json.message_key: log
+                json.keys_under_root: true
+                multiline.pattern: '^\s'
+                multiline.negate: false
+                multiline.match: after
+
+processors:
+  - add_docker_metadata: ~
+  - add_host_metadata: ~
+  - decode_json_fields:
+      fields: ["message"]
+      target: ""
+      overwrite_keys: true
+
+#setup.dashboards:
+#  enabled: true
+#  host: "https://kibana:5601"
+#  ssl.enabled: true
+#  ssl.certificate_authorities: ["/usr/share/filebeat/certs/ca.crt"]
+#  username: "elastic"
+#  password: "${ELK_ES_PASSWORD}"
+
+output.logstash:
+  hosts: ["logstash:5044"]
+#  ssl.enabled: true
+#  ssl.certificate_authorities: ["/usr/share/filebeat/certs/ca.crt"]
+  username: "${ELASTIC_USER}"
+  password: "${ELASTIC_PASSWORD}"
+#
+#output.elasticsearch:
+#  hosts: ${ELASTIC_HOSTS}
+#  username: ${ELASTIC_USER}
+#  password: ${ELASTIC_PASSWORD}
+#  ssl:
+#    enabled: true
+#    certificate_authorities: ["/usr/share/filebeat/certs/ca.crt"]

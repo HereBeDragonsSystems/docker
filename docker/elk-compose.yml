@@ -1,0 +1,143 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${ELK_VERSION:-8.12.2}-arm64
+    container_name: elasticsearch
+    hostname: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    networks:
+      - elk_network
+    ports:
+      - "9200:9200"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200/_cluster/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:${ELK_VERSION:-8.12.2}-arm64
+    container_name: logstash
+    hostname: logstash
+    depends_on:
+      - elasticsearch
+    volumes:
+      - logstash_pipeline:/usr/share/logstash/pipeline
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      - "LS_JAVA_OPTS=-Xms256m -Xmx256m"
+    networks:
+      - elk_network
+    user: "1000:1000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9600"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${ELK_VERSION:-8.12.2}-arm64
+    container_name: kibana
+    hostname: kibana
+    depends_on:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    networks:
+      - elk_network
+    ports:
+      - "5601:5601"
+    user: "1000:1000"
+    restart: unless-stopped
+#    healthcheck:
+#      test: ["CMD-SHELL", "curl -s http://localhost:5601/api/status | grep -q '\"state\":\"green\"'"]
+#      interval: 10s
+#      timeout: 5s
+#      retries: 30
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:${ELK_VERSION:-8.12.2}-arm64
+    container_name: filebeat
+    hostname: filebeat
+    user: root
+    depends_on:
+      - logstash
+      - elasticsearch
+      - kibana
+    volumes:
+      - /srv/${DISK_UUID}/elk/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - filebeat_data:/usr/share/filebeat/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    networks:
+      - elk_network
+    healthcheck:
+      test: ["CMD-SHELL", "filebeat test config -c /usr/share/filebeat/filebeat.yml"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+#
+#  metricbeat:
+#    image: docker.elastic.co/beats/metricbeat:${ELK_VERSION:-8.12.2}-arm64
+#    container_name: metricbeat
+#    hostname: metricbeat
+#    user: root
+#    depends_on:
+#      - kibana
+#      - elasticsearch
+#    volumes:
+#      - /srv/${DISK_UUID}/elk/metricbeat/metricbeat.yml:/usr/share/metricbeat/metricbeat.yml:ro
+#      - /proc:/hostfs/proc:ro
+#      - /sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro
+#      - /:/hostfs:ro
+#      - /var/run/docker.sock:/var/run/docker.sock:ro
+#      - metricbeat_data:/usr/share/metricbeat/data
+#    read_only: true
+#    tmpfs:
+#      - /tmp
+#    networks:
+#      - elk_network
+
+networks:
+  elk_network:
+    driver: bridge
+
+volumes:
+  elasticsearch_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /srv/${DISK_UUID}/elk/data
+  logstash_pipeline:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /srv/${DISK_UUID}/elk/logstash/pipeline
+  filebeat_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /srv/${DISK_UUID}/elk/filebeat/data
+#  metricbeat_data:
+#    driver: local
+#    driver_opts:
+#      type: none
+#      o: bind
+#      device: /srv/${DISK_UUID}/elk/metricbeat/data
