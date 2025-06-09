@@ -61,17 +61,17 @@ services:
     hostname: postgres
     restart: unless-stopped
     networks:
-      - postgres-net
+      - n8n_network
     ports:
       - "${PGS_PORT:-5432}:5432"
     environment:
       POSTGRES_DB: ${DB_POSTGRESDB_DATABASE:-n8n}
       POSTGRES_USER: ${DB_POSTGRESDB_USER:-n8n}
       POSTGRES_PASSWORD: ${DB_POSTGRESDB_PASSWORD:-n8n}
-      PGDATA: /var/lib/postgresql/data/pgdata
+ #     PGDATA: /var/lib/postgresql/data/pgdata
       TZ: ${TZ:-Europe/Lisbon}
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql/data
   #    user: "${PGS_PUID:-1000}:${PGS_PGID:-1000}"
 #    platform: "linux/amd64,linux/arm64"
 
