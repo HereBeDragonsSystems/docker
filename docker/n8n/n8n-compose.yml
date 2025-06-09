@@ -80,19 +80,19 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE:-n8n}${PGS_NAMESPACE:-/data}
+      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE:-n8n}${N8N_NAMESPACE:-/data}
   postgres:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE:-n8n}${PGS_NAMESPACE:-/postgres}
+      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE:-n8n}${DB_POSTGRESDB_NAMESPACE:-/postgres}
   redis:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE:-n8n}${PGS_NAMESPACE:-/redis}
+      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE:-n8n}${REDIS_NAMESPACE:-/redis}
 
 networks:
   n8n_network:
