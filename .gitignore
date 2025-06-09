@@ -30,11 +30,20 @@
 /docker/elk/logstash/data
 !/docker/elk/logstash/pipeline/*.conf
 /docker/elk/metricbeat/data
+
 /docker/db/mariadb/**/*
 !/docker/db/mariadb/.gitkeep
 /docker/db/postgres/**/*
 !/docker/db/postgres/.gitkeep
+
 /docker/portainer/data/**/*
 !/docker/portainer/data/.gitkeep
+
+/docker/n8n/data/**/*
+/docker/n8n/postgres/**/*
+/docker/n8n/redis/**/*
+!/docker/n8n/data/.gitkeep
+!/docker/n8n/postgres/.gitkeep
+!/docker/n8n/redis/.gitkeep
 
 !/**/.gitkeep

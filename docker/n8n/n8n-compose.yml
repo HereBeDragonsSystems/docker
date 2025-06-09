@@ -3,6 +3,7 @@ services:
     image: n8nio/n8n:latest
     hostname: n8n
     container_name: n8n
+    user: "${N8N_PUID:-1000}:${N8N_PUID:-1000}"  # Add this line
     ports:
       - "${N8N_PORT:-5678}:5678"
     environment:
