@@ -34,7 +34,7 @@
 !/docker/db/mariadb/.gitkeep
 /docker/db/postgres/**/*
 !/docker/db/postgres/.gitkeep
-/docker/portainer/**/*
-!/docker/portainer/.gitkeep
+/docker/portainer/data/**/*
+!/docker/portainer/data/.gitkeep
 
 !/**/.gitkeep
