@@ -1,6 +1,8 @@
 services:
   n8n:
     image: n8nio/n8n:latest
+    hostname: n8n
+    container_name: n8n
     ports:
       - "${N8N_PORT:-5678}:5678"
     environment:
@@ -54,19 +56,28 @@ services:
       - redis
 
   postgres:
-    image: postgres:${DB_VERSION:-16}-alpine
-    environment:
-      - POSTGRES_DB=${DB_POSTGRESDB_DATABASE:-n8n}
-      - POSTGRES_USER=${DB_POSTGRESDB_USER:-n8n}
-      - POSTGRES_PASSWORD=${DB_POSTGRESDB_PASSWORD:-n8n}
-    volumes:
-      - postgres:/var/lib/postgresql/data
+    image: postgres:${PGS_VERSION:-16-alpine}
+    container_name: postgres
+    hostname: postgres
+    restart: unless-stopped
     networks:
-      - n8n_network
+      - postgres-net
+    ports:
+      - "${PGS_PORT:-5432}:5432"
+    environment:
+      POSTGRES_DB: ${DB_POSTGRESDB_DATABASE:-n8n}
+      POSTGRES_USER: ${DB_POSTGRESDB_USER:-n8n}
+      POSTGRES_PASSWORD: ${DB_POSTGRESDB_PASSWORD:-n8n}
+      PGDATA: /var/lib/postgresql/data/pgdata
+      TZ: ${TZ:-Europe/Lisbon}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  #    user: "${PGS_PUID:-1000}:${PGS_PGID:-1000}"
 #    platform: "linux/amd64,linux/arm64"
 
   redis:
     image: redis:7-alpine
+    hostname: redis
     volumes:
       - redis:/data
     networks:
@@ -86,7 +97,7 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE:-n8n}${DB_POSTGRESDB_NAMESPACE:-/postgres}
+      device: ${PATH_PREFIX-/srv/}${BASE_PATH}${NAMESPACE-n8n}${PGS_NAMESPACE-/postgres}
   redis:
     driver: local
     driver_opts:

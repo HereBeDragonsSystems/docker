@@ -28,13 +28,13 @@ services:
     ports:
       - "${PGS_PORT:-5432}:5432"
     environment:
-      PGS_USER: ${PGS_ROOT_USER:-postgres}
-      PGS_PASSWORD: ${PGS_ROOT_PASSWORD:-changeMe}
-      PGS_DB: ${PGS_DB:-postgres}
+      POSTGRES_USER: ${PGS_ROOT_USER:-postgres}
+      POSTGRES_PASSWORD: ${PGS_ROOT_PASSWORD:-password}
+      POSTGRES_DB: ${PGS_DB:-postgres}
       PGDATA: /var/lib/postgresql/data/pgdata
       TZ: ${TZ:-Europe/Lisbon}
     volumes:
-      - PGS_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
 #    user: "${PGS_PUID:-1000}:${PGS_PGID:-1000}"
 
   adminer:
@@ -59,7 +59,7 @@ services:
 
 
 volumes:
-  PGS_data:
+  postgres_data:
     driver: local
     driver_opts:
       type: none
