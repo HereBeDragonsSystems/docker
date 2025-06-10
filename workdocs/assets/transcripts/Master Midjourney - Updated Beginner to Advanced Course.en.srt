@@ -1,0 +1,3032 @@
+﻿1
+00:00:04,350 --> 00:00:09,110
+use case it has changed a lot over the past 
+year the largest change being the launch of  
+
+2
+00:00:09,110 --> 00:00:14,629
+the website it's a gigantic improvement over 
+Discord for usability Aesthetics inspiration  
+
+3
+00:00:14,630 --> 00:00:19,510
+just all around better everything so I've 
+broken everything down with visualizations  
+
+4
+00:00:19,510 --> 00:00:25,830
+to help understand every parameter systems for 
+prompting resources style reference explorers  
+
+5
+00:00:25,830 --> 00:00:32,030
+tons of examples some more unique workflows and 
+lesser used techniques everything you need to  
+
+6
+00:00:32,030 --> 00:00:36,830
+master mid Journey as a complete beginner or a 
+longtime user and once you get the hang of mid  
+
+7
+00:00:36,830 --> 00:01:01,629
+Journey it feels like magic [Music] let's Jump 
+Right In here and get oriented with the site  
+
+8
+00:01:01,630 --> 00:01:05,870
+I'm not going to talk about anything in Discord 
+this will be solely focused on the site because  
+
+9
+00:01:13,711 --> 00:01:19,071
+have generated with different ways to sort them 
+it is the best spot for Endless inspiration using  
+
+10
+00:01:19,071 --> 00:01:24,030
+the search box you can search through by keyword 
+to find things for inspiration or to use as style  
+
+11
+00:01:24,031 --> 00:01:28,271
+and image references when you click on an image 
+it will show the full prompt and parameters they  
+
+12
+00:01:28,271 --> 00:01:32,911
+used click here to use the prompt or here to 
+use it as a style or image reference you can  
+
+13
+00:01:32,911 --> 00:01:38,791
+also do that by dragging it up to the prompt bar 
+and you can do that with multiple images to blend
+
+14
+00:01:38,791 --> 00:01:49,390
+them this mushroom has these little lights that 
+made me think of a carousel so I ran with that as  
+
+15
+00:01:49,391 --> 00:01:53,911
+a style and image reference and came out with 
+this we'll Deep dive into all of that later a  
+
+16
+00:01:53,911 --> 00:01:57,471
+really cool feature is when you hover over an 
+image if you click the little magnifying glass  
+
+17
+00:01:57,471 --> 00:02:02,631
+it will pull up other similar images I make a 
+habit of liking any images that I really like  
+
+18
+00:02:02,631 --> 00:02:07,791
+either the concept or style then I can sort 
+by liked images and see them all you can find  
+
+19
+00:02:07,791 --> 00:02:13,591
+amazing inspiration this way to never run out of 
+ideas as you can see I like a lot of weird stuff  
+
+20
+00:02:13,591 --> 00:02:18,951
+sometimes it's fun to just find the weirdest 
+picture click the magnifying glass then find  
+
+21
+00:02:18,951 --> 00:02:24,671
+the weirdest picture out of those and repeat 
+until you have nightmares or maybe that's just  
+
+22
+00:02:24,671 --> 00:02:29,310
+me in the Middle where it says imagine we 
+have the prompt bar to generate just type  
+
+23
+00:02:29,311 --> 00:02:35,231
+in here and hit enter I'll start with a single 
+word imagination send it a quick tip is you can  
+
+24
+00:02:35,231 --> 00:02:39,751
+hit the up Arrow to get your prompt back into the 
+box this drop down on the right will open up the  
+
+25
+00:02:39,751 --> 00:02:44,471
+parameters I'll cover all of those in a second 
+but they're easy to use just slide them around  
+
+26
+00:02:44,471 --> 00:02:49,071
+and then generate again this number popped up here 
+that shows how many you currently have generated  
+
+27
+00:02:49,071 --> 00:02:53,031
+that's on the create tab which I can open 
+and watch them generate and see the prompts  
+
+28
+00:02:53,031 --> 00:02:57,831
+and parameters on the side then this archive tab 
+shows all your previous generations as thumbnails  
+
+29
+00:02:57,831 --> 00:03:01,430
+so it's easier to look through your history and 
+to organize there's different ways to sort and  
+
+30
+00:03:01,431 --> 00:03:06,911
+view these to just images you've upscaled only 
+landscape or portrait or older versions of mid  
+
+31
+00:03:06,911 --> 00:03:10,511
+Journey things like that you can change the 
+layout to full so you see the entire images  
+
+32
+00:03:10,511 --> 00:03:15,071
+instead of just the square thumbnails or you can 
+change the size and you can search through by date  
+
+33
+00:03:15,071 --> 00:03:18,871
+if you hover on the bar on the right so you don't 
+have to scroll through thousands of images to go  
+
+34
+00:03:18,871 --> 00:03:23,391
+back I highly recommend getting into the habit 
+of liking good Generations you make so you can  
+
+35
+00:03:23,391 --> 00:03:28,310
+find them easier later you can create folders by 
+either manually selecting images hold down shift  
+
+36
+00:03:28,311 --> 00:03:34,111
+then click and drag to select or you can also 
+create smart folders so say I want every logo  
+
+37
+00:03:34,111 --> 00:03:38,551
+I've made I just type the word logo then mid 
+Journey instantly creates a folder with every  
+
+38
+00:03:38,551 --> 00:03:45,470
+time I've used the word logo in a prompt I'll also 
+mention that down near the bottom you can switch  
+
+39
+00:03:45,471 --> 00:03:50,311
+between light and dark mode or just leave it on 
+dark mode all the time like a normal person now  
+
+40
+00:03:50,311 --> 00:03:55,391
+next to create I can see it's finished averages 
+around 30 seconds to complete so I'll click that  
+
+41
+00:03:55,391 --> 00:04:00,191
+and these images look amazing and now I can go 
+open up any of these generations and there's a  
+
+42
+00:04:00,191 --> 00:04:05,751
+whole list of options I can do with these from 
+here vary upscale reframe repaint a lot of that  
+
+43
+00:04:05,751 --> 00:04:10,551
+is pretty intuitive how it works but we'll dive 
+deeper into that as we go through these images are  
+
+44
+00:04:10,551 --> 00:04:15,511
+awesome these one-word prompts are really fun to 
+see how mid Journey visualizes a concept you have  
+
+45
+00:04:15,511 --> 00:04:49,010
+no idea what's going to come out on the other side 
+but it's fun I've done a bunch of these [Music]
+
+46
+00:04:49,011 --> 00:04:49,591
+[Music]
+
+47
+00:04:49,591 --> 00:04:58,031
+you can prompt with Emojis [Music] too so yeah 
+type a Word get a cool image that's great but  
+
+48
+00:04:58,031 --> 00:05:02,471
+we want to have more control the main ways 
+to control the output are through parameters  
+
+49
+00:05:02,471 --> 00:05:07,631
+prompting and references you can do all of that 
+right up here it's incredible just how much as  
+
+50
+00:05:07,631 --> 00:05:12,791
+possible all within this little area clicking 
+here will let you upload images for image style  
+
+51
+00:05:12,791 --> 00:05:17,111
+and character references or drag them here like I 
+showed before the icon on the right gets me back  
+
+52
+00:05:17,111 --> 00:05:21,591
+to the parameters so in short parameters change 
+the way mid Journey interprets your prompt that  
+
+53
+00:05:21,591 --> 00:05:26,631
+lets you explore and fine-tune an infinite amount 
+of aesthetic directions I'll start with just the  
+
+54
+00:05:26,631 --> 00:05:30,830
+parameters that are here when you click this 
+dropdown these are your main settings when you  
+
+55
+00:05:30,831 --> 00:05:35,791
+change one it will apply to every prompt going 
+forward until you change it again under image  
+
+56
+00:05:35,791 --> 00:05:40,151
+size we've got portrait square and Landscape 
+or you can drag the slider to adjust the aspect  
+
+57
+00:05:40,151 --> 00:05:44,631
+ratio they make it really easy there's tons of 
+reasons for using any of these not only based  
+
+58
+00:05:44,631 --> 00:05:49,470
+on where you may be posting the images but it also 
+influences the composition and feel of them if you  
+
+59
+00:05:49,471 --> 00:05:53,791
+want an aspect ratio that isn't here it doesn't 
+look like it but you can actually type right in  
+
+60
+00:05:53,791 --> 00:06:00,111
+here to replace the numbers with what you want now 
+I've got one four in there maybe I need a bookmark  
+
+61
+00:06:00,111 --> 00:06:06,950
+giraffe on roller skates or it could flip that for 
+a panorama of a concert hall or you can take that  
+
+62
+00:06:06,951 --> 00:06:11,831
+even more extreme if you want like this layout for 
+an 8bit sidescroller adventure game you'll see it  
+
+63
+00:06:11,831 --> 00:06:16,751
+when I hit up to get the prompt back it shows the 
+aspect ratio parameter at the end every parameter  
+
+64
+00:06:16,751 --> 00:06:21,950
+can be typed manually they will all start with 
+a dash dash and they always go at the end of  
+
+65
+00:06:21,951 --> 00:06:26,231
+your prompt also anytime you do type a parameter 
+manually it will override what you have in this  
+
+66
+00:06:26,231 --> 00:06:30,471
+drop down I have all of these parameters as well 
+as all the others will cover in one cheat sheet  
+
+67
+00:06:30,471 --> 00:06:34,391
+that you can use as a reference that's down 
+in the description along with a ton of other  
+
+68
+00:06:34,391 --> 00:06:39,911
+mid-journey resources there's also a free chat 
+GPT resource bundle provided by HubSpot there's  
+
+69
+00:06:39,911 --> 00:06:45,751
+a total of five PDFs that go in-depth on how you 
+can utilize chat GPT in your career to get ahead  
+
+70
+00:06:45,751 --> 00:06:51,030
+solve problems or save time my favorite is called 
+how to supercharge your workday with chat GPT it  
+
+71
+00:06:51,031 --> 00:06:56,111
+covers specific examples of how chat GPT can be 
+used in various Industries sales and marketing  
+
+72
+00:06:56,111 --> 00:07:01,431
+project management enhanced decision-making and 
+problem solving time management and organization  
+
+73
+00:07:01,431 --> 00:07:07,151
+it walks through step by step with different tips 
+and even has a section titled 100 ways to try chat  
+
+74
+00:07:07,151 --> 00:07:12,911
+GPT today with 100 sample prompts you can use and 
+modify no matter what career you have there's sure  
+
+75
+00:07:12,911 --> 00:07:16,911
+to be a bunch in there that apply and that's 
+just one of the resources in the bundle which  
+
+76
+00:07:16,911 --> 00:07:21,391
+again is completely free just use the link in the 
+description to go download that I have been happy  
+
+77
+00:07:21,391 --> 00:07:25,511
+to partner with HubSpot to provide free resources 
+to the people that watch this channel moving on  
+
+78
+00:07:25,511 --> 00:07:31,471
+to Aesthetics we've got stylization weirdness and 
+variety stylization adjusts how artistic the image  
+
+79
+00:07:31,471 --> 00:07:36,471
+is and by artistic that means favoring aesthetic 
+colors composition and forms so here's a good one  
+
+80
+00:07:36,471 --> 00:07:41,991
+to demonstrate that a child's drawing of a cat the 
+low stylization definitely looks more like a child  
+
+81
+00:07:41,991 --> 00:07:46,991
+drew it on the high end it favors an artistic 
+output which looks great but you would have a  
+
+82
+00:07:46,991 --> 00:07:51,311
+very talented child if they're drawing that here's 
+examples on some more types of prompts so a coffee  
+
+83
+00:07:51,311 --> 00:07:57,710
+shop logo low stylization is more minimalist the 
+higher end gets more complex with this holographic  
+
+84
+00:07:57,711 --> 00:08:03,751
+car these first shots look pretty realistic as it 
+goes up it gets more saturated and contrasty just  
+
+85
+00:08:03,751 --> 00:08:09,911
+looks more staged and edited in the selfies with 
+Bigfoot the low stylize has poorly framed photos  
+
+86
+00:08:09,911 --> 00:08:14,871
+that feel more authentic as we go up it's more 
+like they're taking perfect photos for Instagram  
+
+87
+00:08:14,871 --> 00:08:19,710
+and that totally gives away that it's AI the 
+real big foot would never do that in a more  
+
+88
+00:08:19,711 --> 00:08:24,711
+artistic style this abstract Tree of Life As 
+you move up it adds more contrast and depth or  
+
+89
+00:08:24,711 --> 00:08:29,351
+with a portrait shot like this one it starts out 
+showing a lot of details in the face then starts  
+
+90
+00:08:29,351 --> 00:08:34,951
+to move younger and more of that filtered look 
+so the low end follows the prompt more closely  
+
+91
+00:08:34,951 --> 00:08:40,150
+the higher end puts Aesthetics first the default 
+of 100 is a pretty good balance between those I  
+
+92
+00:08:40,150 --> 00:08:44,790
+rarely take this to the high end but I do actually 
+like to go between these values particularly on  
+
+93
+00:08:44,791 --> 00:08:53,311
+the low end like 50 or 75 to do that type Dash 
+D- stylize space 50 you can also just type D-  
+
+94
+00:08:53,311 --> 00:08:58,191
+s either works zero usually doesn't look very 
+good unless you have a really detailed prompt  
+
+95
+00:08:58,191 --> 00:09:04,631
+a lot of the time I stay in the range of probably 
+40 to 200 weirdness is to explore unconventional  
+
+96
+00:09:04,631 --> 00:09:09,591
+Aesthetics it's really fun it can lead to some 
+very unique outcomes I usually keep this on the  
+
+97
+00:09:09,591 --> 00:09:14,471
+lower end but there is definitely times when 
+you want to explore and get more unconventional  
+
+98
+00:09:14,471 --> 00:09:21,271
+here's a simple prompt and apple on a table so 
+starts with a very literal and simple image then  
+
+99
+00:09:21,271 --> 00:09:25,830
+as I increase the weirdness I start to get more 
+unique compositions angles and perspectives you  
+
+100
+00:09:25,831 --> 00:09:31,431
+would never expect how about clown sitting at 
+a bus stop that might get a little weirder all  
+
+101
+00:09:31,431 --> 00:09:35,391
+right these first ones are a traditional looking 
+clown two of them are just Pennywise and they're  
+
+102
+00:09:35,391 --> 00:09:39,871
+at normal looking bus stops at 600 we start 
+getting one where the clown is off to the side  
+
+103
+00:09:39,871 --> 00:09:45,831
+on the ground with his foot sticking out or this 
+one on the bottom right is not like any bus stop  
+
+104
+00:09:45,831 --> 00:09:51,911
+I've ever seen a lot more unusual at 12 00 I don't 
+even want to open this one up to figure out what's  
+
+105
+00:09:51,911 --> 00:09:56,470
+going on here we' got more different poses and 
+angles then it tests out some black and white and  
+
+106
+00:09:56,471 --> 00:10:02,871
+long exposures I ran a few at 3,000 we've got some 
+selective coloring and just all sorts of weird bus  
+
+107
+00:10:02,871 --> 00:10:07,550
+stops and interesting poses and compositions this 
+is a pretty mild prompt if you go with something  
+
+108
+00:10:07,551 --> 00:10:13,991
+more out there the weird parameter can definitely 
+take you to some strange places I want to show one  
+
+109
+00:10:13,991 --> 00:10:18,311
+with a more specific prompt like this one which 
+is a good example of how much detail you can add  
+
+110
+00:10:18,311 --> 00:10:23,191
+into a prompt in mid Journey it nailed every bit 
+of this but when I increase the weirdness a little  
+
+111
+00:10:23,191 --> 00:10:29,631
+bit it quickly goes from beautiful Framing and 
+people and poses to more unusual but it already  
+
+112
+00:10:29,631 --> 00:10:34,711
+has lost the setting of a fine dining restaurant 
+and the lighting and color grading it retains most  
+
+113
+00:10:34,711 --> 00:10:39,671
+of the rest of the details through all of these 
+but it defaults to less attractive people and  
+
+114
+00:10:39,671 --> 00:10:44,591
+poses like while they're in the middle of eating 
+or looking bored or annoyed with each other if you  
+
+115
+00:10:44,591 --> 00:10:49,431
+want a weird image that is still conventionally 
+attractive you can try increasing the styliz  
+
+116
+00:10:49,431 --> 00:10:55,151
+parameter variety is how varied the outputs 
+are the lower values will have more consistent  
+
+117
+00:10:55,151 --> 00:10:59,391
+results and then higher values will lead to a 
+wider range of compositions now I might bump  
+
+118
+00:10:59,391 --> 00:11:03,631
+this up when I'm exploring then when I start 
+honing in on something I want and I'm getting  
+
+119
+00:11:03,631 --> 00:11:07,991
+specific with my prompt I'll start lowering that 
+to get consistency and when you send this it's  
+
+120
+00:11:07,991 --> 00:11:11,631
+actually called the chaos parameter this one's 
+pretty straightforward so here's just a couple  
+
+121
+00:11:11,631 --> 00:11:18,031
+examples this is all fairly minor variations then 
+we start to get a wider range of interpretations  
+
+122
+00:11:18,591 --> 00:11:24,071
+so to summarize what these are and how they're 
+different from each other stylize controls how  
+
+123
+00:11:24,071 --> 00:11:29,231
+strongly mid Journey's default aesthetic is 
+applied weird controls how unusual an image  
+
+124
+00:11:29,231 --> 00:11:35,231
+is compared to previous mid Journey images chaos 
+controls how diverse the initial grid images are  
+
+125
+00:11:35,231 --> 00:11:39,911
+from each other they're all different but all 
+work together and influence each other as well  
+
+126
+00:11:39,911 --> 00:11:44,111
+they make it just really easy to use with these 
+sliders or you can type them manually to get  
+
+127
+00:11:44,111 --> 00:11:48,871
+numbers in between for mode we have standard 
+or raw raw gives you more control over your  
+
+128
+00:11:48,871 --> 00:11:53,711
+image and has less automatic beautification 
+applied basically it listens more closely to  
+
+129
+00:11:53,711 --> 00:11:58,951
+your words and interprets them more literally is 
+especially useful for photographic Styles if you  
+
+130
+00:11:58,951 --> 00:12:04,751
+want images that are as realistic as possible 
+that will be style raw and low stylized value  
+
+131
+00:12:04,751 --> 00:12:08,871
+side by side comparisons are the best way 
+to show this one I very often will just try  
+
+132
+00:12:08,871 --> 00:12:17,951
+both so here's against different photographic 
+prompts now here with some more Artistic Styles
+
+133
+00:12:20,431 --> 00:12:25,071
+for versions version six is the default right now 
+which is currently the latest version but you can  
+
+134
+00:12:25,071 --> 00:12:29,311
+select previous versions of mid Journey if you'd 
+like to all the way back to version one six has  
+
+135
+00:12:29,311 --> 00:12:33,991
+the best prompt coherence and knowledge and is 
+generally the most advanced and photo realistic  
+
+136
+00:12:33,991 --> 00:12:39,831
+it does tend to add a lot more details too which 
+you may not want 5.2 was also great and can be  
+
+137
+00:12:39,831 --> 00:12:44,711
+a little easier to get results by just typing 
+in keywords there's also nii which was trained  
+
+138
+00:12:44,711 --> 00:12:49,151
+to have a much wider knowledge of anime and 
+illustration Style but it can give interesting  
+
+139
+00:12:49,151 --> 00:12:53,310
+results for other Styles as well so those are 
+the main ones to use that generally speaking  
+
+140
+00:12:53,311 --> 00:12:58,031
+will give the highest quality you can go back 
+further those images won't be as high quality  
+
+141
+00:12:58,031 --> 00:13:05,351
+but can be fun for an experiment personalize will 
+use your own personal aesthetic preferences to  
+
+142
+00:13:05,351 --> 00:13:09,591
+influence the generation you have to rank 
+image pairs to train the algorithm on your
+
+143
+00:13:09,591 --> 00:13:17,071
+preferences I love what my personalization does to 
+the images but this is a bigger topic that needed  
+
+144
+00:13:17,071 --> 00:13:21,551
+a dedicated SE ction I'll go over this closer to 
+the end it will just be turned off until then for  
+
+145
+00:13:21,551 --> 00:13:25,431
+Speed I'll just run a prompt at each of these 
+speeds and let it run in real time as I explain  
+
+146
+00:13:25,431 --> 00:13:30,191
+it the default for Speed is fast that's what 
+I use almost all of the time there is a cap on  
+
+147
+00:13:30,191 --> 00:13:35,311
+GPU time for every month depending on which plan 
+you have it's roughly 1 minute of GPU time per  
+
+148
+00:13:35,311 --> 00:13:40,991
+generation that means the basic plan is around 
+200 Generations per month on fast mode standard  
+
+149
+00:13:40,991 --> 00:13:47,911
+is around 900 Pro 1,800 and mega 3600 you also 
+have the option to buy more GPU time if you're  
+
+150
+00:13:47,911 --> 00:13:52,991
+run out also if you're on the standard plan and 
+up you get unlimited Generations in relax mode  
+
+151
+00:13:52,991 --> 00:13:57,431
+they do take longer to generate roughly 1 to 10 
+minutes depending on the time of day so that can  
+
+152
+00:13:57,431 --> 00:14:01,511
+be a good option especially if you run out of 
+minutes and don't want to buy more then there's  
+
+153
+00:14:01,511 --> 00:14:06,670
+also turbo mode which generates four times faster 
+but uses twice as many subscription GPU minutes  
+
+154
+00:14:06,671 --> 00:14:12,671
+as a fast mode job you can earn free GPU hours by 
+rating images under the tasks tab this is also how  
+
+155
+00:14:12,671 --> 00:14:17,911
+you train that personalization into mid Journey 
+the top 2,000 rankers per day will get a free f  
+
+156
+00:14:17,911 --> 00:14:22,271
+fast hour this used to take only around like 5 
+minutes of ranking to earn a fast hour but now  
+
+157
+00:14:22,271 --> 00:14:26,830
+that they've added personalization people are 
+using it a lot more right now so it will most  
+
+158
+00:14:26,831 --> 00:14:32,071
+likely take longer fast and turbo We Done Quick 
+but this relax mode is still generating there's  
+
+159
+00:14:32,071 --> 00:14:35,951
+two manual parameters I want to mention here 
+before moving on to prompting the first is the  
+
+160
+00:14:35,951 --> 00:14:41,471
+no parameter for if there's something specific you 
+don't want in your image so I want a bowl of fruit  
+
+161
+00:14:41,471 --> 00:14:48,751
+with no bananas dash dash no space bananas send 
+that and it will come back with no ban bananas  
+
+162
+00:14:48,751 --> 00:14:53,751
+so that is a really useful one and the other I'll 
+mention is seed so if you don't know mid journey  
+
+163
+00:14:53,751 --> 00:14:59,231
+and other diffusion models they start by creating 
+an initial field of visual noise then they refine  
+
+164
+00:14:59,231 --> 00:15:03,431
+that noise then gradually transform that into 
+the final image so each time you generate it  
+
+165
+00:15:03,431 --> 00:15:08,711
+uses a random seed number to generate the initial 
+field of noise to get the seed number go down to  
+
+166
+00:15:08,711 --> 00:15:17,151
+more over here then click copy then seed now I'll 
+run the same prompt with-- seed space then paste  
+
+167
+00:15:17,151 --> 00:15:22,430
+that number now here's what that looked like 
+with and without the seed now here's that same  
+
+168
+00:15:22,431 --> 00:15:27,711
+seed with completely different prompts it does 
+influence the scene but not in a way that's very  
+
+169
+00:15:27,711 --> 00:15:32,671
+predictable so I used the same seed for a lot of 
+those comparisons like the child's drawing of a  
+
+170
+00:15:32,671 --> 00:15:36,951
+cat that's why the composition was so similar 
+across those if I didn't specify it would have  
+
+171
+00:15:36,951 --> 00:15:41,111
+used a random seed each time and they would have 
+looked a lot different like this you know still  
+
+172
+00:15:41,111 --> 00:15:45,591
+makes sense what the styliz parameter was doing 
+but it's not as directec of a comparison all right  
+
+173
+00:15:45,591 --> 00:15:50,031
+one other thing I'll mention here is permutations 
+it's not a parameter but you can use permutations  
+
+174
+00:15:50,031 --> 00:15:54,430
+to run different variations of your parameters 
+or prompt without having to type each of them  
+
+175
+00:15:54,431 --> 00:15:59,151
+out I did that for most of these examples to run 
+at each of the different stylized values use a  
+
+176
+00:15:59,151 --> 00:16:05,231
+curly bracket then each value separated by commas 
+then close the curly bracket and when I send that  
+
+177
+00:16:05,231 --> 00:16:09,231
+you can see it's running the same prompt with 
+each of those styliz values you can do the same  
+
+178
+00:16:09,231 --> 00:16:13,431
+thing with words in your prompt like if I want 
+to test out different colors or camera angles  
+
+179
+00:16:13,431 --> 00:16:17,911
+just anything I'll demo more examples using that 
+as we go through I know that all seems like a a  
+
+180
+00:16:17,911 --> 00:16:22,070
+lot if it's the first time you're hearing it but 
+it all gets pretty intuitive once you understand  
+
+181
+00:16:22,071 --> 00:16:27,111
+them and have used them just a few times there are 
+more parameters not in this box some based around  
+
+182
+00:16:27,111 --> 00:16:31,351
+references which are really powerful for guiding 
+the scene but I want to switch it up for a bit and  
+
+183
+00:16:31,351 --> 00:16:37,631
+cover prompting before we get into that prompting 
+is a big topic so it's a long section we've got  
+
+184
+00:16:37,631 --> 00:16:42,231
+all those parameters but they don't do anything 
+unless they have a prompt to interpret the prompt  
+
+185
+00:16:42,231 --> 00:16:46,831
+is still the primary driver although that will 
+change some when we get into reference images and  
+
+186
+00:16:46,831 --> 00:16:51,711
+it's important to not that there's no right way to 
+prompt you will never find the perfect prompt it  
+
+187
+00:16:51,711 --> 00:16:56,671
+always takes some experimentation and guiding and 
+bouts of serendipity to get something you like but  
+
+188
+00:16:56,671 --> 00:17:02,271
+having a structure to prompt with can help a lot 
+the simple approach is this scene subject details  
+
+189
+00:17:02,271 --> 00:17:07,751
+setting details style details I guess you could 
+call it the four s's scene subject setting style  
+
+190
+00:17:07,751 --> 00:17:13,231
+and by scene I mean an overview of the scene using 
+just generic archetypes and keywords all right so  
+
+191
+00:17:13,231 --> 00:17:17,711
+I'll start with a scene and then just build it out 
+to show how it changes and anthropomorphic bar and  
+
+192
+00:17:17,711 --> 00:17:27,151
+owl exploring a dimly lit abandoned Temple I'll 
+do 169 and style raw all right that looks good  
+
+193
+00:17:27,151 --> 00:17:32,551
+but not at all what I'm going for so I'll add some 
+details about the owl the owl is wearing CT robes  
+
+194
+00:17:32,551 --> 00:17:38,231
+and a hood and holding a burning torch and calling 
+back to the term you used in the first sentence  
+
+195
+00:17:38,231 --> 00:17:42,271
+in this case the owl will help mid Journey know 
+what you're describing instead of thinking it's  
+
+196
+00:17:42,271 --> 00:17:47,870
+a new character same thing when describing the 
+setting so I will call back with the temple has  
+
+197
+00:17:47,871 --> 00:17:56,871
+Dusty relics and Faded murals on the walls dark 
+and mystical atmosphere with soft Eerie lighting  
+
+198
+00:17:56,871 --> 00:18:01,271
+this already is pretty much exactly what I was 
+looking for you I had this kind of cinematic  
+
+199
+00:18:01,271 --> 00:18:06,831
+dark fantasy vibe like pan Labyrinth or something 
+along those lines if I wanted to describe that I  
+
+200
+00:18:06,831 --> 00:18:12,670
+could use the director's name in the style of gyo 
+Del Toro or find the type of camera or film grain  
+
+201
+00:18:12,671 --> 00:18:17,271
+it was shot on I usually have better results from 
+using film grains rather than camera names I mean  
+
+202
+00:18:17,271 --> 00:18:23,110
+which makes sense it looks like there were three 
+film stocks used I'll go with 35 mm Kodak Vision  
+
+203
+00:18:23,111 --> 00:18:30,111
+2 500t 5218 and that looks a lot more consistent 
+I could refine that a little more now that I have  
+
+204
+00:18:30,111 --> 00:18:35,791
+pan labyrinth in my head instead of soft Eerie 
+lighting I'll switch to Loki lighting and Deep  
+
+205
+00:18:35,791 --> 00:18:40,431
+Shadows and to refine that I'd start experimenting 
+with parameters from here like up and down in  
+
+206
+00:18:40,431 --> 00:18:46,831
+stylize you know 50 75 200 and 300 then try 
+standard instead of raw then I'd just iterate  
+
+207
+00:18:46,831 --> 00:18:51,991
+until it's perfect but this looks great here I 
+think you get the idea I'll do another one in a  
+
+208
+00:18:51,991 --> 00:18:57,471
+photo realistic style this time with multiple 
+people all human candid shot of three friends  
+
+209
+00:18:57,471 --> 00:19:03,271
+at a cafe I'll send that then hit up to get the 
+prompt pack and add some details I'll call back  
+
+210
+00:19:03,271 --> 00:19:10,151
+with the friend on the left is an African-American 
+man wearing a blue button-up shirt then again I'll  
+
+211
+00:19:10,151 --> 00:19:16,671
+say the friend in the middle is a blonde Caucasian 
+woman wearing a green blouse the friend on the  
+
+212
+00:19:16,671 --> 00:19:23,591
+right is an Asian woman wearing a sundress with a 
+floral pattern iPhone photo I used the friend for  
+
+213
+00:19:23,591 --> 00:19:27,511
+each of those to make sure it knew I was referring 
+to the original friends this is more important  
+
+214
+00:19:27,511 --> 00:19:32,431
+when you have more different archetypes like if 
+I used a man a woman and a dog in the scene you  
+
+215
+00:19:32,431 --> 00:19:38,471
+can see what the defaults for Mid Journey tend to 
+look like if you don't describe the subject this  
+
+216
+00:19:38,471 --> 00:19:43,031
+one looks great it nailed it in almost every one 
+of them and like always I can test out different  
+
+217
+00:19:43,031 --> 00:19:49,110
+styliz values zero usually looks pretty rough but 
+these others below have them looking at each other  
+
+218
+00:19:49,111 --> 00:19:53,391
+more like they're having a conversation which 
+is what I was intending by saying candid shot  
+
+219
+00:19:53,391 --> 00:19:58,111
+although it would have helped to write that out 
+in the prompt and the higher up you go the more  
+
+220
+00:19:58,111 --> 00:20:03,791
+posed and filtered they look and lower cut 
+the shirts get apparently when you use style  
+
+221
+00:20:03,791 --> 00:20:17,431
+raw and words like candid and iPhone photo it's 
+actually pretty insane how realistic they can look
+
+222
+00:20:23,591 --> 00:20:24,591
+[Music]
+
+223
+00:20:24,591 --> 00:20:28,831
+when I say details that's a really broad 
+word there's a huge range of things that  
+
+224
+00:20:28,831 --> 00:20:32,430
+can include depending on what you're trying 
+to create mid Journey breaks down words and  
+
+225
+00:20:32,431 --> 00:20:37,511
+phrases into smaller pieces called tokens so it 
+takes those tokens Compares them to its training  
+
+226
+00:20:37,511 --> 00:20:42,591
+data to inform it how to generate the image some 
+words will have more impact than others the ones  
+
+227
+00:20:42,591 --> 00:20:47,031
+with the biggest and most interesting impact 
+are often called Power tokens I made a list  
+
+228
+00:20:47,031 --> 00:20:51,071
+of some of of my favorite Power tokens I've 
+come across they can each have a big impact  
+
+229
+00:20:51,071 --> 00:21:17,311
+on their own and of course you can use any of 
+them in combination and see where it takes you
+
+230
+00:21:17,311 --> 00:21:18,356
+[Music]
+
+231
+00:21:18,356 --> 00:21:23,551
+[Music] now a lot of this so far has been based 
+off of Photography terms but these can inform  
+
+232
+00:21:23,551 --> 00:21:28,110
+the scene across mediums you I could have done 
+this in a different style pretty easily remove  
+
+233
+00:21:28,111 --> 00:21:32,391
+the previous style and just adding a couple 
+words into the summary part of this prompt  
+
+234
+00:21:32,391 --> 00:21:36,511
+is enough then I could guide it more in 
+the style details and depending on what  
+
+235
+00:21:36,511 --> 00:21:41,191
+style you're aiming for a good practice is to 
+learn about that style having a vocabulary in  
+
+236
+00:21:41,191 --> 00:21:45,511
+a given medium is really helpful and overall if 
+you don't already have that knowledge it's just  
+
+237
+00:21:45,511 --> 00:21:49,591
+a good excuse to learn about various art 
+forms and artists and techniques there's  
+
+238
+00:21:49,591 --> 00:21:54,511
+a lot of places you can go to help learn about 
+this stuff by far the best mid Journey focused  
+
+239
+00:21:54,511 --> 00:22:01,191
+resource I have ever come across is mid library. 
+it's an amazing way to explore Styles and artists  
+
+240
+00:22:01,191 --> 00:22:06,191
+and artistic techniques and how mid Journey 
+interprets them it's an invaluable resource  
+
+241
+00:22:06,191 --> 00:22:11,551
+and an incredible way to get inspiration you can 
+go to all styles and click Advanced filters for  
+
+242
+00:22:11,551 --> 00:22:16,711
+a bunch of ways to filter or the classifier tab 
+has them categorized in various ways techniques  
+
+243
+00:22:16,711 --> 00:22:21,751
+fashion design ERS Architects filmmakers 
+illustrators also has this area for artistic
+
+244
+00:22:21,751 --> 00:22:33,671
+[Music] techniques or this one for 
+General modifiers which is more  
+
+245
+00:22:33,671 --> 00:22:43,351
+like [Music] keywords there's a bunch of 
+really insightful guides here as well like  
+
+246
+00:22:43,351 --> 00:22:47,471
+this one about mimetic style emulation 
+and the process to learn about a style  
+
+247
+00:22:47,471 --> 00:22:51,711
+in order to recreate it rather than typing an 
+artist's name I'm not affiliated with site or  
+
+248
+00:22:51,711 --> 00:22:55,511
+anything by the way I've just found it extremely 
+helpful and something that you can do with mid  
+
+249
+00:22:55,511 --> 00:22:59,751
+library is instead of using the words you 
+can pull these into mid journey to use as  
+
+250
+00:22:59,751 --> 00:23:03,431
+style references I'll be getting to those 
+in a little bit it's a whole different way  
+
+251
+00:23:03,431 --> 00:23:09,151
+of prompting that's done a lot more visually 
+mid library is a great spot for that [Music]
+
+252
+00:23:09,151 --> 00:23:17,231
+too I ran just the prompt Dragon then added some 
+of the coolest style words I found on Mid Library
+
+253
+00:23:48,111 --> 00:23:49,111
+[Music]
+
+254
+00:23:49,111 --> 00:23:53,151
+another way to get help with styles to use 
+and words for your prompt is to upload an  
+
+255
+00:23:53,151 --> 00:23:57,311
+image then click the little I icon and 
+it will describe the image for you so  
+
+256
+00:23:57,311 --> 00:24:01,551
+it will give the subject known artists 
+with a similar style and descriptors  
+
+257
+00:24:01,551 --> 00:24:04,591
+you can go through and find interesting 
+words to try out and see how they affect  
+
+258
+00:24:04,591 --> 00:24:08,430
+the image that can be a good way to get help 
+describing a style if you're struggling with
+
+259
+00:24:08,431 --> 00:24:18,231
+that that basic prompting structure applies across 
+most categories but there will be more specific  
+
+260
+00:24:18,231 --> 00:24:23,351
+terms you may need for things like architecture 
+fashion or product photography those are a little  
+
+261
+00:24:23,351 --> 00:24:28,071
+more Niche but easy to adapt to one I want to 
+dive deeper on since it's pretty common but  
+
+262
+00:24:28,071 --> 00:24:34,031
+very different is Vector art you know for Logos 
+branding or print products I'll start with a logo  
+
+263
+00:24:34,031 --> 00:24:39,191
+generally I keep the aspect ratio as a square for 
+Logos I'm just saying coffee shop logo would work  
+
+264
+00:24:39,191 --> 00:24:44,591
+there's a lot of specific words that can help 
+some of my favorites are minimalist abstract  
+
+265
+00:24:44,591 --> 00:24:50,110
+brandmark and geometric or a combination of those 
+you could do something more specific to your brand  
+
+266
+00:24:50,111 --> 00:24:56,871
+like Boutique psychedelic retro or maybe they're 
+also a bookstore then of course experiment with  
+
+267
+00:24:56,871 --> 00:25:01,591
+the styliz parameter going up will affect things 
+like minimalist or brandmark a little bit they'll  
+
+268
+00:25:01,591 --> 00:25:06,630
+still get good results at high styliz values but 
+something like psychedelic will have a big effect  
+
+269
+00:25:06,631 --> 00:25:11,191
+and we'll usually get too complex for a logo 
+past 200 and logos are one that can be pretty  
+
+270
+00:25:11,191 --> 00:25:17,271
+interesting to try out famous logo designers 
+names with like Milton Glazer Paul Rand Carolyn  
+
+271
+00:25:17,271 --> 00:25:22,591
+Davidson and Ivan CHF you can upload your Brand's 
+color palette as a style reference if you have  
+
+272
+00:25:22,591 --> 00:25:29,351
+them as well I can add text to any of these two 
+by adding quotation marks around the company name  
+
+273
+00:25:29,351 --> 00:25:35,311
+Kevin's coffee the text is perfect on this one 
+I'll get into more specifics around generating  
+
+274
+00:25:35,311 --> 00:25:40,870
+text and how to fix these in just a minute but how 
+did it know to put a guy with a beard on this one  
+
+275
+00:25:40,871 --> 00:25:45,151
+a lot of that will also apply to Vector art if 
+you're making things for printing on t-shirts  
+
+276
+00:25:45,151 --> 00:25:50,711
+mugs or whatever it might be some additional words 
+to use would be Vector art Vector graphic graphic  
+
+277
+00:25:50,711 --> 00:25:57,351
+design then things like icon emblem shirt design 
+vyl sticker or clip art can be useful even if  
+
+278
+00:25:57,351 --> 00:26:02,351
+you're not specifically making it for one of those 
+silhouette or outline can be cool or some from the  
+
+279
+00:26:02,351 --> 00:26:07,191
+logos like geometric shapes abstract minimalist 
+then for something on the complex side you could  
+
+280
+00:26:07,191 --> 00:26:13,871
+add complex or a wordlike illustration try out 
+color palettes any combination of those things  
+
+281
+00:26:13,871 --> 00:26:19,031
+there's a couple ways to convert these into vector 
+graphics Adobe Express has a free converter just  
+
+282
+00:26:19,031 --> 00:26:25,511
+use the PNG to SVG it works pretty well I used to 
+use vectorizer doai it is better than the Adobe  
+
+283
+00:26:25,511 --> 00:26:29,231
+converter but it's not free anymore if you're 
+doing this a lot it could be worth it to pay  
+
+284
+00:26:29,231 --> 00:26:33,871
+for that then bring it into Adobe Illustrator or 
+whatever program to edit it further sometimes the  
+
+285
+00:26:33,871 --> 00:26:38,191
+results from these converters are weird to work 
+with especially if you use a complex image back  
+
+286
+00:26:38,191 --> 00:26:43,071
+to the topic of text you can generate text in 
+mid Journey but it is one of the more difficult  
+
+287
+00:26:43,071 --> 00:26:47,670
+things to get right consistently to get text just 
+add quotation marks around the text text you want  
+
+288
+00:26:47,671 --> 00:26:52,071
+it is case sensitive and can also do special 
+characters things that normally have text on  
+
+289
+00:26:52,071 --> 00:26:58,951
+them are a lot easier to get results with like 
+paper license plates theater signs Billboards  
+
+290
+00:26:58,951 --> 00:27:03,671
+a lot of the time you'll get it first try on the 
+easier things but for even slightly complex ideas  
+
+291
+00:27:03,671 --> 00:27:08,511
+it is not consistent so you'll usually need 
+to roll a lot this one wasn't bad two of these  
+
+292
+00:27:08,511 --> 00:27:13,191
+are good if something is close like this one try 
+running variations and just re-rolling the closest  
+
+293
+00:27:13,191 --> 00:27:18,431
+until you get it if there's minor issues you can 
+try inpainting to add or remove letters or just  
+
+294
+00:27:18,431 --> 00:27:23,871
+imp paint over the whole text I got at least one 
+usable one with each option the subtle variation  
+
+295
+00:27:23,871 --> 00:27:30,151
+strong variations and in painting it's actually 
+very good at matching text to a style after the  
+
+296
+00:27:30,151 --> 00:27:36,831
+fact so I can grab one of these logos and select 
+the area where I want my brand name to be I'll  
+
+297
+00:27:36,831 --> 00:27:42,950
+just use the word coffee and it matched this 
+style perfectly with the colors and gradient  
+
+298
+00:27:42,951 --> 00:27:47,071
+and a pretty decent font so now I don't have 
+to bring that into Photoshop or illustrator and  
+
+299
+00:27:47,071 --> 00:27:51,630
+the text it's ready to go before we move on 
+from prompting here's a few more just rapid  
+
+300
+00:27:51,631 --> 00:27:56,351
+fire top prompting tips I'll actually start with 
+a few from the mid Journey documentation then do  
+
+301
+00:27:56,351 --> 00:28:00,871
+a bunch of my own the simpler you can make your 
+phrasing the better instead of show me a picture  
+
+302
+00:28:00,871 --> 00:28:04,911
+of lots of blooming California poppies make 
+them bright vibrant orange and draw them in  
+
+303
+00:28:04,911 --> 00:28:10,431
+an illustrated Style with colored pencils instead 
+of that try bright orange California poppies drawn  
+
+304
+00:28:10,431 --> 00:28:15,071
+with colored pencils mid Journey breaks a prompt 
+into smaller pieces called tokens and this first  
+
+305
+00:28:15,071 --> 00:28:21,071
+option gives a lot of unnecessary or imprecise 
+tokens like show picture Lots the second option  
+
+306
+00:28:21,071 --> 00:28:25,991
+is only the words that are intended to direct 
+The Prompt it's much more precise word choice  
+
+307
+00:28:25,991 --> 00:28:31,711
+is important the more specific you can be the 
+better instead of big try High gigantic enormous  
+
+308
+00:28:31,711 --> 00:28:37,991
+plural words leave a lot to chance if you say cats 
+that could end up in 3 10 or 100 specifying three  
+
+309
+00:28:37,991 --> 00:28:43,191
+cats would be much more helpful focus on what you 
+want instead of what you don't want prompting a  
+
+310
+00:28:43,191 --> 00:28:47,791
+birthday party with no cake will usually end up 
+with a cake if you want to make sure something  
+
+311
+00:28:47,791 --> 00:28:52,870
+isn't there use the no parameter specify what 
+you want anything you don't specify will let  
+
+312
+00:28:52,871 --> 00:28:57,391
+mid Journey fill in the details so include every 
+element that is important to you whether that's  
+
+313
+00:28:57,391 --> 00:29:03,711
+the subject medium environment lighting color 
+mood composition it could be a lot more or a lot  
+
+314
+00:29:03,711 --> 00:29:08,591
+less if you're trying for a full body shot specify 
+the shoes M Journey cuts off the bottom a lot of  
+
+315
+00:29:08,591 --> 00:29:13,551
+the time if you specify the shoes it will almost 
+always generate the full body the easiest way to  
+
+316
+00:29:13,551 --> 00:29:18,870
+get something cinematic is to add either cinematic 
+still or thir mm cinematic if you're struggling  
+
+317
+00:29:18,871 --> 00:29:22,751
+to figure out how to prompt for something try 
+searching on the explore tab often you'll find  
+
+318
+00:29:22,751 --> 00:29:28,911
+inspiration or a prompt to build off try switching 
+between style raw and standard that little change  
+
+319
+00:29:28,911 --> 00:29:33,791
+can make a big difference if you want some random 
+images forget everything I just went over and add  
+
+320
+00:29:33,791 --> 00:29:40,110
+emojis into the prompt box and see what happens on 
+that note just generally experiment again there is  
+
+321
+00:29:40,111 --> 00:29:45,391
+no perfect way to prompt utilize these tips and 
+also try the opposite just experiment you never  
+
+322
+00:29:45,391 --> 00:29:49,031
+know where it might take you now that we have 
+some cool images there's some next steps you  
+
+323
+00:29:49,031 --> 00:29:52,471
+can take one when you click on one I've shown 
+a couple of these already but I'll dive into  
+
+324
+00:29:52,471 --> 00:29:57,711
+them further we have very subtle and strong the 
+very subtle will give four new images that have  
+
+325
+00:29:57,711 --> 00:30:03,111
+similar composition and colors to the original but 
+with some subtle changes then the very strong will  
+
+326
+00:30:03,111 --> 00:30:07,591
+have more differences in the composition colors 
+and details almost every time I have an image  
+
+327
+00:30:07,591 --> 00:30:12,190
+I like or once I'm getting close I'll run these 
+to get some more options you can upscale subtle  
+
+328
+00:30:12,191 --> 00:30:17,151
+and creative both of these will double the size 
+of your image subtle will keep the details very  
+
+329
+00:30:17,151 --> 00:30:21,871
+similar to the original then creative will add 
+new details to the image you can experiment with  
+
+330
+00:30:21,871 --> 00:30:28,871
+each to see which works best for any given image 
+both the upscaler do an amazing job if you have an  
+
+331
+00:30:28,871 --> 00:30:33,231
+image where the face is a little off or distorted 
+Sometimes using a creative upscale will fix
+
+332
+00:30:33,231 --> 00:30:44,991
+it rerun will rerun the exact same prompt as is 
+with all the parameters included reframe has a  
+
+333
+00:30:44,991 --> 00:30:50,071
+few functions within it you can quickly change the 
+aspect ratio under reframe then I can click Start  
+
+334
+00:30:50,071 --> 00:30:56,271
+or end to move the image into a different spot and 
+it will generate the missing areas under Zoom you  
+
+335
+00:30:56,271 --> 00:31:03,511
+can zoom out all the way up to 2x while you're 
+on reframe or Zoom you can click edit prompt and  
+
+336
+00:31:03,511 --> 00:31:07,951
+change anything about the prompt to influence 
+what it generates in those areas it's expanding  
+
+337
+00:31:07,951 --> 00:31:13,671
+into I could pan and add new people or objects 
+into a shot or as you zoom out you can zoom out  
+
+338
+00:31:13,671 --> 00:31:20,791
+into entirely different scenes there's some really 
+interesting ways that can be used there's an old  
+
+339
+00:31:20,791 --> 00:31:26,231
+video I made where I uploaded an image of my desk 
+setup and zoomed out and panned into all sorts of  
+
+340
+00:31:26,231 --> 00:31:33,191
+different scenes then edit it all together I 
+can change up the scene with every Zoom or I  
+
+341
+00:31:33,191 --> 00:31:41,591
+could pan to different locations I can do that 
+in any direction I'd like and there's even more  
+
+342
+00:31:41,591 --> 00:31:48,791
+possibilities to throw some other AI tools on 
+top maybe even add a character this has been a  
+
+343
+00:31:48,791 --> 00:31:53,071
+lot of fun I've also seen the door Brothers 
+make some really creative music videos using
+
+344
+00:31:53,071 --> 00:32:06,071
+that also you can change the prompt without using 
+the reframe or Zoom how about a lobster body what  
+
+345
+00:32:06,071 --> 00:32:10,951
+that does is actually called remix strong if I 
+click this more options button then select remix  
+
+346
+00:32:10,951 --> 00:32:15,191
+it shows that I've already ran a remix strong 
+because that's what I just did but there is also  
+
+347
+00:32:15,191 --> 00:32:20,511
+this subtle option here I'll use that as well for 
+a comparison when I click it the prompt pops up at  
+
+348
+00:32:20,511 --> 00:32:25,110
+the top and I can change it I do actually like to 
+use remix subtle a lot it's the best way to make  
+
+349
+00:32:25,111 --> 00:32:29,311
+changes while retaining a very similar composition 
+to the original super good for just quickly  
+
+350
+00:32:29,311 --> 00:32:33,870
+iterating on things that got way creepier than I 
+was expecting with the lobster so I'll switch to  
+
+351
+00:32:33,871 --> 00:32:38,311
+something else for the other tools sometimes I'll 
+really like the image but there's one part that's  
+
+352
+00:32:38,311 --> 00:32:44,511
+a little off about it that definitely happens 
+repaint is inpainting or selecting a specific  
+
+353
+00:32:44,511 --> 00:32:49,551
+part of the image to change instead of the entire 
+thing let's say I want to have open eyes here  
+
+354
+00:32:49,551 --> 00:32:55,191
+select with either the rectangle or the lasso tool 
+you can leave the prompt or change it I'll WR what  
+
+355
+00:32:55,191 --> 00:33:04,871
+I want for this one and there it is this comes in 
+handy a lot like if you've got some hands that are  
+
+356
+00:33:04,871 --> 00:33:12,111
+off use repaint and it should fix it eventually 
+sometimes it can take a few tries or replace a  
+
+357
+00:33:12,111 --> 00:33:16,871
+character you can even replace a face with a face 
+of your choice using the character reference which  
+
+358
+00:33:16,871 --> 00:33:22,831
+we'll get to soon references help in many ways to 
+get results you want faster and more easily the  
+
+359
+00:33:22,831 --> 00:33:27,390
+overview of these and how they differ is a good 
+place to start image prompt pulls in more of the  
+
+360
+00:33:27,391 --> 00:33:32,791
+structure of the image the subjects forms and 
+motifs style reference focuses on the aesthetic  
+
+361
+00:33:32,791 --> 00:33:36,951
+like the lighting colors more like the vibe of 
+the image character reference looks specifically  
+
+362
+00:33:36,951 --> 00:33:41,191
+at a character and will'll try to match the face 
+most importantly then depending on how you adjust  
+
+363
+00:33:41,191 --> 00:33:46,191
+the weight it will also pull in clothing colors 
+and style even more simplified would be structure  
+
+364
+00:33:46,191 --> 00:33:50,711
+aesthetic character a lot is now done through 
+references rather than prompting overall for  
+
+365
+00:33:50,711 --> 00:33:55,831
+me it's a lot more fun to blend and direct things 
+with images rather than language just feels more  
+
+366
+00:33:55,831 --> 00:34:00,511
+intuitive and also faster but words are still the 
+best for positioning and describing subjects in a  
+
+367
+00:34:00,511 --> 00:34:04,911
+scene so I'll cover how each of these work first 
+before how to use them all together for each of  
+
+368
+00:34:04,911 --> 00:34:09,351
+these all you have to do is drag an image in 
+I'll use this little mushroom again then select  
+
+369
+00:34:09,351 --> 00:34:13,031
+which type of reference you want it to be if 
+you want the same image to be multiple types  
+
+370
+00:34:13,031 --> 00:34:17,351
+of references hold shift and click the others 
+for image prompt it's the the little picture  
+
+371
+00:34:17,351 --> 00:34:22,231
+that's what it defaults to I'll try to change this 
+style to a pencil sketch of a mushroom that looks  
+
+372
+00:34:22,231 --> 00:34:27,271
+great it's a very similar composition and type of 
+mushroom but in a completely different style this  
+
+373
+00:34:27,271 --> 00:34:32,110
+looks good but we can also adjust how strongly the 
+image influences the output with the image weight  
+
+374
+00:34:32,110 --> 00:34:39,710
+parameter D- IW then a number between 0 and 3 four 
+version 6 between 0 and two four version 5 so I'll  
+
+375
+00:34:39,710 --> 00:34:48,710
+run a permutation with the weights. 25.5 75 1 2 
+and 3 went down at 25 is a basic pencil sketch  
+
+376
+00:34:48,710 --> 00:34:54,991
+0.5 has that smaller mushroom more consistently as 
+we go up more we start getting more color and more  
+
+377
+00:34:54,991 --> 00:34:59,271
+of the forest but straying a bit from the pencil 
+sketch and you don't just have to try switching  
+
+378
+00:34:59,271 --> 00:35:03,911
+style I'll use this same image reference and just 
+type wizard at the default of one it gets me a  
+
+379
+00:35:03,911 --> 00:35:08,791
+similar composition but with a wizard and the 
+hat is slightly mushroom shaped and has these  
+
+380
+00:35:08,791 --> 00:35:12,391
+dots on it there's also more mushrooms within the 
+image and for reference here's just running the  
+
+381
+00:35:12,391 --> 00:35:16,431
+prompt wizard without an image reference it's 
+a big difference here's that different weight  
+
+382
+00:35:16,951 --> 00:35:22,071
+below one looks great still when you go up to 
+two it doesn't look like a wizard with mushroom  
+
+383
+00:35:22,071 --> 00:35:27,431
+characteristics more like a mushroom with a few 
+wizard characteristics like the more flowy beard  
+
+384
+00:35:27,431 --> 00:35:32,231
+likee stem and the cap a little more shaped like 
+a wizard hat the cap with the wizard hat shape is  
+
+385
+00:35:32,231 --> 00:35:36,351
+actually pretty awesome you can also use multiple 
+image references it can be fun to just browse the  
+
+386
+00:35:36,351 --> 00:35:43,431
+explore Tab and find random cool images to use 
+here's a cool double exposure I'll use that then  
+
+387
+00:35:43,431 --> 00:35:47,511
+this looks like a version of the girl with pearl 
+earrings I'll use that and send it let's see what  
+
+388
+00:35:47,511 --> 00:35:53,591
+we got that actually looks pretty cool I'll jump 
+to my likes Tab and just mix up a bunch of random  
+
+389
+00:35:53,591 --> 00:35:57,991
+ones together and see what happens doing this with 
+a specific goal in mind is great but sometimes  
+
+390
+00:35:57,991 --> 00:36:02,191
+just throwing random images into the slot machine 
+can be cool too not necessarily to end up with a  
+
+391
+00:36:02,191 --> 00:36:06,591
+finished image but something cool to work with 
+further or get inspiration from here's what I  
+
+392
+00:36:06,591 --> 00:36:11,270
+got some of these are cool nothing spectacular you 
+could add a prompt into this process as well to  
+
+393
+00:36:11,271 --> 00:36:17,191
+guide it more now I'll go back to that mushroom 
+image but switch this to a style reference  
+
+394
+00:36:17,191 --> 00:36:21,471
+instead of an image prompt I'll prompt it with 
+wizard again and submit this time it retains  
+
+395
+00:36:21,471 --> 00:36:26,311
+essentially none of the original composition in 
+structure but uses the same colors and Vibe as a  
+
+396
+00:36:26,311 --> 00:36:30,431
+comparison here's the default style reference and 
+default image prompt next to each other then just  
+
+397
+00:36:30,431 --> 00:36:34,431
+to reinforce what the style reference is doing 
+I will switch up the prompt and we can see the  
+
+398
+00:36:34,431 --> 00:36:38,631
+scene changes but the style Remains the Same and 
+just like with image prompts we can control how  
+
+399
+00:36:38,631 --> 00:36:43,951
+strongly the style is applied by using-- S SW 
+for style weight then a number between zero and  
+
+400
+00:36:43,951 --> 00:36:49,111
+a th000 here's that same prompt at different style 
+weight in this case I prefer it in the lower range  
+
+401
+00:36:49,111 --> 00:36:56,031
+but it will vary from image to [Music] image again 
+you can bring in multiple images to use as style  
+
+402
+00:36:56,031 --> 00:37:00,911
+references to blend those Styles just using the 
+prompt wizard I'll throw a bunch of random Styles  
+
+403
+00:37:00,911 --> 00:37:06,671
+together do single references some with two some 
+with four we'll see where it goes it's really fun  
+
+404
+00:37:06,671 --> 00:37:16,310
+and starts to feel more like mixing paints on 
+a palette and some of these look just amazing
+
+405
+00:37:32,231 --> 00:37:33,231
+[Music]  
+
+406
+00:37:33,231 --> 00:37:37,271
+this is so powerful and you can combine 
+style references with image prompts as  
+
+407
+00:37:37,271 --> 00:37:41,551
+well and again to use a single image as 
+both hold down shift and click the other  
+
+408
+00:37:41,551 --> 00:37:46,231
+that's what I did to get this mushroom carousel 
+there was some remixing and in painting as well
+
+409
+00:37:48,471 --> 00:37:53,511
+in addition to these image-based style references 
+there's also unique codes assigned to styles that  
+
+410
+00:37:53,511 --> 00:37:57,631
+mid Journey can create you can use that to 
+have consistent style applied across images  
+
+411
+00:37:57,631 --> 00:38:02,111
+that also gets extremely powerful I have links 
+to some databases where people have been posting  
+
+412
+00:38:02,111 --> 00:38:05,991
+their curated Styles you can use that's coming 
+up soon but first let's move on to this last  
+
+413
+00:38:05,991 --> 00:38:10,271
+one here character reference so this lets you 
+create consistent characters and this was the  
+
+414
+00:38:10,271 --> 00:38:14,831
+most requested feature in mid Journey ever until 
+they finally implemented it it works best with  
+
+415
+00:38:14,831 --> 00:38:19,551
+characters you generated within mid Journey but 
+you can use non- mid Journey images too I'll demo  
+
+416
+00:38:19,551 --> 00:38:24,071
+both I'll just pick a random character from one of 
+the prompts earlier this one has some uniqueness  
+
+417
+00:38:24,071 --> 00:38:29,551
+drag it up to the prompt bar then switch it to 
+a character reference now I'll run a permutation  
+
+418
+00:38:29,551 --> 00:38:36,631
+woman sitting in a cafe walking through a forest 
+playing chess underwater hiking cyber Punk Warrior  
+
+419
+00:38:36,631 --> 00:38:41,750
+exploring a cave and these look great we can 
+see her across all these different scenes it  
+
+420
+00:38:41,751 --> 00:38:46,631
+made an effort to match her clothing as well 
+there is a character weight parameter D- CW  
+
+421
+00:38:46,631 --> 00:38:50,911
+that adjusts how much it tries to match 
+the default of 100 tries to match the Face  
+
+422
+00:38:50,911 --> 00:38:55,711
+clothing and accessories lowering it all the way 
+to zero will only match the face and the clothes  
+
+423
+00:38:55,711 --> 00:38:59,711
+are rarely perfect so a lot of the time I have 
+this at zero as you can tell from these it will  
+
+424
+00:38:59,711 --> 00:39:04,191
+work across different scenes Styles and camera 
+angles it also works with different emotions if  
+
+425
+00:39:04,191 --> 00:39:07,790
+you prompt for them all right now we've got that 
+with a mid Journey generated character but how  
+
+426
+00:39:07,791 --> 00:39:12,431
+about an image of me this works sort of just not 
+as well so I'll try to convert this into a couple  
+
+427
+00:39:12,431 --> 00:39:18,991
+Styles it does an okay job definitely not perfect 
+with enough rerolls you can get pretty close  
+
+428
+00:39:18,991 --> 00:39:23,431
+you'll never get it exact but you can get a lot 
+closer there is also the ability to inpaint with  
+
+429
+00:39:23,431 --> 00:39:27,871
+character references if you get a generation where 
+the face is off or if you want multiple character  
+
+430
+00:39:27,871 --> 00:39:33,071
+references in one image you can add them after the 
+fact so this is a little weird to do right now I'm  
+
+431
+00:39:33,071 --> 00:39:37,431
+sure they'll make this easier at some point but to 
+use character reference within repaint you need a  
+
+432
+00:39:37,431 --> 00:39:43,271
+URL for the image I can go to the picture of this 
+woman I've been using rightclick then copy image  
+
+433
+00:39:43,271 --> 00:39:48,911
+URL now I'll go to repaint on one of these images 
+from before with the group of friends then select  
+
+434
+00:39:48,911 --> 00:39:54,631
+the woman in the middle I'll change the prompt and 
+just write the woman in the middle is a cockasian  
+
+435
+00:39:54,631 --> 00:40:01,111
+with red hair then-- CF space paste that image 
+address and it's ready to send on the generation  
+
+436
+00:40:01,111 --> 00:40:04,471
+we can see it has replace the character 
+and matches the lighting and style really
+
+437
+00:40:04,471 --> 00:40:14,511
+well if I wanted I could replace these others as 
+well you can also experiment with using things  
+
+438
+00:40:14,511 --> 00:40:19,671
+other than a character like uploading a texture 
+gradient or even just a color this is super hit  
+
+439
+00:40:19,671 --> 00:40:23,671
+and miss I'll show some Explorations I've 
+done getting a guitar in different textures  
+
+440
+00:40:23,671 --> 00:40:28,551
+works pretty well it can get the texture almost 
+perfectly which is amazing and really difficult  
+
+441
+00:40:28,551 --> 00:40:33,311
+to do in any other way so if there's any reason 
+you want a very specific texture on something and  
+
+442
+00:40:33,311 --> 00:40:37,391
+depending on the character weight you use it may 
+bleed into other parts of the scene using just a  
+
+443
+00:40:37,391 --> 00:40:42,111
+color can work to get a very particular Hue onto 
+something but definitely can run into issues with  
+
+444
+00:40:42,111 --> 00:40:46,591
+bleeding into other parts of the scene depending 
+on how you use it this worked by in painting as  
+
+445
+00:40:46,591 --> 00:40:53,711
+well this one I thought was pretty cool I wanted 
+a man with a cube head instead of describing the  
+
+446
+00:40:53,711 --> 00:40:58,111
+cube I could use a cube as a character reference 
+and it worked really well I also tried seeing if I  
+
+447
+00:40:58,111 --> 00:41:02,830
+could replace a guitar so if I had someone playing 
+a guitar across multiple scenes the guitar would  
+
+448
+00:41:02,831 --> 00:41:08,231
+remain the same it didn't really work I could get 
+a new guitar with a similar style which is helpful  
+
+449
+00:41:08,231 --> 00:41:12,191
+but not as perfect of a match as I'd hoped better 
+than not doing it at all though that's been a lot  
+
+450
+00:41:12,191 --> 00:41:17,031
+of fun experiment see what happens you can 
+combine all of these reference features I'll  
+
+451
+00:41:17,031 --> 00:41:24,071
+use this character again but I want it in this 
+style with a similar composition to this image  
+
+452
+00:41:24,071 --> 00:41:29,431
+I'll change the weights of some of those and send 
+that you can see how much control that gives me  
+
+453
+00:41:29,431 --> 00:41:36,351
+I've been primarily moving towards prompting with 
+images as much as possible now on to one of my new  
+
+454
+00:41:36,351 --> 00:41:40,471
+favorite parts of mid Journey instead of using 
+images to give context to the style another way  
+
+455
+00:41:40,471 --> 00:41:45,311
+to do this is with style reference seeds which 
+is a code for a style mid Journey knows how to  
+
+456
+00:41:45,311 --> 00:41:49,231
+generate and will will give a consistent style 
+across Generations this is where things get the  
+
+457
+00:41:49,231 --> 00:41:53,471
+most fun there's some databases all link to where 
+people categorize some of the best srfs they've  
+
+458
+00:41:53,471 --> 00:42:00,431
+found I'll go through those in a second you do D- 
+srf space then type a number between zero and 4  
+
+459
+00:42:00,431 --> 00:42:06,991
+billion you can also type-- srf space random and 
+mid Journey will pick a random number for you in  
+
+460
+00:42:06,991 --> 00:42:11,551
+the output you can see it replaced that srf random 
+with this long number that's the style reference  
+
+461
+00:42:11,551 --> 00:42:17,151
+seed these are two random Styles they look pretty 
+cool to get more I'll add that same thing srf  
+
+462
+00:42:17,151 --> 00:42:24,270
+random then I'll add a parameter that I haven't 
+mentioned yet D- repeat 10 repeat runs your prompt  
+
+463
+00:42:24,271 --> 00:42:29,151
+however many times you specify with everything 
+the same prompt parameters and references but  
+
+464
+00:42:29,151 --> 00:42:33,591
+in this case since I used srf random it will 
+choose a different random seed each time so I  
+
+465
+00:42:33,591 --> 00:42:46,911
+can explor a wide range of Aesthetics there's some 
+really cool ones here some weird ones too [Music]  
+
+466
+00:42:53,631 --> 00:42:57,631
+so to drive home what this is doing I will 
+copy that srf and use it with a completely  
+
+467
+00:42:57,631 --> 00:43:05,031
+different prompt woman walking through 
+a forest copy the srf now cityscape how  
+
+468
+00:43:05,031 --> 00:43:10,791
+about a comic book superhero and howow 
+flying I'll do that with a few of these  
+
+469
+00:43:10,791 --> 00:43:15,911
+srfs this is so powerful for getting 
+consistent Styles across Generations
+
+470
+00:43:36,311 --> 00:43:37,311
+[Music]
+
+471
+00:43:37,311 --> 00:43:41,471
+and just like with the visual style references you 
+can use the style weight parameter for these with  
+
+472
+00:43:41,471 --> 00:43:46,951
+a number from 0 to 1,000 100 being the default 
+you'll have to find the balance of how strong the  
+
+473
+00:43:46,951 --> 00:43:51,591
+style is and how much you're trying to influence 
+it with your prompt and then what you want to show  
+
+474
+00:43:51,591 --> 00:43:55,790
+through each srf will act a little differently 
+generally you can use them across different  
+
+475
+00:43:55,791 --> 00:44:00,631
+mediums by prompting but some of them will be very 
+strong Styles and harder to guide in different  
+
+476
+00:44:00,631 --> 00:44:05,431
+directions so that's how they work they're super 
+fun but it's a complete slot machine to do it this  
+
+477
+00:44:05,431 --> 00:44:10,471
+way and takes time to find really good ones people 
+have been calling that mining for srfs the process  
+
+478
+00:44:10,471 --> 00:44:15,511
+is fun but can burn a lot of fast hours there's 
+a few people that I've found mining for srfs  
+
+479
+00:44:15,511 --> 00:44:20,071
+and indexing them I have three pretty solid ones 
+I'll link to all of them below the first is Ali  
+
+480
+00:44:20,071 --> 00:44:24,631
+Jewels she posts some really cool ones on X and 
+just a lot of great mid Journey related content  
+
+481
+00:44:24,631 --> 00:44:28,830
+she's a great follow she's also been building 
+out this visual index of style references she  
+
+482
+00:44:28,831 --> 00:44:32,591
+did recently switch it to paid to view the full 
+thing but there's still hundreds to explore for
+
+483
+00:44:32,591 --> 00:44:38,991
+free this one looks cool I will copy 
+that and run it with wizard I'll just  
+
+484
+00:44:38,991 --> 00:44:45,831
+keep using wizard as my Benchmark 
+I'll just run a bunch of these
+
+485
+00:44:51,311 --> 00:44:52,311
+[Music]
+
+486
+00:44:52,311 --> 00:44:56,671
+now this one is made by Wade McMaster with 
+Creator impact I don't know how many are here  
+
+487
+00:44:56,671 --> 00:45:01,991
+but there's a lot so I'll grab a few of those 
+and then here's another one from Charlie Q it  
+
+488
+00:45:01,991 --> 00:45:06,751
+doesn't have as many but there's some really 
+good ones and in the last mid Journey office  
+
+489
+00:45:06,751 --> 00:45:11,831
+hours David did mention that they're working on 
+some sort of sraf Explorer no details on when or  
+
+490
+00:45:11,831 --> 00:45:15,911
+what that will look like but it will be amazing 
+if they make an easy way to navigate to explore  
+
+491
+00:45:15,911 --> 00:45:49,451
+these right on the site here's all my different 
+Wizards there's some amazing stuff in here [Music]
+
+492
+00:45:49,451 --> 00:45:53,191
+[Music]
+
+493
+00:45:53,191 --> 00:45:56,830
+another note on these is just like with 
+using images as style references you can  
+
+494
+00:45:56,831 --> 00:46:01,751
+combine multiple srfs together just add 
+one then press space and add another now  
+
+495
+00:46:01,751 --> 00:46:06,151
+it will merge those Styles the other 
+way is to click on the srf and it will  
+
+496
+00:46:06,151 --> 00:46:11,671
+pop into the prompt bar I think these 
+two will be a cool combo here is from  
+
+497
+00:46:11,671 --> 00:46:16,870
+those random numbers I typed then this 
+is the two I picked these are really
+
+498
+00:46:16,871 --> 00:46:24,551
+cool you can also adjust how much of 
+each style is applied add a double  
+
+499
+00:46:24,551 --> 00:46:28,270
+colon than the relative weight for 
+each so in this case the first style  
+
+500
+00:46:28,271 --> 00:46:33,271
+will be twice as strong as the second 
+style now this is with those weights
+
+501
+00:46:33,271 --> 00:46:40,991
+reversed personalization is the newest feature 
+they've rolled out and it is amazing usually when  
+
+502
+00:46:40,991 --> 00:46:46,031
+you write a prompt the algorithms fill in all 
+the missing information with their own preferen  
+
+503
+00:46:46,031 --> 00:46:49,871
+that gives mid Journey its own default 
+Aesthetics which is really the combined  
+
+504
+00:46:49,871 --> 00:46:55,111
+preferences and biases of the entire Community 
+with personalization mid Journey will learn what  
+
+505
+00:46:55,111 --> 00:46:59,310
+you like and fill in the blanks with your 
+own preferences so this will be completely  
+
+506
+00:46:59,311 --> 00:47:05,711
+different for every person you can use it on 
+any prompt by adding d-p or you can go to the  
+
+507
+00:47:05,711 --> 00:47:09,830
+parameters and switch it to on and it will use 
+it on every prompt without having to type it  
+
+508
+00:47:09,831 --> 00:47:15,631
+each time here's what it looked like for the 
+prompt wizard with and without my personaliz
+
+509
+00:47:19,111 --> 00:47:23,671
+my personal code is right here and I could share 
+that and anyone will be able to generate with my  
+
+510
+00:47:23,671 --> 00:47:28,991
+personalization which leans a lot more dark and 
+surreal but I'd assume most people will prefer  
+
+511
+00:47:28,991 --> 00:47:33,831
+their own codes that's kind of the idea there's 
+more to go over and I'll run a lot more prompts  
+
+512
+00:47:33,831 --> 00:47:40,591
+with this but first to get one you need to rank 
+at least 200 images go to tasks then click rank  
+
+513
+00:47:40,591 --> 00:47:44,591
+images and then it will have image pairs that 
+pop up so select which image you like better  
+
+514
+00:47:44,591 --> 00:47:49,111
+choose based off of Aesthetics not how perfectly 
+it followed the prompt I don't even read the  
+
+515
+00:47:49,111 --> 00:47:55,391
+prompts when I'm ranking these to go faster use 
+one to select the left image two to select the  
+
+516
+00:47:55,391 --> 00:47:59,911
+Right image and three to skip sometimes you will 
+have completely different prompts and styles other  
+
+517
+00:47:59,911 --> 00:48:04,151
+times it will be the same prompt with similar 
+images just subtle differences then if you're ever  
+
+518
+00:48:04,151 --> 00:48:09,270
+just not sure which one to pick click three to 
+skip do this until you hit at least 200 I assume  
+
+519
+00:48:09,271 --> 00:48:14,271
+doing more will help once it's all trained up 
+it will work anytime you hit d-p there's nothing  
+
+520
+00:48:14,271 --> 00:48:45,511
+further you need to do I ran a few more simple 
+prompts with and without it for a comparison
+
+521
+00:48:45,511 --> 00:48:47,021
+[Music]
+
+522
+00:48:47,021 --> 00:48:50,905
+[Music] [Applause]
+
+523
+00:48:50,905 --> 00:48:52,631
+[Music]  
+
+524
+00:48:52,631 --> 00:48:58,151
+I love what mine does on these simpler prompts 
+I've been blown away at how much more I like them  
+
+525
+00:48:58,151 --> 00:49:10,991
+actually here's on some of the other prompts 
+used throughout this [Music] video sometimes  
+
+526
+00:49:10,991 --> 00:49:15,351
+when I'm going for something more specific it can 
+conflict with what I'm trying to get so I'll have  
+
+527
+00:49:15,351 --> 00:49:20,071
+to to turn it off for certain types of images or 
+adjust how much personalization is applied which  
+
+528
+00:49:20,071 --> 00:49:24,750
+you can do with the styliz parameter normally that 
+applies to how much of mid Journey's aesthetic  
+
+529
+00:49:24,751 --> 00:49:28,911
+is applied when you switch to personalization it 
+controls how much of your personalized aesthetic  
+
+530
+00:49:28,911 --> 00:49:33,511
+is applied I've been liking mine at pretty 
+much every level you can also combine this  
+
+531
+00:49:33,511 --> 00:49:41,711
+with style references and other parameters I'll 
+use these two srfs again I'll wait the first one
+
+532
+00:49:41,711 --> 00:49:50,991
+Higher I'll go with with raw make sure 
+personalize is on I'll add just a little  
+
+533
+00:49:50,991 --> 00:49:56,791
+bit of chaos then an aspect ratio of 32 
+and I'll lower my personalization a bit  
+
+534
+00:49:56,791 --> 00:50:07,151
+at stylize 50 and wow these turned out so 
+good that style combo fits the vibe of this
+
+535
+00:50:07,151 --> 00:50:13,911
+perfectly there's two more parameters I want 
+to mention I didn't mention them alongside the  
+
+536
+00:50:13,911 --> 00:50:18,671
+others because they have very specific uses and 
+aren't as common first is tile this generates  
+
+537
+00:50:18,671 --> 00:50:23,071
+images that can be used as repeating tiles 
+to create seamless patterns this could be for  
+
+538
+00:50:23,071 --> 00:50:28,671
+textures wallpapers Fabrics or even something 
+like a 3D scene how about multicolored Stones  
+
+539
+00:50:28,671 --> 00:50:34,231
+pattern first I'll send it without tile now I'll 
+add Dash Das tile at the end and send that I'll  
+
+540
+00:50:34,231 --> 00:50:39,751
+download one from each of these and take it into 
+a seamless pattern Checker this first one doesn't  
+
+541
+00:50:39,751 --> 00:50:45,631
+work now I'll upload the tiled version and it's 
+perfectly seamless now there's also super tiling  
+
+542
+00:50:45,631 --> 00:50:49,191
+which is something I learned from mid Library I'm 
+not sure if he's the original person that came up  
+
+543
+00:50:49,191 --> 00:50:53,951
+with it but I'll do a quick demo of that I'll 
+copy this prompt to get a where's Waldo style  
+
+544
+00:50:53,951 --> 00:50:59,791
+I'll change it up a little bit how about a vibrant 
+futuristic city all right this one looks cool I'll  
+
+545
+00:50:59,791 --> 00:51:05,351
+test it in the pattern Checker and that looks 
+really repetitive the super tiling trick will  
+
+546
+00:51:05,351 --> 00:51:11,391
+make it less repetitive open that image up and 
+use very region then select most of the image  
+
+547
+00:51:11,391 --> 00:51:15,551
+but leave some space on each side now when 
+I send that it will replace that area but  
+
+548
+00:51:15,551 --> 00:51:21,511
+remain seamless and now when I put these 
+all together there's a lot more variety I  
+
+549
+00:51:21,511 --> 00:51:25,871
+essentially have a much larger and much more 
+detailed tile now so here's the before and
+
+550
+00:51:25,871 --> 00:51:38,871
+after another unique use for the tile parameter 
+is something I came across from Nick St Pierre  
+
+551
+00:51:38,871 --> 00:51:44,311
+you can use it to convert an image into a seamless 
+360° photo so this is really cool I had actually  
+
+552
+00:51:44,311 --> 00:51:48,671
+done this before using generative fill to hide the 
+seam but I'd never thought to try it with the tile  
+
+553
+00:51:48,671 --> 00:51:54,790
+parameter I'll do a prompt with a panoramic 
+view of a volcano an aspect ratio of 21 then  
+
+554
+00:51:54,791 --> 00:52:00,271
+add the tile parameter actually I ran that again 
+to add some lava and this one looks awesome so I  
+
+555
+00:52:00,271 --> 00:52:08,151
+will upscale that then I'll use this website 
+I found for viewing 360° photos just drag it  
+
+556
+00:52:08,151 --> 00:52:15,750
+in and it's looking pretty solid so I'll switch 
+to the VR View and this looks amazing amazing I  
+
+557
+00:52:15,751 --> 00:52:21,711
+can rotate all around and never find a seam so 
+I would probably still use the generative fill  
+
+558
+00:52:21,711 --> 00:52:26,390
+method since a lot of the results I got turn out 
+a little weird when mid Journey tries to make the  
+
+559
+00:52:26,391 --> 00:52:30,911
+top and bottom tilable too especially when I tried 
+going wider so I just really quick show how to do  
+
+560
+00:52:30,911 --> 00:52:35,391
+it in generative fill so this is one without the 
+tile parameter so it would not work as is I'll  
+
+561
+00:52:35,391 --> 00:52:45,471
+bring that into Photoshop go to filter other 
+offset then drag it to the side of bit that's  
+
+562
+00:52:45,471 --> 00:52:52,391
+good now I'll select the rectangular Marquee and 
+drag that over the seam and use generative fill  
+
+563
+00:52:52,391 --> 00:52:56,431
+no prompt needed this one's a little weird 
+since there's light and dark right next to  
+
+564
+00:52:56,431 --> 00:53:00,071
+each other but yeah it'll still work 
+that's it export and bring it into the
+
+565
+00:53:00,071 --> 00:53:13,911
+viewer there was a really amazing example in the 
+comments on Nick's post of all these people on  
+
+566
+00:53:13,911 --> 00:53:18,631
+the Titanic they used magnic to upscale you would 
+never get this many perfectly sharp faces out of  
+
+567
+00:53:18,631 --> 00:53:23,350
+mid journey magnific is amazing it's hard 
+for me to ever recommend because it is so  
+
+568
+00:53:23,351 --> 00:53:30,351
+expensive but the results you can get from it are 
+unparalleled the stop parameter will finish a job  
+
+569
+00:53:30,351 --> 00:53:35,271
+partway through the process to create blurrier or 
+less detailed results so I'll grab the seed from  
+
+570
+00:53:35,271 --> 00:53:42,911
+that woman I've been using you type Das Das stop 
+space and a number between Zer and 100 the 100  
+
+571
+00:53:42,911 --> 00:53:46,911
+is the default basically just finishing the full 
+job so so as we're watching this generate at 100  
+
+572
+00:53:46,911 --> 00:53:52,231
+basically what the stop parameter does is just 
+stopping it at different parts of this process  
+
+573
+00:53:52,231 --> 00:53:57,911
+so here's how that looks at each of the different 
+stop values it can be useful at 80 and 90 to get  
+
+574
+00:53:57,911 --> 00:54:03,871
+less detailed and softer images V6 tends to add a 
+lot of detail so I use it to lower that sometimes  
+
+575
+00:54:03,871 --> 00:54:08,751
+I have found very few other uses than that I've 
+tried it impr prompts where you want like a shaky  
+
+576
+00:54:08,751 --> 00:54:12,431
+cam or motion blur you know like someone being 
+chased through the woods but really I can get  
+
+577
+00:54:12,431 --> 00:54:17,071
+a good result just by prompting the other thing I 
+have used for is when I generate something that's  
+
+578
+00:54:17,071 --> 00:54:21,551
+going to be a background that I know I'm going 
+to add blur to in Photoshop so in particular for  
+
+579
+00:54:21,551 --> 00:54:26,951
+thumbnail backgrounds I'll use stop at 60 to 80 
+I'll still typically add some blur later but I'll  
+
+580
+00:54:26,951 --> 00:54:30,591
+be able to get a better idea of what it's going 
+to look like right within mid Journey so that's  
+
+581
+00:54:30,591 --> 00:54:35,790
+helpful um that's about all I've ever used it for 
+where I actually found it useful multi- prompting  
+
+582
+00:54:35,791 --> 00:54:41,551
+only works well on V5 and earlier this is mostly 
+because V6 is so much better with understanding  
+
+583
+00:54:41,551 --> 00:54:45,191
+language it's just not necessary about how 
+this works just in case you need it separate  
+
+584
+00:54:45,191 --> 00:54:50,711
+Concepts using colon colon as a separator you can 
+assign relative importance to each concept using a  
+
+585
+00:54:50,711 --> 00:54:56,991
+number right after the colons so using space ship 
+that gives you a space ship but space colon colon  
+
+586
+00:54:56,991 --> 00:55:02,591
+ship gives you a ship in space if you give more 
+importance to space there will be more space in  
+
+587
+00:55:02,591 --> 00:55:06,830
+the image or more importance to ship there will 
+be a bigger ship and these numbers are all based  
+
+588
+00:55:06,831 --> 00:55:12,311
+on their values relative to each other so 2 to 
+1 is the same as 100 to 50 and again that just  
+
+589
+00:55:12,311 --> 00:55:17,511
+does not work very well in V6 there's also 
+a parameter D- video this one does only work  
+
+590
+00:55:17,511 --> 00:55:21,231
+in Discord the only thing I've mentioned so far 
+where that's the case all it does is make a short  
+
+591
+00:55:21,231 --> 00:55:26,271
+video out of the image being generated it does 
+look pretty cool to use it in Discord you add--  
+
+592
+00:55:26,271 --> 00:55:32,551
+video to the end of your prompt then once the job 
+is finished click add reaction then select the  
+
+593
+00:55:32,551 --> 00:55:37,231
+envelope emoji and you will get a DM from the 
+mid Journey bot with a link to view the video
+
+594
+00:55:37,231 --> 00:55:45,151
+at so just another parameter that's there if you  
+
+595
+00:55:45,151 --> 00:55:48,310
+ever need it it's not generative text a 
+video or anything although mid journey  
+
+596
+00:55:48,311 --> 00:55:51,951
+is actually working on a video model 
+they say they are just not close on
+
+597
+00:55:51,951 --> 00:56:01,071
+it I'll use this prompt again for one 
+more example I can get rid of this I'll  
+
+598
+00:56:01,071 --> 00:56:07,391
+use this srf it's a really interesting one I was 
+experimenting with for parameters I'll leave it  
+
+599
+00:56:07,391 --> 00:56:17,391
+at 169 add a little bit of chaos switch to raw 
+and turn personalize on this is a really strong  
+
+600
+00:56:17,391 --> 00:56:23,911
+srf so I'll lower the weight to 20 I'll also 
+lower my personalization to 50 and that should  
+
+601
+00:56:23,911 --> 00:56:34,031
+be good I'll send it these are awesome that srf 
+gives such a unique Vibe I've ran it a few more
+
+602
+00:56:34,031 --> 00:56:39,911
+times I think I like this one the
+
+603
+00:56:39,911 --> 00:56:48,911
+most that is essentially all I know about 
+mid Journey packed into one video I hope  
+
+604
+00:56:48,911 --> 00:56:52,511
+it's helpful all of the resources are linked 
+down in the description and of course make  
+
+605
+00:56:52,511 --> 00:56:57,591
+sure to check out futurepedia to keep learning 
+about everything related to AI find the perfect  
+
+606
+00:56:57,591 --> 00:57:03,711
+tool for any use case stay up to date with the top 
+100 tech companies developments in AI with the AI  
+
+607
+00:57:03,711 --> 00:57:09,270
+Innovations tracker there's a curated database of 
+AI tutorials tons of additional learning resources  
+
+608
+00:57:09,271 --> 00:57:13,591
+and all sorts of things being added to the site 
+regularly sign up for the newsletter to get AI  
+
+609
+00:57:13,591 --> 00:57:18,270
+news tools and tutorials delivered straight to 
+your inbox And subscribe to get more videos like  
+

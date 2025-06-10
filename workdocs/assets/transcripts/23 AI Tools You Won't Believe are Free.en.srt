@@ -1,0 +1,1892 @@
+﻿1
+00:00:00,040 --> 00:00:05,680
+For the last eight months I've been experimenting 
+with as many AI tools as possible, every day. 
+
+2
+00:00:05,680 --> 00:00:09,000
+It's for this channel but you 
+could also call it an obsession. 
+
+3
+00:00:09,000 --> 00:00:10,760
+I've taken my whole list of tools and narrowed it  
+
+4
+00:00:10,760 --> 00:00:15,040
+down to the best free option for every 
+use case, and I mean actually free.
+
+5
+00:00:15,040 --> 00:00:16,800
+Let's start with a couple 
+that are just really fun,  
+
+6
+00:00:16,800 --> 00:00:19,960
+then we'll get into the more practical.
+With Luma Labs you're able to take a video  
+
+7
+00:00:19,960 --> 00:00:24,520
+on your phone and turn it into a fully 
+interactive highly detailed 3D scene
+
+8
+00:00:24,520 --> 00:00:29,960
+like this
+
+9
+00:00:31,760 --> 00:00:35,680
+That uses Neural Radiance Fields or NeRFs 
+they also released a new feature called  
+
+10
+00:00:35,680 --> 00:00:37,720
+Interactive Scenes that uses gaussian splatting.
+
+11
+00:00:37,720 --> 00:00:39,680
+And you don't have to know either of those terms.
+
+12
+00:00:39,680 --> 00:00:41,880
+The interactive scenes have a small file size so  
+
+13
+00:00:41,880 --> 00:00:45,680
+you can embed them anywhere or send 
+it to a friend for them to explore.
+
+14
+00:00:45,680 --> 00:00:50,680
+There's endless uses for this in retail, real 
+estate, travel, we'll start seeing these across  
+
+15
+00:00:50,680 --> 00:00:56,160
+tons of Industries but also for creative uses 
+as well as my favorite reliving old memories.
+
+16
+00:00:56,160 --> 00:00:58,160
+Just download the free app on your phone,  
+
+17
+00:00:58,160 --> 00:01:01,120
+there's uploads from other users 
+you can check out for inspiration.
+
+18
+00:01:01,120 --> 00:01:05,200
+I love the way these look when they load.
+
+19
+00:01:05,200 --> 00:01:08,320
+Then you just move your finger 
+around on the screen to navigate.
+
+20
+00:01:08,320 --> 00:01:11,440
+To create your own either start a 
+new capture and follow the steps  
+
+21
+00:01:11,440 --> 00:01:14,160
+on the screen or you can take 
+a normal video outside the app. 
+
+22
+00:01:14,160 --> 00:01:17,600
+Just walk around a scene or if you're 
+doing an object you'll get the best  
+
+23
+00:01:17,600 --> 00:01:21,520
+results if you do multiple circles 
+around it each from different heights.
+
+24
+00:01:21,520 --> 00:01:24,920
+Just upload and let it render. Once 
+it's finished you can navigate around  
+
+25
+00:01:24,920 --> 00:01:28,240
+the scene right on your phone or you can 
+go to the web version on your computer.
+
+26
+00:01:28,240 --> 00:01:30,520
+You can create custom videos using key frames,  
+
+27
+00:01:30,520 --> 00:01:33,880
+you can guide the camera movement throughout 
+the scene in any direction at any angle.
+
+28
+00:01:33,880 --> 00:01:37,560
+Here's a really cool one I saw on 
+Twitter from Ruben Fro using Unity,  
+
+29
+00:01:37,560 --> 00:01:41,520
+so you can import these into game engines if you 
+want there's a lot of different export formats.
+
+30
+00:01:41,520 --> 00:01:44,440
+One of the ideas I'm working on 
+is using Google Earth Studio.
+
+31
+00:01:44,440 --> 00:01:48,640
+It's another free tool, you can pick anywhere 
+on Earth and it will zoom in or zoom between  
+
+32
+00:01:48,640 --> 00:01:53,280
+locations. They have presets to do it really 
+quickly or an area where you can fine-tune  
+
+33
+00:01:53,280 --> 00:01:57,920
+exactly how fast it moves and the angles it takes. 
+It's really fun to play around with and easy to  
+
+34
+00:01:57,920 --> 00:02:02,160
+jump in and use. There's a lot of tutorials on 
+YouTube if you want more complex camera movements.
+
+35
+00:02:02,160 --> 00:02:11,120
+This seems like a good spot to test out a NeRF
+
+36
+00:02:11,120 --> 00:02:14,320
+That was my first test combining those 
+tools I don't have the process dialed  
+
+37
+00:02:14,320 --> 00:02:16,720
+in yet but I think it has some 
+potential. Either way these are  
+
+38
+00:02:16,720 --> 00:02:19,240
+both really fun tools to mess 
+around with each on their own.
+
+39
+00:02:19,240 --> 00:02:23,560
+Luma Labs has one more recent release 
+called Genie. It's a text-to-3D model  
+
+40
+00:02:23,560 --> 00:02:25,640
+that's free right now during the research phase.
+
+41
+00:02:25,640 --> 00:02:31,000
+It's operated in the Luma Discord server in any 
+of these Genie channels using the Genie command.
+
+42
+00:02:31,000 --> 00:02:34,800
+Just add your prompt and it generates 
+incredibly fast and is by far the  
+
+43
+00:02:34,800 --> 00:02:39,000
+best version of text-to-3D I've come 
+across in terms of quality and time.
+
+44
+00:02:39,000 --> 00:02:42,280
+There's people rigging entire scenes 
+with this that look amazing. I don't  
+
+45
+00:02:42,280 --> 00:02:59,760
+know how long this will be free 
+but here's a few more examples.
+
+46
+00:03:05,800 --> 00:03:09,600
+I'll go into a lot more creative 
+stuff for music, images, video,  
+
+47
+00:03:09,600 --> 00:03:14,280
+and 3D but I'm also very into productivity and 
+learning tools so let's switch to that for a few.
+
+48
+00:03:14,280 --> 00:03:18,040
+One of my favorites that I use all the 
+time is Perplexity. It's a fine-tuned  
+
+49
+00:03:18,040 --> 00:03:21,540
+ChatGPT. Basically an interactive Search 
+Assistant that you can ask anything.
+
+50
+00:03:21,540 --> 00:03:25,959
+It uses up-to-date information and browses 
+the web across multiple sources and comes  
+
+51
+00:03:25,960 --> 00:03:29,840
+back with concise answers almost instantly. 
+It shows you what sources it used and you  
+
+52
+00:03:29,840 --> 00:03:32,920
+can click through to the article for 
+further reading. It starts responding  
+
+53
+00:03:32,920 --> 00:03:36,959
+immediately and sometimes will cite like 
+10 sources all in one response if needed.
+
+54
+00:03:36,960 --> 00:03:39,600
+And if you're using the desktop 
+version it can pull up images  
+
+55
+00:03:39,600 --> 00:03:42,760
+too. You can also upload PDFs 
+and ask questions about them.
+
+56
+00:03:42,760 --> 00:03:45,000
+I use the mobile app most and find myself using it  
+
+57
+00:03:45,000 --> 00:03:48,080
+over Google most of the time 
+for question based searches.
+
+58
+00:03:48,080 --> 00:03:50,840
+There is a pro version but 
+the free version is huge,  
+
+59
+00:03:50,840 --> 00:03:53,400
+I've never felt any need to 
+upgrade from the free plan.
+
+60
+00:03:53,400 --> 00:03:56,640
+And I'm only talking about tools that 
+have really robust free plans like this.  
+
+61
+00:03:56,640 --> 00:04:00,559
+I want to mention when they have paid upgrades 
+available mainly to give you the full picture  
+
+62
+00:04:00,560 --> 00:04:03,840
+of how much comes in the free plan, that 
+way you won't waste your time experimenting  
+
+63
+00:04:03,840 --> 00:04:07,640
+with something only to find out you have to 
+pay to do what you actually wanted it for.
+
+64
+00:04:07,640 --> 00:04:12,200
+SciSpace is the easiest way to find, learn, 
+and understand any research paper, so,  
+
+65
+00:04:12,200 --> 00:04:17,560
+similar to Perplexity but this only cites research 
+papers, not websites or the overall internet.
+
+66
+00:04:17,560 --> 00:04:20,680
+So it's geared towards people that are 
+students or researchers, but it's great  
+
+67
+00:04:20,680 --> 00:04:24,600
+for anyone that has questions in the realm of 
+science that wants research-backed answers.
+
+68
+00:04:24,600 --> 00:04:27,720
+Ask any question and it will give you 
+insight from the top five papers up  
+
+69
+00:04:27,720 --> 00:04:31,200
+at the top with citations you can click 
+through to read the paper and then more  
+
+70
+00:04:31,200 --> 00:04:35,920
+relevant papers below. You can also chat with 
+the copilot about the answers you received.
+
+71
+00:04:35,920 --> 00:04:39,400
+Another cool feature is you can 
+upload a PDF of any paper and get  
+
+72
+00:04:39,400 --> 00:04:42,560
+a summary and ask questions related 
+to the paper. You could also add the  
+
+73
+00:04:42,560 --> 00:04:45,160
+Chrome extension to use all those 
+features while you're browsing.
+
+74
+00:04:45,160 --> 00:04:48,920
+If you're reading a paper online you 
+can ask it to simplify complex language,  
+
+75
+00:04:48,920 --> 00:04:53,440
+ask clarifying questions, clip math equations 
+or tables to find out what they mean,  
+
+76
+00:04:53,440 --> 00:04:56,320
+it's a really powerful research 
+tool to get answers in real time.
+
+77
+00:04:56,320 --> 00:05:00,880
+All of that is completely free they do have some 
+additional features for writing that are paid.
+
+78
+00:05:00,880 --> 00:05:04,440
+Here's one more in this realm similar to 
+perplexity but built right into Google,  
+
+79
+00:05:04,440 --> 00:05:08,719
+it's their new Search Generative Experience, 
+which also just got the ability for text-to-image
+
+80
+00:05:08,720 --> 00:05:12,320
+This is an experimental feature you 
+can turn on to use AI in search. It  
+
+81
+00:05:12,320 --> 00:05:15,520
+pops up on the top of your search and 
+gives a concise summary of some answers  
+
+82
+00:05:15,520 --> 00:05:19,760
+with sources on the side. You can expand it 
+to read more and ask follow-up questions.
+
+83
+00:05:19,760 --> 00:05:23,440
+It can be really helpful in a lot of 
+situations so I have it turned on all the time.
+
+84
+00:05:23,440 --> 00:05:26,000
+To set it up go to labs.google.com
+
+85
+00:05:26,000 --> 00:05:29,240
+Click get started then switch it on. 
+There's some additional options here  
+
+86
+00:05:29,240 --> 00:05:33,080
+for coding and adding AI to sheets. 
+And you can get back to turn the AI  
+
+87
+00:05:33,080 --> 00:05:35,840
+on and off at any time with 
+the beaker in the top right.
+
+88
+00:05:35,840 --> 00:05:38,919
+They also very recently added in 
+the ability to generate images.  
+
+89
+00:05:38,920 --> 00:05:41,440
+You just type in the search bar 
+what you want it to generate.
+
+90
+00:05:41,440 --> 00:05:44,600
+From there you can click ask a followup and 
+then you'll have a nice space to generate  
+
+91
+00:05:44,600 --> 00:05:48,440
+in. You can add follow-up prompts to change 
+things until you have something you like.
+
+92
+00:05:48,440 --> 00:05:51,040
+I actually liked this one with 
+the guitar. Click export and  
+
+93
+00:05:51,040 --> 00:05:53,920
+download or hit edit to go into a new workspace
+
+94
+00:05:53,920 --> 00:05:58,480
+There's a button to have it help you write 
+a better prompt, let's give that a try.
+
+95
+00:05:58,480 --> 00:06:00,680
+Sometimes it ends up not generating all the images  
+
+96
+00:06:00,680 --> 00:06:05,240
+I think it's just censoring 
+itself, but this one is solid.
+
+97
+00:06:05,240 --> 00:06:08,480
+There's more text to image generators 
+that do a better job at various things,  
+
+98
+00:06:08,480 --> 00:06:10,120
+I will be covering those a bit later.
+
+99
+00:06:10,120 --> 00:06:13,280
+Now I wanted to pack this video with 
+as much information as possible,  
+
+100
+00:06:13,280 --> 00:06:16,159
+and that is made possible by 
+today's sponsor, Skillshare.
+
+101
+00:06:16,160 --> 00:06:19,520
+Before I started this channel I wanted 
+to get better at video editing, I knew  
+
+102
+00:06:19,520 --> 00:06:23,440
+the basics but I wanted to really 
+improve so I went to Skillshare.
+
+103
+00:06:23,440 --> 00:06:26,719
+This is the course I watched 
+by Phil Ebiner, it was great.
+
+104
+00:06:26,720 --> 00:06:30,720
+I used what I learned in that course to 
+make my first few videos on this channel.
+
+105
+00:06:30,720 --> 00:06:33,640
+I've of course learned more since then 
+and am always trying to get better,  
+
+106
+00:06:33,640 --> 00:06:35,479
+but that course was extremely helpful.
+
+107
+00:06:35,480 --> 00:06:40,600
+And this channel did grow from 0 to over 
+100,000 subscribers in 8 months so, not bad.
+
+108
+00:06:40,600 --> 00:06:44,920
+And I've used Skillshare over the years for 
+all sorts of stuff: photography, Photoshop,  
+
+109
+00:06:44,920 --> 00:06:49,360
+illustration, a lot of creative courses, 
+I also took some for coding a while back.
+
+110
+00:06:49,360 --> 00:06:52,600
+And they have a wide range of other 
+courses on like entrepreneurship,  
+
+111
+00:06:52,600 --> 00:06:56,680
+social media, marketing, productivity 
+and a ton of other niche topics as well.
+
+112
+00:06:56,680 --> 00:07:01,000
+Honestly, I take a lot of courses. I have time 
+carved out every week that I dedicate to learning  
+
+113
+00:07:01,000 --> 00:07:05,240
+new skills. That involves multiple sources, of 
+course, but one of the main ones is Skillshare.
+
+114
+00:07:05,240 --> 00:07:08,480
+I love the learn by doing approach 
+they take. Each course has something  
+
+115
+00:07:08,480 --> 00:07:11,440
+actionable with a project you 
+can share and get feedback on.
+
+116
+00:07:11,440 --> 00:07:13,760
+I've gotten a lot from Skillshare so it was an  
+
+117
+00:07:13,760 --> 00:07:16,200
+easy choice when they reached 
+out about sponsoring a video.
+
+118
+00:07:16,200 --> 00:07:20,960
+And the first 500 people to use my link will get 
+their first month of Skillshare membership free.
+
+119
+00:07:20,960 --> 00:07:23,239
+You can watch multiple entire courses in that  
+
+120
+00:07:23,240 --> 00:07:26,840
+first month to make sure you like the 
+platform then continue on if you do.
+
+121
+00:07:26,840 --> 00:07:31,400
+So thank you to Skillshare for sponsoring this 
+video and for helping me create this channel.
+
+122
+00:07:31,400 --> 00:07:33,320
+Now let's move on to some music tools.
+
+123
+00:07:33,320 --> 00:07:36,120
+This next one is really fun 
+and can get kind of ridiculous.
+
+124
+00:07:36,120 --> 00:07:38,280
+It's called Suno and it can generate you a song  
+
+125
+00:07:38,280 --> 00:07:41,080
+with instruments and vocals 
+just from writing a topic.
+
+126
+00:07:41,080 --> 00:07:43,479
+It's operated within Discord 
+so I'll have the link to the  
+
+127
+00:07:43,480 --> 00:07:45,920
+Discord server below with all the other links.
+
+128
+00:07:45,920 --> 00:07:49,520
+Go to one of the chirp beta 
+channels, use the chirp command,  
+
+129
+00:07:49,520 --> 00:07:53,760
+and either submit your own lyrics or write a 
+topic and have ChatGPT write the lyrics for you.
+
+130
+00:07:53,760 --> 00:07:56,080
+Let's do the greatest movie of all time.
+
+131
+00:07:56,080 --> 00:07:56,760
+The Big Lebowski
+
+132
+00:07:56,760 --> 00:08:00,760
+Then you can type a genre. If you leave it as 
+random it will choose based off the lyrics.
+
+133
+00:08:00,760 --> 00:08:02,240
+Bluegrass seems like a good fit.
+
+134
+00:08:02,240 --> 00:08:05,760
+And that's all there is to it. The verse 
+and chorus will come back right away. 
+
+135
+00:08:05,760 --> 00:08:06,360
+Nailed it.
+
+136
+00:08:06,360 --> 00:08:09,160
+Then usually just another minute or 
+so and it will come back with two  
+
+137
+00:08:09,160 --> 00:08:15,490
+different options up to 40 seconds 
+long each let's give it a listen
+
+138
+00:08:15,490 --> 00:08:21,400
+[Music] In a world of bowling balls and weed,
+there's a man they called The Dude indeed
+
+139
+00:08:21,400 --> 00:08:29,239
+[Music] his robe and is White Russian in hand,
+living life in his own laid-back land
+
+140
+00:08:29,240 --> 00:08:34,400
+[Music] He's The Big Lebowski, that's his name
+
+141
+00:08:34,400 --> 00:08:36,319
+That's pretty solid, especially considering all I  
+
+142
+00:08:36,320 --> 00:08:39,440
+entered was a few words. And there is 
+an option to continue it if you want.
+
+143
+00:08:39,440 --> 00:08:41,919
+Another fun one is to use 
+lyrics from a popular song  
+
+144
+00:08:41,919 --> 00:08:53,333
+and see how it interprets it. I'll 
+try Purple Haze with a random genre.
+
+145
+00:08:53,333 --> 00:08:57,040
+[Music] Purple haze all in my brain,
+Lately things just don't seem the same
+
+146
+00:08:57,040 --> 00:09:04,860
+[Music] acting funny but I don't know why,
+'Scuse me while I kiss the sky
+
+147
+00:09:04,860 --> 00:09:10,640
+[Music] Purple haze all around,
+don't know if I'm coming up or down
+
+148
+00:09:10,640 --> 00:09:18,840
+[Music] Am I happy or in misery whatever it is,
+That girl put a spell on me
+
+149
+00:09:18,840 --> 00:09:23,640
+That's actually insane how good that is. I'm 
+going to continue that for a future project.
+
+150
+00:09:23,640 --> 00:09:27,000
+I originally scripted this section 
+when it was 100% free and unlimited,  
+
+151
+00:09:27,000 --> 00:09:30,320
+but they have changed that now you get 
+five chirps per day under the free plan.
+
+152
+00:09:30,320 --> 00:09:31,760
+They do have a paid option if you want,  
+
+153
+00:09:31,760 --> 00:09:35,960
+but this is mostly just a quick tool I use 
+for fun so the free plan has been plenty.
+
+154
+00:09:35,960 --> 00:09:38,560
+The next one is in the same 
+realm but completely free and  
+
+155
+00:09:38,560 --> 00:09:41,479
+open source. It was released 
+by Meta it's called MusicGen.
+
+156
+00:09:41,480 --> 00:09:45,360
+It generates music under tons of different 
+genres really well, but this time no vocals.
+
+157
+00:09:45,360 --> 00:09:47,720
+There's a couple ways to use 
+it I'll show the easiest one  
+
+158
+00:09:47,720 --> 00:09:50,240
+first someone built a better 
+interface called Waveformer.
+
+159
+00:09:50,240 --> 00:09:52,840
+You just enter a prompt with whatever 
+you want your music to sound like:  
+
+160
+00:09:52,840 --> 00:09:55,280
+genre, instruments, tempo, feel.
+
+161
+00:09:55,280 --> 00:09:57,040
+Click submit and let it generate. It takes a  
+
+162
+00:09:57,040 --> 00:10:28,160
+minute or two then usually comes 
+back with a great sounding song.
+
+163
+00:10:34,480 --> 00:10:38,200
+There is another feature where you can give it an 
+input Melody to follow but they didn't add that  
+
+164
+00:10:38,200 --> 00:10:42,200
+into Waveformer, so if you want to use that, 
+you need to go to the space on Hugging Face.
+
+165
+00:10:42,200 --> 00:10:50,840
+Upload a file that has a melody in it, I'll 
+use the outdated reference of the X Files theme
+
+166
+00:10:50,840 --> 00:10:52,600
+So you describe the music 
+you want then it will use  
+
+167
+00:10:52,600 --> 00:10:54,760
+the description and the melody to create a song.
+
+168
+00:10:54,760 --> 00:10:59,040
+Let's see what we got.
+
+169
+00:11:10,720 --> 00:11:14,200
+When I think of the implications of 
+that combined with Suno and some of  
+
+170
+00:11:14,200 --> 00:11:17,760
+the other technologies that are coming 
+out and advancing rapidly, I won't be  
+
+171
+00:11:17,760 --> 00:11:22,400
+surprised at all if people start listening 
+to music that's fully generated by AI soon.
+
+172
+00:11:22,400 --> 00:11:24,240
+This last music one is a really cool suite  
+
+173
+00:11:24,240 --> 00:11:27,800
+of tools developed by Google in 
+collaboration with Lupe Fiasco.
+
+174
+00:11:27,800 --> 00:11:30,199
+They help with lyric writing but 
+in a collaborative way where the  
+
+175
+00:11:30,200 --> 00:11:32,160
+artist is really involved in the process.
+
+176
+00:11:32,160 --> 00:11:35,680
+They're all free and really easy to jump 
+in and mess around with. I like this a lot.
+
+177
+00:11:35,680 --> 00:11:37,680
+Here's a clip from their promo video
+
+178
+00:11:37,680 --> 00:11:42,479
+This bite-sized AI tool that 
+can take in any word as input,  
+
+179
+00:11:42,480 --> 00:11:46,560
+explode it into all these different 
+possibilities in the same way that Lupe does
+
+180
+00:11:46,560 --> 00:11:50,479
+and that's just one tool we 
+built nine others as well
+
+181
+00:11:50,480 --> 00:11:51,520
+It's called textfx.
+
+182
+00:11:52,720 --> 00:11:57,560
+These tools, they generate similes, 
+they create acronyms, they parse words,  
+
+183
+00:11:57,560 --> 00:12:02,239
+it's a entire suite of different kinds of 
+possibilities dealing with text and language
+
+184
+00:12:02,240 --> 00:12:04,240
+Now onto the more visual side.
+
+185
+00:12:04,240 --> 00:12:07,560
+Probably the easiest way to 
+animate an image is with LeiaPix
+
+186
+00:12:07,560 --> 00:12:08,719
+Go to convert.leiapix.com
+
+187
+00:12:09,600 --> 00:12:14,120
+click upload and easy as that, you 
+have an immersive depth animation.
+
+188
+00:12:14,120 --> 00:12:18,280
+There's sliders to change how long the 
+animation cycle is and the way it animates,  
+
+189
+00:12:18,280 --> 00:12:21,439
+also an advanced editor where 
+you can get more customizable.
+
+190
+00:12:21,440 --> 00:12:28,880
+Then just select your export format. It's 
+super easy but I love the way these look
+
+191
+00:12:28,880 --> 00:12:38,040
+[Music]
+
+192
+00:12:38,040 --> 00:12:39,640
+You get 60 credits when you join,  
+
+193
+00:12:39,640 --> 00:12:44,360
+but to export in full resolution costs 20 
+credits so it's really only three uses.
+
+194
+00:12:44,360 --> 00:12:48,160
+I have no idea why they call that 60 
+credits but I included it because you  
+
+195
+00:12:48,160 --> 00:12:52,719
+get unlimited free exports in 720p which 
+is still pretty high quality. Also you  
+
+196
+00:12:52,720 --> 00:12:57,320
+can export unlimited depth maps for free 
+which we will use in our next tool, Insta3D
+
+197
+00:12:58,040 --> 00:12:59,719
+This is by Ilumine AI
+
+198
+00:12:59,720 --> 00:13:02,520
+it's kind of like LeiaPix but 
+makes it even more immersive
+
+199
+00:13:02,520 --> 00:13:06,079
+This is the home screen, there's some 
+samples you can test out at the bottom.  
+
+200
+00:13:06,080 --> 00:13:08,880
+A bunch of these look really cool and 
+gives you a good idea of what works  
+
+201
+00:13:08,880 --> 00:13:11,640
+well in here. Then right here 
+you can upload your own image.
+
+202
+00:13:11,640 --> 00:13:13,880
+Once you've done that you 
+need to upload a depth map,  
+
+203
+00:13:13,880 --> 00:13:19,640
+so back to LeiaPix, upload your 
+photo, then export depth map.
+
+204
+00:13:19,640 --> 00:13:22,920
+Now upload that in Insta3D and it's good to go.
+
+205
+00:13:22,920 --> 00:13:24,439
+You can move all around the scene.
+
+206
+00:13:24,440 --> 00:13:28,000
+They have some different effects down at the 
+bottom to mess around with. Some types of images  
+
+207
+00:13:28,000 --> 00:13:32,600
+work really well for this and any of them start 
+to get a little wonky when you go far into them,  
+
+208
+00:13:32,600 --> 00:13:40,140
+but it is really amazing that you can 
+generate this so easily from a 2D image.
+
+209
+00:13:40,140 --> 00:13:43,840
+[Music]
+
+210
+00:13:43,840 --> 00:13:48,160
+This one is research from Meta, it's fun 
+and really easy to use. It's designed to  
+
+211
+00:13:48,160 --> 00:13:51,040
+animate children's drawings but you can 
+upload any character you want. It just  
+
+212
+00:13:51,040 --> 00:13:54,360
+needs to be on a white background 
+with each limb separate and visible
+
+213
+00:13:54,360 --> 00:13:59,760
+Click upload photo, agree, then adjust the frame 
+here if it doesn't capture the full character.
+
+214
+00:13:59,760 --> 00:14:02,720
+On the next page you can fix 
+the mask if there's any issues
+
+215
+00:14:02,720 --> 00:14:05,640
+then find each of the joints
+
+216
+00:14:05,640 --> 00:14:07,000
+then let it do its thing
+
+217
+00:14:07,000 --> 00:14:10,480
+and there it is we have a bunch of 
+different animations to choose from. Again,  
+
+218
+00:14:10,480 --> 00:14:14,120
+it's made to animate children's drawings so 
+a lot of the animations are pretty silly,  
+
+219
+00:14:14,120 --> 00:14:15,800
+but it's fun to mess around with.
+
+220
+00:14:15,800 --> 00:14:19,079
+You could key out the background 
+and let it play over another image,
+
+221
+00:14:19,080 --> 00:14:23,500
+also it looks completely ridiculous 
+if you upload a real person
+
+222
+00:14:23,500 --> 00:14:25,040
+[Music]
+
+223
+00:14:25,040 --> 00:14:30,920
+On to Pika Labs which is amazing and absolutely 
+incredible that it's still 100% free.
+
+224
+00:14:30,920 --> 00:14:32,479
+I'm sure at some point they're going to move  
+
+225
+00:14:32,480 --> 00:14:36,080
+to a paid model but it's been free 
+for months and still is currently.
+
+226
+00:14:36,080 --> 00:14:40,120
+It's all within Discord as well. You can 
+operate it in their generate channels,  
+
+227
+00:14:40,120 --> 00:14:43,280
+or to generate in private come up to the Pika bot,  
+
+228
+00:14:43,280 --> 00:14:47,640
+click this member list button if you don't see 
+it, then right-click the bot, and hit message.
+
+229
+00:14:47,640 --> 00:14:50,199
+Now you'll be able to DM the bot 
+anytime you want to generate.
+
+230
+00:14:50,200 --> 00:14:55,600
+Use the create command, and for 
+text-to-video just type your prompt.
+
+231
+00:14:55,600 --> 00:14:58,200
+There is a parameter for frame rate if you want
+
+232
+00:14:58,200 --> 00:15:00,760
+-fps and a number between 8 and 24
+
+233
+00:15:00,760 --> 00:15:06,240
+then aspect ratio is -ar
+
+234
+00:15:06,240 --> 00:15:09,240
+That looks great but I hardly 
+ever use text-to-video,  
+
+235
+00:15:09,240 --> 00:15:11,360
+image-to-video is where it gets really powerful.
+
+236
+00:15:11,360 --> 00:15:14,920
+I'll use the create command again, then 
+type what I want to happen in the image,  
+
+237
+00:15:14,920 --> 00:15:18,439
+I'll use the capybara playing 
+guitar I generated with Google SGE,  
+
+238
+00:15:18,440 --> 00:15:22,080
+and another parameter is camera 
+movement like zoom in, pan, or rotate
+
+239
+00:15:22,080 --> 00:15:24,520
+it's -camera then I'll try to zoom in
+
+240
+00:15:24,520 --> 00:15:28,600
+Click the plus one to add 
+the image, then hit enter
+
+241
+00:15:32,960 --> 00:15:36,480
+That looks awesome. So you can dial in 
+really solid images first then use Pika  
+
+242
+00:15:36,480 --> 00:15:39,200
+to animate them and the possibilities are endless
+
+243
+00:15:39,200 --> 00:15:44,040
+CapCut has a whole suite of AI tools that are 
+in beta under the magic tools tab. There's a  
+
+244
+00:15:44,040 --> 00:15:47,319
+bunch of different tools here, many of 
+which can be found on other platforms,  
+
+245
+00:15:47,320 --> 00:15:52,040
+but the one I want to highlight is this video 
+upscaler. You can upscale videos by 2x which is  
+
+246
+00:15:52,040 --> 00:15:56,680
+perfect for videos from Pika those are at 
+720p and this will convert them to 1080p.
+
+247
+00:15:56,680 --> 00:16:01,359
+I started using this recently and haven't seen 
+any mention of a limit to the free uses on this or  
+
+248
+00:16:01,360 --> 00:16:06,200
+any of the other tools. So currently this is the 
+best free video upscaler I've been able to find
+
+249
+00:16:06,200 --> 00:16:08,880
+Those are some great video tools, but 
+a lot of the time you need to start  
+
+250
+00:16:08,880 --> 00:16:12,120
+with an image. And before we jump into 
+the image generators; something that's  
+
+251
+00:16:12,120 --> 00:16:17,360
+useful for any images you may have, ai or 
+otherwise, is upscaling and restoration.
+
+252
+00:16:17,360 --> 00:16:20,240
+Most of the upscalers I come 
+across have limited uses,  
+
+253
+00:16:20,240 --> 00:16:23,200
+but there's two that are 
+completely free and unlimited.
+
+254
+00:16:23,200 --> 00:16:26,760
+Replicate has a full suite of 
+image restoration and upscalers,  
+
+255
+00:16:26,760 --> 00:16:28,880
+upscaling is under Super Resolution.
+
+256
+00:16:28,880 --> 00:16:33,520
+You'll find a bunch of models for different 
+needs, some can 4x the resolutions, some  
+
+257
+00:16:33,520 --> 00:16:39,640
+will de-noise and smooth it out, others will add 
+some detail. Pick one for your needs and run it.
+
+258
+00:16:39,640 --> 00:16:42,400
+The other option I use in 
+Replicate is image restoration
+
+259
+00:16:42,400 --> 00:16:48,360
+There's a ton of cool ones in here for touching 
+up old photos, colorizing black and white photos,  
+
+260
+00:16:48,360 --> 00:16:53,360
+night enhancement, or what I find 
+the most mind-blowing: de-blurring
+
+261
+00:16:53,360 --> 00:16:55,280
+[Music]
+
+262
+00:16:55,280 --> 00:16:59,560
+Replicate is great for quick web-based upscaling 
+but if you want something you can run on your own  
+
+263
+00:16:59,560 --> 00:17:05,599
+computer that has the option to batch upscale, 
+Upscayl spelled with a y .org is the way to go.
+
+264
+00:17:05,599 --> 00:17:07,679
+It's free, open source software you can download.
+
+265
+00:17:07,680 --> 00:17:10,920
+It has multiple options to choose from 
+for different types of upscaling. Most  
+
+266
+00:17:10,920 --> 00:17:15,280
+of the time I like this real esran 4X 
+you can even upscale it to 16x if you  
+
+267
+00:17:15,280 --> 00:17:19,599
+want. I also like the digital art model 
+for some cartoons or vector art styles,  
+
+268
+00:17:19,599 --> 00:17:24,079
+that smooths it out a bit. If you regularly need 
+to upscale images then I highly recommend this,  
+
+269
+00:17:24,079 --> 00:17:27,720
+and a lot of images that come out of 
+these AI art generators do need upscaling.
+
+270
+00:17:27,720 --> 00:17:29,640
+Now for the cool this name on the list:
+
+271
+00:17:29,640 --> 00:17:30,800
+Illusion Diffusion
+
+272
+00:17:30,800 --> 00:17:33,240
+There's a ton of awesome ways to use 
+this. It was originally trained to  
+
+273
+00:17:33,240 --> 00:17:35,680
+make these really cool QR codes you may have seen,  
+
+274
+00:17:35,680 --> 00:17:39,960
+then Mr Ugleh figured out this workflow 
+for these spirals and other illusions.
+
+275
+00:17:39,960 --> 00:17:43,920
+I love these look, it reminds me of...
+
+276
+00:17:43,920 --> 00:17:45,880
+these, by Octavio Ocampo
+
+277
+00:17:45,880 --> 00:17:50,040
+So yeah, I love this style. It's a ton 
+of fun and you can do it all for free.
+
+278
+00:17:50,040 --> 00:17:53,240
+They have some examples to use 
+down here. I like the spiral a lot.
+
+279
+00:17:53,240 --> 00:17:58,960
+Illusion strength is how much the spiral will 
+impact the image, between .8 and 1.2 is a good  
+
+280
+00:17:58,960 --> 00:18:02,480
+starting point. It depends on what you're 
+going for and can take some experimenting.
+
+281
+00:18:02,480 --> 00:18:04,320
+Type in your prompt then click run.
+
+282
+00:18:04,320 --> 00:18:06,639
+Timeframes will vary based on the time of day,  
+
+283
+00:18:06,640 --> 00:18:10,920
+it's usually around 30 seconds or less for me 
+but it can be much longer during peak hours.
+
+284
+00:18:10,920 --> 00:18:12,280
+And that looks awesome.
+
+285
+00:18:12,280 --> 00:18:15,240
+The illusion strength has the 
+biggest impact on how this turns out,  
+
+286
+00:18:15,240 --> 00:18:18,000
+that's the main option I usually 
+adjust when I'm fine-tuning these.  
+
+287
+00:18:18,000 --> 00:18:20,840
+There are also some advanced options 
+you can mess around with to adjust it  
+
+288
+00:18:20,840 --> 00:18:28,439
+further but here's that same prompt run 
+but only changing the illusion strength.
+
+289
+00:18:28,440 --> 00:18:32,120
+Instead of using their images you can upload 
+your own and the possibilities are endless.
+
+290
+00:18:32,120 --> 00:18:34,719
+A couple common ones are text,
+
+291
+00:18:34,720 --> 00:18:36,160
+other cool patterns,
+
+292
+00:18:36,160 --> 00:18:37,920
+logos,
+
+293
+00:18:37,920 --> 00:18:38,840
+and faces
+
+294
+00:18:38,840 --> 00:18:41,600
+and a lot of these you have 
+to shrink down or squint to  
+
+295
+00:18:41,600 --> 00:18:44,480
+see the illusion so keep that in 
+mind as you're fine-tuning them.
+
+296
+00:18:44,480 --> 00:18:47,840
+Someone who went all out with 
+this is Herolias on Reddit,  
+
+297
+00:18:47,840 --> 00:18:52,120
+they spent 14 hours doing this for 
+every frame of Never Gonna Give You Up.
+
+298
+00:18:52,120 --> 00:18:57,159
+You pause at any point and it's a normal 
+landscape then hit play and get Rick-Rolled
+
+299
+00:18:57,160 --> 00:19:01,160
+There's so much that can be done, an 
+easier one is to create a brand promo  
+
+300
+00:19:01,160 --> 00:19:06,520
+video using a logo. I'll do the 
+YouTube logo. Then add a prompt.
+
+301
+00:19:06,520 --> 00:19:14,540
+That comes back looking great. I did that 
+with a bunch of different prompts and boom
+
+302
+00:19:14,540 --> 00:19:18,879
+[Music]
+
+303
+00:19:18,880 --> 00:19:21,080
+Now for the text to image generators.
+
+304
+00:19:21,080 --> 00:19:24,240
+There's a ton of options out there, 
+each have their pros and cons.
+
+305
+00:19:24,240 --> 00:19:27,160
+The first three are pretty 
+straightforward and easy to use,  
+
+306
+00:19:27,160 --> 00:19:31,320
+the last one is the most versatile with 
+the most features so I'll go more in depth.
+
+307
+00:19:31,320 --> 00:19:32,560
+We'll start with Ideogram.
+
+308
+00:19:32,560 --> 00:19:37,040
+If I click over onto this top tab you'll start to 
+see what it can do well and where it struggles.
+
+309
+00:19:37,040 --> 00:19:42,080
+It's great with text based designs, logos, and 
+illustrations. This isn't going to be as good as  
+
+310
+00:19:42,080 --> 00:19:46,280
+the others for things like photo realism or 
+getting really specific with what you want.
+
+311
+00:19:46,280 --> 00:19:49,240
+When you type your prompt it will pop 
+up with a bunch of different styles,  
+
+312
+00:19:49,240 --> 00:19:52,040
+you can choose one if you want, or 
+just direct it with your prompt. Then  
+
+313
+00:19:52,040 --> 00:19:55,040
+there's a couple aspect ratios 
+to choose from, and generate.
+
+314
+00:19:55,040 --> 00:19:57,840
+It comes back with four options, if 
+there's one you want to work with,  
+
+315
+00:19:57,840 --> 00:20:01,040
+you can click remix and it will generate 
+four more that are similar. You can  
+
+316
+00:20:01,040 --> 00:20:10,960
+do that as many times as you want 
+until you have something you like.
+
+317
+00:20:10,960 --> 00:20:11,360
+[Music]
+
+318
+00:20:11,360 --> 00:20:15,439
+Dalle3 was just rolled out to Pro users 
+in ChatGPT so you can use it there if you  
+
+319
+00:20:15,440 --> 00:20:19,440
+have ChatGPT Pro. If not, you can use 
+it for free in the Bing Image Creator.
+
+320
+00:20:19,440 --> 00:20:22,760
+You just type your prompt and hit 
+create. It does a good job with text,  
+
+321
+00:20:22,760 --> 00:20:24,840
+the best part is it's prompt understanding.
+
+322
+00:20:24,840 --> 00:20:27,720
+You can get really specific with 
+what you want and it nails it.
+
+323
+00:20:27,720 --> 00:20:36,940
+You get 25 free credits when you create an 
+account and then your boosts refresh each week
+
+324
+00:20:36,940 --> 00:20:42,200
+[Music]
+
+325
+00:20:42,200 --> 00:20:46,160
+And now that we're in the text to image 
+section I'll just revisit Google SGE quickl,  
+
+326
+00:20:46,160 --> 00:20:48,080
+that's a really good option that is completely  
+
+327
+00:20:48,080 --> 00:20:58,120
+free to generate as much as you 
+want here's a few more examples
+
+328
+00:20:58,120 --> 00:21:01,800
+[Music]
+
+329
+00:21:01,800 --> 00:21:05,639
+Stable Diffusion is open 
+source, uncensored, and amazing.
+
+330
+00:21:05,640 --> 00:21:09,960
+If you have a capable computer you can 
+install it locally and use it completely free,  
+
+331
+00:21:09,960 --> 00:21:12,960
+but that involves some technical 
+steps and is not beginner friendly.
+
+332
+00:21:12,960 --> 00:21:15,280
+Other platforms have been 
+built on top that utilize  
+
+333
+00:21:15,280 --> 00:21:17,480
+Stable Diffusion and make it much easier to use.
+
+334
+00:21:17,480 --> 00:21:22,000
+For most of them the free plans are very limited, 
+but there is a platform that's extremely versatile  
+
+335
+00:21:22,000 --> 00:21:26,360
+with a ton of features, and the free plan gives 
+you 500 Generations per day which is huge.
+
+336
+00:21:26,360 --> 00:21:28,120
+It's called Playground AI.
+
+337
+00:21:28,120 --> 00:21:32,479
+It's a canvas-based platform where you have a 
+full workspace to move around and create in.
+
+338
+00:21:32,480 --> 00:21:34,760
+It looks intimidating at first, 
+but it's really powerful.
+
+339
+00:21:34,760 --> 00:21:37,080
+These are all just from today under the free plan.
+
+340
+00:21:37,080 --> 00:21:39,679
+When you're on the canvas you can 
+drag the corners here to change  
+
+341
+00:21:39,680 --> 00:21:43,520
+your size and aspect ratio, under the 
+frame is where you can type a prompt:
+
+342
+00:21:43,520 --> 00:21:46,480
+anthropomorphic frog playing a banjo
+
+343
+00:21:46,480 --> 00:21:49,120
+on the right are some options you 
+can learn and mess around with,  
+
+344
+00:21:49,120 --> 00:21:51,760
+I'll just use this one for 
+four generations at a time.
+
+345
+00:21:51,760 --> 00:21:56,320
+On the left is where we can choose the style to 
+apply to the image, it has a huge impact. This  
+
+346
+00:21:56,320 --> 00:22:00,360
+whole workspace was basically just me testing out 
+the different styles, I'll demo them in a second.
+
+347
+00:22:00,360 --> 00:22:03,080
+Hit generate and it goes pretty quick.
+
+348
+00:22:03,080 --> 00:22:05,919
+And every one of these looks amazing
+
+349
+00:22:05,920 --> 00:22:07,360
+[Music]
+
+350
+00:22:07,360 --> 00:22:10,120
+Let's say I like this composition 
+but want some variations,  
+
+351
+00:22:10,120 --> 00:22:13,800
+the image-to-image button will use 
+this as a reference image then I can  
+
+352
+00:22:13,800 --> 00:22:17,000
+adjust the strength over here. You 
+could adjust the prompt or style too
+
+353
+00:22:17,000 --> 00:22:18,560
+Now I've got four more to choose from.
+
+354
+00:22:18,560 --> 00:22:27,960
+That was all with the Haze style here's some 
+other of my favorite styles using the same prompt
+
+355
+00:22:27,960 --> 00:22:31,480
+[Music]
+
+356
+00:22:31,480 --> 00:22:36,000
+So we've got some cool images but there's a lot 
+more we can do. Up here was with the Neon Mecha  
+
+357
+00:22:36,000 --> 00:22:41,600
+style, these turned out awesome so I made a bunch. 
+I also did anthropomorphic frog playing a fiddle.
+
+358
+00:22:41,600 --> 00:22:44,520
+I didn't really prompt for scenery, 
+but these two looked similar and  
+
+359
+00:22:44,520 --> 00:22:50,480
+I want to merge them. I can move the 
+generation box over the gap and generate.
+
+360
+00:22:50,480 --> 00:22:53,520
+That combined them well but there 
+is this weird robot-looking thing  
+
+361
+00:22:53,520 --> 00:22:57,960
+right here. No worries, I'll just use the eraser.
+
+362
+00:22:58,920 --> 00:23:01,880
+That doesn't look perfect, but I'm going 
+to be bringing in a singer anyways.
+
+363
+00:23:01,880 --> 00:23:07,480
+This should look good, but I need to remove 
+the background so hit remove background.  
+
+364
+00:23:07,480 --> 00:23:12,040
+Then I'll drag it on here and make it look 
+nice, crop off the bottom, and there it is.
+
+365
+00:23:12,040 --> 00:23:13,800
+That's a fast and easy composite shot.
+
+366
+00:23:13,800 --> 00:23:17,600
+So I'll select the whole thing then copy 
+and paste, now it's one image I can export
+
+367
+00:23:17,600 --> 00:23:20,280
+There are tons and tons of other 
+features in here. If you want to learn,  
+
+368
+00:23:20,280 --> 00:23:22,280
+a really good resource is their YouTube channel.
+
+369
+00:23:22,280 --> 00:23:27,320
+Now that I've got this image, let's 
+see how it looks animated with Pika.
+
+370
+00:23:27,320 --> 00:23:30,760
+That's not bad, but I think there's just too 
+much going on with it. I had a ton of other  
+
+371
+00:23:30,760 --> 00:23:33,720
+images so I'm going to animate those 
+then I want to add a song from Suno.
+
+372
+00:23:33,720 --> 00:23:37,000
+I'll use the chirp command, and these 
+frogs have a kind of futuristic style.
+
+373
+00:23:37,000 --> 00:23:38,960
+They look like a prog rock band to me,  
+
+374
+00:23:38,960 --> 00:23:43,040
+then they're kind of cyborg-looking 
+so frog cyborg for the topic.
+
+375
+00:23:43,040 --> 00:23:45,560
+And actually, I think I have to do it...
+
+376
+00:23:45,560 --> 00:23:50,280
+yep, I can't help myself
+
+377
+00:23:50,280 --> 00:23:50,399
+[Music]
+
+378
+00:23:50,400 --> 00:23:51,680
+Alright, this song is so good.
+
+379
+00:23:51,680 --> 00:23:55,040
+I'm about to spend way too much time 
+making a frog cyborg music video,  
+
+380
+00:23:55,040 --> 00:23:56,760
+but I'll just use tools I covered in this video:
+
+381
+00:23:56,760 --> 00:23:58,160
+Playground, Pika, and Suno
+
+382
+00:23:58,160 --> 00:24:00,896
+[Music}
+
+383
+00:24:00,896 --> 00:24:03,147
+In the swamp, where the shadows creep
+
+384
+00:24:03,147 --> 00:24:05,938
+Legends rise from the waters deep
+
+385
+00:24:05,939 --> 00:24:07,120
+Frogs transformed by wires and steel
+
+386
+00:24:07,120 --> 00:24:12,226
+Cybernetic warriors ready to reveal
+
+387
+00:24:12,226 --> 00:24:15,200
+Frog cyborgs, leaping strong and free
+
+388
+00:24:15,200 --> 00:24:20,920
+With techno hearts, the future they decree
+
+389
+00:24:20,920 --> 00:24:25,520
+Rocking the lily pads, like never before
+
+390
+00:24:25,520 --> 00:24:27,800
+Frog cyborgs, an amphibious uproar
+
+391
+00:24:27,800 --> 00:24:28,000
+[Guitar Solo]
+
+392
+00:24:28,640 --> 00:24:52,803
+Frog cyborgs
+
+393
+00:24:52,803 --> 00:24:52,823
+An amphibious uproar
+
+394
+00:24:52,823 --> 00:24:52,840
+Amphibious uproar
+
+395
+00:24:52,840 --> 00:24:54,760
+Now that I've got that song stuck in your head,  
+
+396
+00:24:54,760 --> 00:24:59,120
+if you want to stay up to date on all of the 
+latest and greatest AI tools go to futurepedia.io
+
+397
+00:25:00,080 --> 00:25:05,159
+AI moves fast so a video like this can get 
+outdated but Futurepedia is constantly updated,  
+
+398
+00:25:05,160 --> 00:25:08,320
+and there's various filters to find 
+the best tool for whatever you need.
+
+399
+00:25:08,320 --> 00:25:12,320
+If you want all of those tools and tips to 
+implement them delivered directly to your inbox,  
+
+400
+00:25:12,320 --> 00:25:14,080
+subscribe to the newsletter while you're there.
+
+401
+00:25:14,080 --> 00:25:18,720
+And then like, comment, subscribe, all that stuff 
+too. I've got a lot of great content in the works
+

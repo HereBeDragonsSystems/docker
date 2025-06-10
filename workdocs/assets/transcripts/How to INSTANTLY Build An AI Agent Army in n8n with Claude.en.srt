@@ -1,0 +1,2656 @@
+﻿1
+00:00:00,000 --> 00:00:02,560
+Imagine building an entire army of
+
+2
+00:00:02,560 --> 00:00:04,799
+agents from just one prompt. In this
+
+3
+00:00:04,799 --> 00:00:06,560
+video, I'm going to show you exactly how
+
+4
+00:00:06,560 --> 00:00:09,599
+to use the new Cloud 4 Opus to instantly
+
+5
+00:00:09,599 --> 00:00:11,759
+generate an entire set of workflows.
+
+6
+00:00:11,759 --> 00:00:13,920
+You'll see firsthand how easy it is to
+
+7
+00:00:13,920 --> 00:00:16,640
+spin up a master orchestrating agent,
+
+8
+00:00:16,640 --> 00:00:18,640
+create specialized subworkflows that
+
+9
+00:00:18,640 --> 00:00:21,359
+report to that agent, and lastly, adding
+
+10
+00:00:21,359 --> 00:00:24,080
+tools dynamically to those sub agents
+
+11
+00:00:24,080 --> 00:00:25,680
+without you writing a line of code
+
+12
+00:00:25,680 --> 00:00:27,920
+yourself. And here's the craziest part.
+
+13
+00:00:27,920 --> 00:00:30,080
+This entire process will only take
+
+14
+00:00:30,080 --> 00:00:32,159
+minutes from start to finish. I'm going
+
+15
+00:00:32,159 --> 00:00:34,079
+to walk you through step by step on the
+
+16
+00:00:34,079 --> 00:00:36,480
+fastest way to build sophisticated agent
+
+17
+00:00:36,480 --> 00:00:38,559
+systems, even if you're completely new
+
+18
+00:00:38,559 --> 00:00:40,399
+to automation. Let's dive in. All right,
+
+19
+00:00:40,399 --> 00:00:41,760
+so we're going to tackle two different
+
+20
+00:00:41,760 --> 00:00:44,640
+ways to assemble your agent army. Both
+
+21
+00:00:44,640 --> 00:00:47,120
+involve only one prompt each, but one of
+
+22
+00:00:47,120 --> 00:00:48,480
+them is going to use a cloud project,
+
+23
+00:00:48,480 --> 00:00:49,920
+and one of them we're going to just send
+
+24
+00:00:49,920 --> 00:00:52,160
+a straight chat message. And before I
+
+25
+00:00:52,160 --> 00:00:53,840
+show you how this prompt works and how
+
+26
+00:00:53,840 --> 00:00:55,760
+this entire system works, let's just
+
+27
+00:00:55,760 --> 00:00:58,160
+prove that it does work. Now if you send
+
+28
+00:00:58,160 --> 00:01:00,960
+this entire prompt we have here along
+
+29
+00:01:00,960 --> 00:01:03,840
+with a series of files these are all
+
+30
+00:01:03,840 --> 00:01:06,400
+JSON files with one master agent right
+
+31
+00:01:06,400 --> 00:01:09,280
+here called retrofure master assistant
+
+32
+00:01:09,280 --> 00:01:11,680
+then you have all these subworkflows
+
+33
+00:01:11,680 --> 00:01:14,640
+that report to this orchestrating agent.
+
+34
+00:01:14,640 --> 00:01:16,880
+So pretty much we're using Cloud4 opus
+
+35
+00:01:16,880 --> 00:01:19,759
+and the power of extended thinking and
+
+36
+00:01:19,759 --> 00:01:22,159
+web search to be able to look at these
+
+37
+00:01:22,159 --> 00:01:24,640
+files, get a handle for how to create
+
+38
+00:01:24,640 --> 00:01:26,799
+the AI agent module, how they connect
+
+39
+00:01:26,799 --> 00:01:28,720
+together, what kind of tools can be
+
+40
+00:01:28,720 --> 00:01:31,040
+attached, and if we need to supplement
+
+41
+00:01:31,040 --> 00:01:33,119
+this information with additional
+
+42
+00:01:33,119 --> 00:01:35,200
+information not in Claude's training, we
+
+43
+00:01:35,200 --> 00:01:37,200
+can use web search, which is a newer
+
+44
+00:01:37,200 --> 00:01:38,960
+feature in the past couple months. And
+
+45
+00:01:38,960 --> 00:01:40,799
+if we're using Opus, all we have to do
+
+46
+00:01:40,799 --> 00:01:43,280
+is wait around five to 10 minutes for it
+
+47
+00:01:43,280 --> 00:01:45,439
+to run through this entire workflow. And
+
+48
+00:01:45,439 --> 00:01:48,399
+you'll see it first drafts multiple sets
+
+49
+00:01:48,399 --> 00:01:50,640
+of agents that it could put together.
+
+50
+00:01:50,640 --> 00:01:52,479
+And then if I ask it for just a sample
+
+51
+00:01:52,479 --> 00:01:54,880
+of three of these agents and after 5 to
+
+52
+00:01:54,880 --> 00:01:57,520
+10 minutes, Claude 4 Opus uses all its
+
+53
+00:01:57,520 --> 00:01:59,920
+tools at its disposal to come up with
+
+54
+00:01:59,920 --> 00:02:02,399
+not just a draft of different agents,
+
+55
+00:02:02,399 --> 00:02:05,280
+but it will create a draft of the first
+
+56
+00:02:05,280 --> 00:02:06,880
+three agents. And if you want, you can
+
+57
+00:02:06,880 --> 00:02:09,199
+keep going and say create the rest. And
+
+58
+00:02:09,199 --> 00:02:11,680
+the result is you get a series of JSON
+
+59
+00:02:11,680 --> 00:02:13,920
+files like this one. And you can click
+
+60
+00:02:13,920 --> 00:02:15,440
+on the little drop down here. You'll see
+
+61
+00:02:15,440 --> 00:02:17,120
+we've put together all of these
+
+62
+00:02:17,120 --> 00:02:19,840
+different agents with one single prompt.
+
+63
+00:02:19,840 --> 00:02:23,280
+And then we can just go here, copy, and
+
+64
+00:02:23,280 --> 00:02:26,800
+seamlessly go into NANE, paste this, and
+
+65
+00:02:26,800 --> 00:02:29,520
+now you have an agent that isn't just an
+
+66
+00:02:29,520 --> 00:02:31,440
+empty agent. You can double click and
+
+67
+00:02:31,440 --> 00:02:34,000
+you'll see that an entire prompt on how
+
+68
+00:02:34,000 --> 00:02:36,319
+the agent works and how it should use
+
+69
+00:02:36,319 --> 00:02:38,879
+all of its sub tools is set up for you
+
+70
+00:02:38,879 --> 00:02:41,360
+literally in minutes and ready to go.
+
+71
+00:02:41,360 --> 00:02:43,120
+And if you click out, you'll see all the
+
+72
+00:02:43,120 --> 00:02:44,720
+different sub workflows that it's come
+
+73
+00:02:44,720 --> 00:02:46,959
+up with that it thinks would be suitable
+
+74
+00:02:46,959 --> 00:02:49,200
+for this kind of business or this kind
+
+75
+00:02:49,200 --> 00:02:51,040
+of task they're trying to accomplish.
+
+76
+00:02:51,040 --> 00:02:53,599
+But wait, there's more. We don't just
+
+77
+00:02:53,599 --> 00:02:55,920
+create these subworkflow drafts. It
+
+78
+00:02:55,920 --> 00:02:57,920
+actually can create the subworkflows
+
+79
+00:02:57,920 --> 00:02:59,920
+themselves. So if we click from tab to
+
+80
+00:02:59,920 --> 00:03:02,720
+tab here, this is the first workflow put
+
+81
+00:03:02,720 --> 00:03:04,080
+together which is called the
+
+82
+00:03:04,080 --> 00:03:06,640
+sustainability impact agent where it has
+
+83
+00:03:06,640 --> 00:03:08,959
+access to different tools that it has
+
+84
+00:03:08,959 --> 00:03:11,519
+decided make the most sense given this
+
+85
+00:03:11,519 --> 00:03:14,239
+agents ambitions. And once again all of
+
+86
+00:03:14,239 --> 00:03:16,239
+these sub agents have instructions of
+
+87
+00:03:16,239 --> 00:03:18,239
+their own with a reference material on
+
+88
+00:03:18,239 --> 00:03:21,120
+how to call their subtools as well. So
+
+89
+00:03:21,120 --> 00:03:22,879
+now we basically are creating agent
+
+90
+00:03:22,879 --> 00:03:25,040
+section where each agent has another
+
+91
+00:03:25,040 --> 00:03:27,120
+agent and both of them have instructions
+
+92
+00:03:27,120 --> 00:03:28,720
+on how they should operate. If we keep
+
+93
+00:03:28,720 --> 00:03:30,000
+going, you'll see all the different
+
+94
+00:03:30,000 --> 00:03:32,480
+agents here from the lodge coordination
+
+95
+00:03:32,480 --> 00:03:35,120
+agent to the real-time conditions agent,
+
+96
+00:03:35,120 --> 00:03:37,680
+each with not only its own set of tools,
+
+97
+00:03:37,680 --> 00:03:39,200
+but it's smart enough to decide whether
+
+98
+00:03:39,200 --> 00:03:41,519
+or not it should use maybe chat GBT
+
+99
+00:03:41,519 --> 00:03:44,640
+OpenAI or anthropics model for the given
+
+100
+00:03:44,640 --> 00:03:46,799
+task as well. So, we have that dynamic
+
+101
+00:03:46,799 --> 00:03:49,120
+nature there. And then you have your
+
+102
+00:03:49,120 --> 00:03:51,280
+entire set of agents with different
+
+103
+00:03:51,280 --> 00:03:53,040
+tools with different functionalities and
+
+104
+00:03:53,040 --> 00:03:55,680
+ambitions all reporting to the central
+
+105
+00:03:55,680 --> 00:03:57,280
+agent itself. Now, before we get into
+
+106
+00:03:57,280 --> 00:03:59,760
+the nitty-gritty of the prompt itself, I
+
+107
+00:03:59,760 --> 00:04:01,599
+want to walk you through the logic of
+
+108
+00:04:01,599 --> 00:04:03,760
+how this works and why this works. So,
+
+109
+00:04:03,760 --> 00:04:05,519
+not too long ago, we were all blessed
+
+110
+00:04:05,519 --> 00:04:07,680
+with yet another model. In this case, we
+
+111
+00:04:07,680 --> 00:04:09,680
+got the Cloud 4 model where we have
+
+112
+00:04:09,680 --> 00:04:12,640
+Claude 4 sonnet and Cloud4 opus. Not
+
+113
+00:04:12,640 --> 00:04:15,040
+only that, when you combine Claude 4
+
+114
+00:04:15,040 --> 00:04:17,199
+with extended thinking, a feature
+
+115
+00:04:17,199 --> 00:04:19,759
+available to all, as well as web search,
+
+116
+00:04:19,759 --> 00:04:21,440
+something also newly available in the
+
+117
+00:04:21,440 --> 00:04:24,479
+past month or so, it becomes a trifecta.
+
+118
+00:04:24,479 --> 00:04:27,520
+this perfect marriage of intelligence
+
+119
+00:04:27,520 --> 00:04:30,000
+with the ability to search as well as an
+
+120
+00:04:30,000 --> 00:04:31,759
+extension of reflection over time. If
+
+121
+00:04:31,759 --> 00:04:33,520
+you've watched my past video, you
+
+122
+00:04:33,520 --> 00:04:35,040
+already know that it's possible to
+
+123
+00:04:35,040 --> 00:04:37,759
+create out of the box and end workflows
+
+124
+00:04:37,759 --> 00:04:40,080
+just using claude. And previously, I had
+
+125
+00:04:40,080 --> 00:04:42,080
+to supplement it with a cheat sheet, a
+
+126
+00:04:42,080 --> 00:04:43,840
+series of nodes for it to understand.
+
+127
+00:04:43,840 --> 00:04:45,520
+But now that we have web search at our
+
+128
+00:04:45,520 --> 00:04:48,080
+disposal and extended thinking together,
+
+129
+00:04:48,080 --> 00:04:50,479
+we can not only use the power of claude
+
+130
+00:04:50,479 --> 00:04:52,560
+that natively is decent at any
+
+131
+00:04:52,560 --> 00:04:54,240
+workflows, but now we can really
+
+132
+00:04:54,240 --> 00:04:56,720
+supercharge it with examples of these
+
+133
+00:04:56,720 --> 00:04:58,960
+agents and just allow it to do a monkey
+
+134
+00:04:58,960 --> 00:05:02,080
+see monkey do understand the structure,
+
+135
+00:05:02,080 --> 00:05:04,160
+understand how these tools are attached
+
+136
+00:05:04,160 --> 00:05:06,160
+and understand the relationship of
+
+137
+00:05:06,160 --> 00:05:08,080
+subworkflows to different types of
+
+138
+00:05:08,080 --> 00:05:10,320
+agents. Now the most central concept
+
+139
+00:05:10,320 --> 00:05:13,680
+here is the AI agent module in NAIDEN.
+
+140
+00:05:13,680 --> 00:05:15,360
+And this module is based on something
+
+141
+00:05:15,360 --> 00:05:17,680
+called Langchain which is a framework
+
+142
+00:05:17,680 --> 00:05:19,680
+that really changed the entire course of
+
+143
+00:05:19,680 --> 00:05:22,000
+the NAN community where now you have
+
+144
+00:05:22,000 --> 00:05:23,520
+some central agent that takes in a
+
+145
+00:05:23,520 --> 00:05:25,440
+prompt that can speak to different
+
+146
+00:05:25,440 --> 00:05:28,000
+tools, can use a language model and can
+
+147
+00:05:28,000 --> 00:05:30,080
+use an internal memory. And overall,
+
+148
+00:05:30,080 --> 00:05:32,720
+NADN, like every other automation tool,
+
+149
+00:05:32,720 --> 00:05:35,360
+uses JSON, which stands for JavaScript
+
+150
+00:05:35,360 --> 00:05:38,560
+object notation to denote and be able to
+
+151
+00:05:38,560 --> 00:05:40,240
+bring these workflows to life the way
+
+152
+00:05:40,240 --> 00:05:41,759
+you see them visually. The fact that
+
+153
+00:05:41,759 --> 00:05:44,320
+they're all based on JSON, allows us to
+
+154
+00:05:44,320 --> 00:05:47,039
+manipulate and generate these JSONs
+
+155
+00:05:47,039 --> 00:05:48,960
+using a language model like Cloudfar
+
+156
+00:05:48,960 --> 00:05:50,960
+Opus to be able to basically be able to
+
+157
+00:05:50,960 --> 00:05:52,720
+create the JSON itself, the entire
+
+158
+00:05:52,720 --> 00:05:55,600
+schema, and import it into any. But
+
+159
+00:05:55,600 --> 00:05:57,680
+unlike typical workflows they would have
+
+160
+00:05:57,680 --> 00:05:59,680
+seen my tutorial and probably tons of
+
+161
+00:05:59,680 --> 00:06:02,000
+other tutorials coming out on this AI
+
+162
+00:06:02,000 --> 00:06:04,639
+agent tool is special not just in the
+
+163
+00:06:04,639 --> 00:06:06,639
+sense of what it can do but how it
+
+164
+00:06:06,639 --> 00:06:08,400
+operates. So if we take a look at the
+
+165
+00:06:08,400 --> 00:06:11,600
+tools here you can't just use any tool
+
+166
+00:06:11,600 --> 00:06:13,759
+from a specific provider. There are
+
+167
+00:06:13,759 --> 00:06:15,919
+different functionalities or methods
+
+168
+00:06:15,919 --> 00:06:18,479
+available to the AI agent that aren't
+
+169
+00:06:18,479 --> 00:06:20,160
+necessarily the only functionalities you
+
+170
+00:06:20,160 --> 00:06:21,840
+can have. For example, you might have a
+
+171
+00:06:21,840 --> 00:06:24,400
+node that allows you to watch new rows
+
+172
+00:06:24,400 --> 00:06:26,319
+being added to a Google sheet, right?
+
+173
+00:06:26,319 --> 00:06:28,479
+And every time you watch a new row come
+
+174
+00:06:28,479 --> 00:06:31,120
+in, that triggers an entire workflow.
+
+175
+00:06:31,120 --> 00:06:32,960
+Technically, with an AI agent, they
+
+176
+00:06:32,960 --> 00:06:34,960
+wouldn't really play very well. An AI
+
+177
+00:06:34,960 --> 00:06:37,039
+agent would want some form of very
+
+178
+00:06:37,039 --> 00:06:39,440
+specific action to occur that's
+
+179
+00:06:39,440 --> 00:06:40,880
+triggered externally from the agent
+
+180
+00:06:40,880 --> 00:06:42,560
+itself. So taking the Google Sheets
+
+181
+00:06:42,560 --> 00:06:44,880
+example, it would be able to add a new
+
+182
+00:06:44,880 --> 00:06:47,520
+row, receive new rows, search new rows,
+
+183
+00:06:47,520 --> 00:06:48,960
+something that's very functional and
+
+184
+00:06:48,960 --> 00:06:52,160
+isn't necessarily triggerbased.
+
+185
+00:06:52,160 --> 00:06:53,919
+So, keeping that in mind, if you were
+
+186
+00:06:53,919 --> 00:06:56,319
+just to ask Claude out of the box, build
+
+187
+00:06:56,319 --> 00:06:58,800
+me an AI agent workflow, you could get
+
+188
+00:06:58,800 --> 00:07:00,720
+some results that are decent, but it
+
+189
+00:07:00,720 --> 00:07:02,440
+will basically struggle with
+
+190
+00:07:02,440 --> 00:07:05,039
+understanding what tools it can use, but
+
+191
+00:07:05,039 --> 00:07:06,479
+most likely it will struggle to
+
+192
+00:07:06,479 --> 00:07:09,360
+delineate between what tools can it use,
+
+193
+00:07:09,360 --> 00:07:11,440
+what are the nodes that I can write JSON
+
+194
+00:07:11,440 --> 00:07:14,080
+for to visualize those tools, and most
+
+195
+00:07:14,080 --> 00:07:15,599
+importantly, what are the different
+
+196
+00:07:15,599 --> 00:07:17,599
+tiers of methods that I can have access
+
+197
+00:07:17,599 --> 00:07:20,319
+to as an AI agent, which is different
+
+198
+00:07:20,319 --> 00:07:21,919
+from a standard workflow you put
+
+199
+00:07:21,919 --> 00:07:23,039
+together and edit it in. And I'm not
+
+200
+00:07:23,039 --> 00:07:24,319
+spoiling the rest of the video by
+
+201
+00:07:24,319 --> 00:07:26,560
+telling you that the crux of being able
+
+202
+00:07:26,560 --> 00:07:29,280
+to do this entire process relies on the
+
+203
+00:07:29,280 --> 00:07:31,840
+ability to create these tools reliably
+
+204
+00:07:31,840 --> 00:07:34,800
+in the exact way that the AI agent node
+
+205
+00:07:34,800 --> 00:07:36,960
+expects. So the overall goal is that
+
+206
+00:07:36,960 --> 00:07:39,759
+we're able to create a series of JSONs.
+
+207
+00:07:39,759 --> 00:07:42,400
+One that acts as our orchestrator and
+
+208
+00:07:42,400 --> 00:07:44,880
+the others that act as our sub aents.
+
+209
+00:07:44,880 --> 00:07:46,720
+All of which ideally don't have their
+
+210
+00:07:46,720 --> 00:07:48,479
+own subworkflows because then you'll
+
+211
+00:07:48,479 --> 00:07:50,560
+have agents with subworkflows with
+
+212
+00:07:50,560 --> 00:07:52,800
+subworkflows and this entire chain can
+
+213
+00:07:52,800 --> 00:07:54,639
+keep going on. Now you can totally do
+
+214
+00:07:54,639 --> 00:07:57,120
+that if you wish but for simplicity sake
+
+215
+00:07:57,120 --> 00:07:59,520
+I ideally wanted to just go from
+
+216
+00:07:59,520 --> 00:08:01,680
+orchestrating agent to sub workflows
+
+217
+00:08:01,680 --> 00:08:03,360
+that all have tools. So that's the
+
+218
+00:08:03,360 --> 00:08:04,960
+general structure that we're going for
+
+219
+00:08:04,960 --> 00:08:06,720
+at least with our approach. So now that
+
+220
+00:08:06,720 --> 00:08:08,639
+we have that background, we're safe to
+
+221
+00:08:08,639 --> 00:08:10,720
+dive straight into this prompt. And just
+
+222
+00:08:10,720 --> 00:08:12,639
+for the pure comprehension of every
+
+223
+00:08:12,639 --> 00:08:14,400
+part, I will read through it and
+
+224
+00:08:14,400 --> 00:08:16,160
+basically give a voice over for the
+
+225
+00:08:16,160 --> 00:08:17,440
+parts you should really care about.
+
+226
+00:08:17,440 --> 00:08:19,759
+Okay, so let's give it a read. You are
+
+227
+00:08:19,759 --> 00:08:22,319
+an expert NAND workflow architect and
+
+228
+00:08:22,319 --> 00:08:25,120
+systems designer. Your primary mission
+
+229
+00:08:25,120 --> 00:08:27,120
+is to generate a comprehensive,
+
+230
+00:08:27,120 --> 00:08:30,319
+functional and importable NAN AI agent
+
+231
+00:08:30,319 --> 00:08:32,760
+system based on the provided business
+
+232
+00:08:32,760 --> 00:08:35,120
+description strictly emulating the
+
+233
+00:08:35,120 --> 00:08:36,880
+structural patterns, node types and
+
+234
+00:08:36,880 --> 00:08:38,640
+connection methods. So in this case, I'm
+
+235
+00:08:38,640 --> 00:08:40,399
+just giving it a series of examples
+
+236
+00:08:40,399 --> 00:08:42,399
+here. So especially for the AI agent
+
+237
+00:08:42,399 --> 00:08:45,519
+nodes and their tools via AI tool. So
+
+238
+00:08:45,519 --> 00:08:47,600
+this here is a part of the underlying
+
+239
+00:08:47,600 --> 00:08:50,399
+JSON that basically denotes to the agent
+
+240
+00:08:50,399 --> 00:08:52,160
+what is attached to that agent and
+
+241
+00:08:52,160 --> 00:08:54,080
+that's where the attachment of the tools
+
+242
+00:08:54,080 --> 00:08:55,680
+comes into play. We then say your
+
+243
+00:08:55,680 --> 00:08:57,279
+paramount goals are to ensure all
+
+244
+00:08:57,279 --> 00:09:00,160
+generated N&N workflow JSON is 100%
+
+245
+00:09:00,160 --> 00:09:01,839
+valid meaning it's not corrupt,
+
+246
+00:09:01,839 --> 00:09:04,480
+importable and entirely free of property
+
+247
+00:09:04,480 --> 00:09:06,480
+value errors. Now what are property
+
+248
+00:09:06,480 --> 00:09:08,480
+value errors? These errors pop up quite
+
+249
+00:09:08,480 --> 00:09:10,800
+a bit when the JSON is generated by some
+
+250
+00:09:10,800 --> 00:09:12,720
+form of language model, but it's missing
+
+251
+00:09:12,720 --> 00:09:14,880
+key parameters or key components that
+
+252
+00:09:14,880 --> 00:09:17,200
+any is expecting because it's expecting
+
+253
+00:09:17,200 --> 00:09:18,800
+those and it needs those to be able to
+
+254
+00:09:18,800 --> 00:09:20,560
+visualize it the way you see it on a
+
+255
+00:09:20,560 --> 00:09:22,560
+screen. It's not able to actually import
+
+256
+00:09:22,560 --> 00:09:24,800
+it. So, I'm trying to have it reflect
+
+257
+00:09:24,800 --> 00:09:26,720
+using that extended thinking function
+
+258
+00:09:26,720 --> 00:09:28,800
+and make sure that before we import it
+
+259
+00:09:28,800 --> 00:09:30,640
+into NADN, there's a very high
+
+260
+00:09:30,640 --> 00:09:32,399
+likelihood that it's going to actually
+
+261
+00:09:32,399 --> 00:09:33,920
+work. Next, I instructed that there's
+
+262
+00:09:33,920 --> 00:09:36,240
+going to be two distinct stages. First,
+
+263
+00:09:36,240 --> 00:09:38,080
+after analyzing the business description
+
+264
+00:09:38,080 --> 00:09:40,399
+provided at the end of this message, you
+
+265
+00:09:40,399 --> 00:09:42,480
+must conceptualize and list directly in
+
+266
+00:09:42,480 --> 00:09:44,320
+the chat six to eight potential
+
+267
+00:09:44,320 --> 00:09:46,399
+specialized AI agent names. So, in this
+
+268
+00:09:46,399 --> 00:09:48,320
+case, I'm saying I want you to come up
+
+269
+00:09:48,320 --> 00:09:51,200
+with six to eight ideas. Brainstorm on
+
+270
+00:09:51,200 --> 00:09:53,040
+the types of agents we want to create.
+
+271
+00:09:53,040 --> 00:09:54,640
+This gives us a baseline to actually
+
+272
+00:09:54,640 --> 00:09:57,040
+work from. Now the next part is for each
+
+273
+00:09:57,040 --> 00:09:58,800
+of the conceptual agents provide a
+
+274
+00:09:58,800 --> 00:10:01,359
+concise
+
+275
+00:10:03,959 --> 00:10:06,600
+one-sensit nodes or verifiable public
+
+276
+00:10:06,600 --> 00:10:09,440
+APIs that your web search for tools not
+
+277
+00:10:09,440 --> 00:10:11,440
+covered in provided examples indicates
+
+278
+00:10:11,440 --> 00:10:12,880
+would be the most appropriate for these
+
+279
+00:10:12,880 --> 00:10:14,880
+tasks. Do not proceed with any
+
+280
+00:10:14,880 --> 00:10:17,040
+unverified or hallucinated tools or
+
+281
+00:10:17,040 --> 00:10:19,519
+APIs. Now what is this last part about
+
+282
+00:10:19,519 --> 00:10:22,240
+here? Hallucinated tools or APIs. Once
+
+283
+00:10:22,240 --> 00:10:24,640
+in a while, even using Opus, it will
+
+284
+00:10:24,640 --> 00:10:27,440
+create a tool that is a fictional
+
+285
+00:10:27,440 --> 00:10:31,040
+non-existent API specific to company X.
+
+286
+00:10:31,040 --> 00:10:33,120
+So imagine you said company X has these
+
+287
+00:10:33,120 --> 00:10:35,360
+services, they have this stack. It might
+
+288
+00:10:35,360 --> 00:10:37,519
+accidentally create an HTTP request,
+
+289
+00:10:37,519 --> 00:10:41,560
+which is a request to an API and call it
+
+290
+00:10:41,560 --> 00:10:43,760
+company.x.api and basically make it out
+
+291
+00:10:43,760 --> 00:10:45,839
+of thin air, which is not what we want.
+
+292
+00:10:45,839 --> 00:10:47,279
+We want our tools to have a high
+
+293
+00:10:47,279 --> 00:10:49,839
+likelihood of being grounded and being
+
+294
+00:10:49,839 --> 00:10:51,680
+actually functional. And from these six
+
+295
+00:10:51,680 --> 00:10:53,040
+to eight ideas we come up with, we
+
+296
+00:10:53,040 --> 00:10:54,560
+actually just want to start with
+
+297
+00:10:54,560 --> 00:10:57,040
+creating three of the most impactful of
+
+298
+00:10:57,040 --> 00:10:58,640
+these workflows. Now, there's two
+
+299
+00:10:58,640 --> 00:10:59,839
+different reasons why I'm saying three
+
+300
+00:10:59,839 --> 00:11:02,160
+here. First of all, if you let it create
+
+301
+00:11:02,160 --> 00:11:04,640
+six to eight workflows in one shot and
+
+302
+00:11:04,640 --> 00:11:07,120
+you're just on the Claude Pro plan using
+
+303
+00:11:07,120 --> 00:11:09,279
+Cloud Opus and extended thinking, you
+
+304
+00:11:09,279 --> 00:11:12,160
+might completely use all your credits in
+
+305
+00:11:12,160 --> 00:11:14,880
+one shot. So when I say three, it just
+
+306
+00:11:14,880 --> 00:11:16,880
+gives you the ability to quickly audit
+
+307
+00:11:16,880 --> 00:11:18,640
+whether or not it's working, whether or
+
+308
+00:11:18,640 --> 00:11:20,640
+not it's adding the tools you'd expect
+
+309
+00:11:20,640 --> 00:11:23,120
+before you commit and donate all your
+
+310
+00:11:23,120 --> 00:11:25,440
+credits for the next 6 to 7 hours to
+
+311
+00:11:25,440 --> 00:11:27,040
+Anthropic. And the second reason is
+
+312
+00:11:27,040 --> 00:11:28,560
+obviously time because this will take at
+
+313
+00:11:28,560 --> 00:11:30,560
+least 5 to 10 minutes to put together
+
+314
+00:11:30,560 --> 00:11:32,320
+and you don't want to wait half an hour
+
+315
+00:11:32,320 --> 00:11:34,320
+all to find out that seven of your
+
+316
+00:11:34,320 --> 00:11:36,000
+workflows are completely not usable.
+
+317
+00:11:36,000 --> 00:11:38,000
+Now, this second stage is completely
+
+318
+00:11:38,000 --> 00:11:40,240
+optional. And if you want to move ahead
+
+319
+00:11:40,240 --> 00:11:42,079
+and complete the remaining of the
+
+320
+00:11:42,079 --> 00:11:43,680
+initial draft of agents they came up
+
+321
+00:11:43,680 --> 00:11:45,519
+with, then you can just say, "Cool, you
+
+322
+00:11:45,519 --> 00:11:47,360
+did a great job. Let's finish off with
+
+323
+00:11:47,360 --> 00:11:48,880
+the rest of the agents." And then with
+
+324
+00:11:48,880 --> 00:11:50,640
+this instruction, it should know exactly
+
+325
+00:11:50,640 --> 00:11:52,640
+what it next step should be. Now, if we
+
+326
+00:11:52,640 --> 00:11:54,160
+scroll down, I want to focus on this
+
+327
+00:11:54,160 --> 00:11:56,079
+specific instruction here that says,
+
+328
+00:11:56,079 --> 00:11:58,720
+"These specialized agents should utilize
+
+329
+00:11:58,720 --> 00:12:01,519
+two to three with an absolute maximum of
+
+330
+00:12:01,519 --> 00:12:04,399
+five, if genuinely distinct, critical,
+
+331
+00:12:04,399 --> 00:12:07,120
+and verifiable, real tools, and must
+
+332
+00:12:07,120 --> 00:12:09,200
+have correctly connected response and
+
+333
+00:12:09,200 --> 00:12:11,279
+try again set nodes wired to the
+
+334
+00:12:11,279 --> 00:12:13,600
+respective AI agent node success and
+
+335
+00:12:13,600 --> 00:12:14,800
+error outputs." And what does that mean
+
+336
+00:12:14,800 --> 00:12:17,200
+in plain English? If we pop over to the
+
+337
+00:12:17,200 --> 00:12:19,120
+second tab here, all we're asking is
+
+338
+00:12:19,120 --> 00:12:21,120
+that whatever tools you choose, make
+
+339
+00:12:21,120 --> 00:12:22,639
+sure they're legit tools. They're not
+
+340
+00:12:22,639 --> 00:12:26,160
+made up. And number two, connect a set
+
+341
+00:12:26,160 --> 00:12:29,360
+response and a try again step for the AI
+
+342
+00:12:29,360 --> 00:12:31,360
+agent in case something goes wrong, it
+
+343
+00:12:31,360 --> 00:12:32,800
+can try again in case there's some form
+
+344
+00:12:32,800 --> 00:12:35,360
+of temporary error. And with that, if we
+
+345
+00:12:35,360 --> 00:12:38,560
+go back, we just finish off by adding
+
+346
+00:12:38,560 --> 00:12:40,320
+the business description of the
+
+347
+00:12:40,320 --> 00:12:41,920
+underlying business. And this is what
+
+348
+00:12:41,920 --> 00:12:44,000
+makes this so powerful that you can use
+
+349
+00:12:44,000 --> 00:12:45,760
+this entire prompt and you just change
+
+350
+00:12:45,760 --> 00:12:47,680
+the very bottom. And the reason why I
+
+351
+00:12:47,680 --> 00:12:49,200
+added this business at the very bottom
+
+352
+00:12:49,200 --> 00:12:51,120
+is when it comes to prompt engineering,
+
+353
+00:12:51,120 --> 00:12:53,120
+at least for now, a prompt will
+
+354
+00:12:53,120 --> 00:12:55,360
+typically be paid attention to at the
+
+355
+00:12:55,360 --> 00:12:57,120
+very beginning and the very end of the
+
+356
+00:12:57,120 --> 00:12:59,120
+prompt. So we want to make sure that the
+
+357
+00:12:59,120 --> 00:13:01,200
+business and the underlying mechanisms
+
+358
+00:13:01,200 --> 00:13:02,959
+of that business are really paid
+
+359
+00:13:02,959 --> 00:13:04,800
+attention to by the language model. In
+
+360
+00:13:04,800 --> 00:13:06,480
+this case, I won't read all of this, but
+
+361
+00:13:06,480 --> 00:13:08,240
+pretty much it goes through this fake
+
+362
+00:13:08,240 --> 00:13:10,320
+business that I came up with that has a
+
+363
+00:13:10,320 --> 00:13:12,639
+series of different operations, and
+
+364
+00:13:12,639 --> 00:13:14,000
+we're just trying to find ways to
+
+365
+00:13:14,000 --> 00:13:15,600
+optimize for those operations. Now,
+
+366
+00:13:15,600 --> 00:13:17,440
+where this becomes super exciting is
+
+367
+00:13:17,440 --> 00:13:19,600
+when we add specifications for what kind
+
+368
+00:13:19,600 --> 00:13:22,240
+of tools are using, and we find a way to
+
+369
+00:13:22,240 --> 00:13:24,399
+create a cloud project to make a much
+
+370
+00:13:24,399 --> 00:13:26,320
+more sophisticated version of this
+
+371
+00:13:26,320 --> 00:13:27,680
+prompt. But just in case you missed
+
+372
+00:13:27,680 --> 00:13:29,600
+something on this prompt, I'll be making
+
+373
+00:13:29,600 --> 00:13:31,519
+this available in the description below
+
+374
+00:13:31,519 --> 00:13:33,600
+so you can go through it, change it, and
+
+375
+00:13:33,600 --> 00:13:34,800
+do whatever you want to your heart's
+
+376
+00:13:34,800 --> 00:13:37,200
+content to optimize it for your oneshot
+
+377
+00:13:37,200 --> 00:13:38,959
+workflow. Now, for our next three
+
+378
+00:13:38,959 --> 00:13:40,480
+samples we're going to take a look at,
+
+379
+00:13:40,480 --> 00:13:42,639
+we're going to analyze three completely
+
+380
+00:13:42,639 --> 00:13:45,120
+hypothetical businesses. One is called
+
+381
+00:13:45,120 --> 00:13:47,680
+Flexiflow Studios. That's a Tik Tok
+
+382
+00:13:47,680 --> 00:13:49,839
+agency. We're going to look at a dessert
+
+383
+00:13:49,839 --> 00:13:52,320
+place called Unicorn Milkshake. And then
+
+384
+00:13:52,320 --> 00:13:54,480
+we're going to look at Chaos Coffee.
+
+385
+00:13:54,480 --> 00:13:57,279
+Each of them uses different tools but
+
+386
+00:13:57,279 --> 00:13:59,199
+they have some similarities. So
+
+387
+00:13:59,199 --> 00:14:01,760
+Flexiflow uses things like ClickUp, Air
+
+388
+00:14:01,760 --> 00:14:04,560
+Table and Slack and Google. And then
+
+389
+00:14:04,560 --> 00:14:07,600
+Unicorn Milkshake uses Zoom as well as
+
+390
+00:14:07,600 --> 00:14:10,079
+those tools as well and monday.com. And
+
+391
+00:14:10,079 --> 00:14:12,720
+then Chaos Coffee uses a mixture of what
+
+392
+00:14:12,720 --> 00:14:14,480
+both of these use. Now this is a
+
+393
+00:14:14,480 --> 00:14:16,320
+purposeful example because of the big
+
+394
+00:14:16,320 --> 00:14:18,240
+trick and the big nugget I'm about to
+
+395
+00:14:18,240 --> 00:14:20,240
+show you next. If we pop into our Cloud
+
+396
+00:14:20,240 --> 00:14:22,000
+project, we have quite a few different
+
+397
+00:14:22,000 --> 00:14:24,160
+things going on here. We have a cheat
+
+398
+00:14:24,160 --> 00:14:26,320
+sheet guide that we put together. We
+
+399
+00:14:26,320 --> 00:14:30,600
+also have a special file here called
+
+400
+00:14:30,600 --> 00:14:32,160
+agents_tools.json. And this is going to
+
+401
+00:14:32,160 --> 00:14:33,440
+be the golden nugget you're going to
+
+402
+00:14:33,440 --> 00:14:35,440
+learn from this video. And then we have
+
+403
+00:14:35,440 --> 00:14:37,760
+just another set of workflows that have
+
+404
+00:14:37,760 --> 00:14:39,680
+some form of master orchestrating agent
+
+405
+00:14:39,680 --> 00:14:42,240
+and sub aents. And what I'll do is along
+
+406
+00:14:42,240 --> 00:14:43,760
+with that prompt I provided you
+
+407
+00:14:43,760 --> 00:14:45,760
+initially, I'll also provide you with a
+
+408
+00:14:45,760 --> 00:14:47,680
+series of files that you can use as well
+
+409
+00:14:47,680 --> 00:14:50,079
+to add to a project or use in a prompt.
+
+410
+00:14:50,079 --> 00:14:51,360
+So you can use this as well without
+
+411
+00:14:51,360 --> 00:14:53,120
+having to build that initial workflow
+
+412
+00:14:53,120 --> 00:14:54,880
+yourself. Now for this prompt, it took
+
+413
+00:14:54,880 --> 00:14:56,880
+so much time that I refused for it to be
+
+414
+00:14:56,880 --> 00:14:59,279
+copycatted all over YouTube. So this
+
+415
+00:14:59,279 --> 00:15:01,360
+prompt will be available to my early AI
+
+416
+00:15:01,360 --> 00:15:03,279
+adopters community members exclusively
+
+417
+00:15:03,279 --> 00:15:05,519
+in the community. But for the rest, I
+
+418
+00:15:05,519 --> 00:15:07,839
+will walk you through how this agent
+
+419
+00:15:07,839 --> 00:15:10,480
+tools file works because this will open
+
+420
+00:15:10,480 --> 00:15:12,240
+so many doors for you. If we go into
+
+421
+00:15:12,240 --> 00:15:14,800
+this agent tools aen, you'll think that
+
+422
+00:15:14,800 --> 00:15:18,800
+I'm a madman for putting one AI agent
+
+423
+00:15:18,800 --> 00:15:22,720
+with multiple many tools. Now, do I
+
+424
+00:15:22,720 --> 00:15:25,279
+intend on ever running this workflow?
+
+425
+00:15:25,279 --> 00:15:27,360
+No. What I'm doing is a bit of a cheat
+
+426
+00:15:27,360 --> 00:15:30,000
+code. If you remember before, if you go
+
+427
+00:15:30,000 --> 00:15:32,399
+to something like, let's say, Asana,
+
+428
+00:15:32,399 --> 00:15:34,480
+which is a project management tool, and
+
+429
+00:15:34,480 --> 00:15:35,720
+you go under
+
+430
+00:15:35,720 --> 00:15:37,920
+options, while you can use all of these
+
+431
+00:15:37,920 --> 00:15:41,040
+in any, the AI agent module, like I said
+
+432
+00:15:41,040 --> 00:15:42,959
+before, can't necessarily use all of
+
+433
+00:15:42,959 --> 00:15:45,360
+these tools. It can use a subset of
+
+434
+00:15:45,360 --> 00:15:47,519
+these different methods. So, if I had
+
+435
+00:15:47,519 --> 00:15:49,440
+some form of trigger action, let's go
+
+436
+00:15:49,440 --> 00:15:51,920
+here on a new asana event. Let's just
+
+437
+00:15:51,920 --> 00:15:53,120
+bring this to the board because this is
+
+438
+00:15:53,120 --> 00:15:55,279
+the easiest way for you to understand
+
+439
+00:15:55,279 --> 00:15:57,600
+what's happening. I physically can't
+
+440
+00:15:57,600 --> 00:15:59,600
+connect this as a tool. It will not
+
+441
+00:15:59,600 --> 00:16:01,519
+accept it because this is a trigger.
+
+442
+00:16:01,519 --> 00:16:03,120
+It's not something that the agent module
+
+443
+00:16:03,120 --> 00:16:05,440
+can actually play nice with. Which is
+
+444
+00:16:05,440 --> 00:16:08,320
+why you'll see that when you add a tool
+
+445
+00:16:08,320 --> 00:16:10,639
+to the agent module and you click on
+
+446
+00:16:10,639 --> 00:16:14,000
+asauna, we won't have as many options as
+
+447
+00:16:14,000 --> 00:16:16,800
+we saw before. I think we had 22 options
+
+448
+00:16:16,800 --> 00:16:19,440
+before, but now we can only do these
+
+449
+00:16:19,440 --> 00:16:22,079
+operations using the agent module, which
+
+450
+00:16:22,079 --> 00:16:23,839
+is where this complexity comes in.
+
+451
+00:16:23,839 --> 00:16:26,320
+that's made me spend hours trying to
+
+452
+00:16:26,320 --> 00:16:28,079
+figure this out. And knowing that a lot
+
+453
+00:16:28,079 --> 00:16:30,320
+of these different services like Zoho,
+
+454
+00:16:30,320 --> 00:16:32,720
+like Monday, like ClickUp, which are
+
+455
+00:16:32,720 --> 00:16:34,320
+actual services that most businesses
+
+456
+00:16:34,320 --> 00:16:36,560
+use, not all businesses use Air Table
+
+457
+00:16:36,560 --> 00:16:38,079
+and not all businesses use Google
+
+458
+00:16:38,079 --> 00:16:39,759
+Sheets. So what happens if you have
+
+459
+00:16:39,759 --> 00:16:42,880
+these kinds of tools in your toolbox?
+
+460
+00:16:42,880 --> 00:16:46,000
+Well, if we can't use web search
+
+461
+00:16:46,000 --> 00:16:48,399
+reliably to understand how to attach
+
+462
+00:16:48,399 --> 00:16:50,480
+these to the agent, and if we don't have
+
+463
+00:16:50,480 --> 00:16:52,160
+a knowledge base we want to constantly
+
+464
+00:16:52,160 --> 00:16:54,720
+feed of examples of workflows with these
+
+465
+00:16:54,720 --> 00:16:57,279
+exact tools, what we could do is just
+
+466
+00:16:57,279 --> 00:16:59,440
+put all of the tools that we care about,
+
+467
+00:16:59,440 --> 00:17:01,759
+attach it to one agent, and then
+
+468
+00:17:01,759 --> 00:17:05,119
+download that as a JSON, and technically
+
+469
+00:17:05,119 --> 00:17:06,880
+we can use that as our mini knowledge
+
+470
+00:17:06,880 --> 00:17:10,160
+base now to pseudo fine-tune our agent
+
+471
+00:17:10,160 --> 00:17:12,480
+in Claude to understand how to put
+
+472
+00:17:12,480 --> 00:17:15,359
+together a Slack connection to an agent.
+
+473
+00:17:15,359 --> 00:17:17,359
+How to put together an ASA connection to
+
+474
+00:17:17,359 --> 00:17:19,199
+an agent. Same with Monday, same with
+
+475
+00:17:19,199 --> 00:17:21,520
+Zoho. So, this becomes your cheat code
+
+476
+00:17:21,520 --> 00:17:22,959
+where you can use whatever you want
+
+477
+00:17:22,959 --> 00:17:25,280
+depending on your particular business or
+
+478
+00:17:25,280 --> 00:17:27,119
+service you're offering. You can add
+
+479
+00:17:27,119 --> 00:17:29,120
+whatever node you wish. Let's say a
+
+480
+00:17:29,120 --> 00:17:32,400
+quadrant node or let's say an airtop
+
+481
+00:17:32,400 --> 00:17:34,559
+tool node. And then you can just hook up
+
+482
+00:17:34,559 --> 00:17:36,080
+all the different functionalities you
+
+483
+00:17:36,080 --> 00:17:37,919
+think you'd want to use and then use
+
+484
+00:17:37,919 --> 00:17:40,320
+that JSON as a part of your knowledge
+
+485
+00:17:40,320 --> 00:17:42,640
+base to allow Claw to have a better
+
+486
+00:17:42,640 --> 00:17:44,559
+understanding of how to put everything
+
+487
+00:17:44,559 --> 00:17:46,240
+together when it comes to the AI agent
+
+488
+00:17:46,240 --> 00:17:48,000
+module. Once you have that put together
+
+489
+00:17:48,000 --> 00:17:49,919
+along with the cheat sheet, you now have
+
+490
+00:17:49,919 --> 00:17:52,000
+something super potent that you only
+
+491
+00:17:52,000 --> 00:17:53,919
+have to just provide a description of a
+
+492
+00:17:53,919 --> 00:17:55,840
+business as well as the tools used in
+
+493
+00:17:55,840 --> 00:17:57,840
+that business and you can crank out
+
+494
+00:17:57,840 --> 00:18:00,080
+these workflows fairly reliably over and
+
+495
+00:18:00,080 --> 00:18:01,760
+over again. And for our first example,
+
+496
+00:18:01,760 --> 00:18:04,160
+we have Flexiflow Studios, which is a
+
+497
+00:18:04,160 --> 00:18:06,240
+beautiful name. Now, all we have as an
+
+498
+00:18:06,240 --> 00:18:08,799
+instruction is build an agent army for
+
+499
+00:18:08,799 --> 00:18:11,039
+this business. We describe the business
+
+500
+00:18:11,039 --> 00:18:14,080
+itself and all we do is we just drop in
+
+501
+00:18:14,080 --> 00:18:16,320
+the names of the tools. So, we're using
+
+502
+00:18:16,320 --> 00:18:19,200
+Zoom, ClickUp, we're using Slack, some
+
+503
+00:18:19,200 --> 00:18:21,440
+Google Sheets, some Air Table, and then
+
+504
+00:18:21,440 --> 00:18:23,440
+we basically contextualize it in one big
+
+505
+00:18:23,440 --> 00:18:25,760
+paragraph. And with our supercharged
+
+506
+00:18:25,760 --> 00:18:27,760
+prompt I put together specifically for
+
+507
+00:18:27,760 --> 00:18:30,240
+this claude project, this just takes
+
+508
+00:18:30,240 --> 00:18:33,600
+this specific snippet and then creates a
+
+509
+00:18:33,600 --> 00:18:35,679
+list of hypothetical agents that it
+
+510
+00:18:35,679 --> 00:18:37,440
+could put together. And then it creates
+
+511
+00:18:37,440 --> 00:18:40,559
+a short list of three agents, a client
+
+512
+00:18:40,559 --> 00:18:43,120
+request handler agent, a project setup
+
+513
+00:18:43,120 --> 00:18:45,919
+agent, and a team coordination agent.
+
+514
+00:18:45,919 --> 00:18:48,320
+And then after some contemplation, it
+
+515
+00:18:48,320 --> 00:18:50,679
+puts together the JSON for the master
+
+516
+00:18:50,679 --> 00:18:53,760
+coordinator, the request handler and the
+
+517
+00:18:53,760 --> 00:18:55,840
+rest. And all you have to do is either
+
+518
+00:18:55,840 --> 00:18:59,200
+download the actual text file or you can
+
+519
+00:18:59,200 --> 00:19:01,760
+copy it and import it directly into any.
+
+520
+00:19:01,760 --> 00:19:04,240
+And what you get is the following where
+
+521
+00:19:04,240 --> 00:19:06,720
+you have the Flexiflow master AI
+
+522
+00:19:06,720 --> 00:19:08,799
+coordinator with all the subworkflows.
+
+523
+00:19:08,799 --> 00:19:11,039
+it's drafted and then you have a draft
+
+524
+00:19:11,039 --> 00:19:12,880
+of those subworkflows where you have
+
+525
+00:19:12,880 --> 00:19:16,000
+things like Air Table, you have Slack,
+
+526
+00:19:16,000 --> 00:19:18,080
+and notice how they're not invalid.
+
+527
+00:19:18,080 --> 00:19:19,960
+They're all valid. We now have
+
+528
+00:19:19,960 --> 00:19:22,799
+monday.com, we have Slack again, and
+
+529
+00:19:22,799 --> 00:19:24,640
+they're not broken because it had that
+
+530
+00:19:24,640 --> 00:19:26,400
+additional training data, that cheat
+
+531
+00:19:26,400 --> 00:19:27,919
+sheet of the different nodes that it
+
+532
+00:19:27,919 --> 00:19:30,400
+could use and repurpose from. And then
+
+533
+00:19:30,400 --> 00:19:32,559
+if we take a look at the final one here,
+
+534
+00:19:32,559 --> 00:19:34,640
+we now have, you can see here, ClickUp
+
+535
+00:19:34,640 --> 00:19:37,200
+as well as Zoom. And all of these are
+
+536
+00:19:37,200 --> 00:19:39,039
+logical. So this one, a team
+
+537
+00:19:39,039 --> 00:19:42,160
+coordination AI agent has something for
+
+538
+00:19:42,160 --> 00:19:43,919
+scheduling Zoom meetings, team
+
+539
+00:19:43,919 --> 00:19:46,000
+availability checks by sending messages
+
+540
+00:19:46,000 --> 00:19:48,559
+and then creating tasks for that team.
+
+541
+00:19:48,559 --> 00:19:50,799
+And if you so wanted to add more tools,
+
+542
+00:19:50,799 --> 00:19:52,160
+you could just change the underlying
+
+543
+00:19:52,160 --> 00:19:54,400
+prompt and tell it, you know what, draft
+
+544
+00:19:54,400 --> 00:19:56,559
+five tools for each thing. Now, as you
+
+545
+00:19:56,559 --> 00:19:58,880
+add more tools, you might add some more
+
+546
+00:19:58,880 --> 00:20:01,520
+bloat, some unnecessary tooling, but the
+
+547
+00:20:01,520 --> 00:20:03,520
+whole point of this exercise is to get
+
+548
+00:20:03,520 --> 00:20:05,679
+you started, getting you from zero to
+
+549
+00:20:05,679 --> 00:20:08,080
+80%. Is this going to be perfect out of
+
+550
+00:20:08,080 --> 00:20:09,760
+the box? Is this going to run on its
+
+551
+00:20:09,760 --> 00:20:11,840
+first try? No. But being able to set the
+
+552
+00:20:11,840 --> 00:20:14,000
+foundation with this head start will
+
+553
+00:20:14,000 --> 00:20:16,320
+help you speed things up and also help
+
+554
+00:20:16,320 --> 00:20:18,400
+you brainstorm in a short amount of time
+
+555
+00:20:18,400 --> 00:20:20,160
+what could be possible. For the second
+
+556
+00:20:20,160 --> 00:20:22,559
+business, we have Pet Pal concurge which
+
+557
+00:20:22,559 --> 00:20:24,720
+is the Uber for pet care connecting busy
+
+558
+00:20:24,720 --> 00:20:27,039
+pet parents with trusted local sitters.
+
+559
+00:20:27,039 --> 00:20:28,799
+In this case, we seem to also be using
+
+560
+00:20:28,799 --> 00:20:32,320
+Air Table, Slack, Zoom, um, and in this
+
+561
+00:20:32,320 --> 00:20:35,600
+time ASA right here. And then we get the
+
+562
+00:20:35,600 --> 00:20:37,440
+following workflows where we have the
+
+563
+00:20:37,440 --> 00:20:40,000
+master agent with a series of different
+
+564
+00:20:40,000 --> 00:20:42,480
+nodes. We have the emergency care
+
+565
+00:20:42,480 --> 00:20:44,480
+coordinator, the provider management
+
+566
+00:20:44,480 --> 00:20:46,880
+agent, the booking and scheduling agent,
+
+567
+00:20:46,880 --> 00:20:48,720
+and then something like the photo update
+
+568
+00:20:48,720 --> 00:20:50,480
+agent. I would imagine the photos of the
+
+569
+00:20:50,480 --> 00:20:52,559
+pets themselves, maybe their profiles on
+
+570
+00:20:52,559 --> 00:20:54,720
+some form of portal or website. And in
+
+571
+00:20:54,720 --> 00:20:57,280
+terms of the subworkflows, we have the
+
+572
+00:20:57,280 --> 00:20:59,600
+emergency care AI agent that has access
+
+573
+00:20:59,600 --> 00:21:01,360
+to air table to search available
+
+574
+00:21:01,360 --> 00:21:04,559
+providers for a given dog's doctors. And
+
+575
+00:21:04,559 --> 00:21:06,799
+then we have Slack to alert nearby
+
+576
+00:21:06,799 --> 00:21:09,600
+providers. And then for ASA, now we have
+
+577
+00:21:09,600 --> 00:21:11,840
+create urgent task if needed. So it's
+
+578
+00:21:11,840 --> 00:21:13,760
+trying to come up and rationalize
+
+579
+00:21:13,760 --> 00:21:15,679
+through different workflows. And like I
+
+580
+00:21:15,679 --> 00:21:18,000
+said before, each one has a starter
+
+581
+00:21:18,000 --> 00:21:19,679
+prompt that you can use that's already
+
+582
+00:21:19,679 --> 00:21:21,760
+pretty sophisticated out of the box. And
+
+583
+00:21:21,760 --> 00:21:23,600
+all you can do is kind of just fine-tune
+
+584
+00:21:23,600 --> 00:21:26,000
+it for your specific use case. We also
+
+585
+00:21:26,000 --> 00:21:28,480
+have a provider management AI agent that
+
+586
+00:21:28,480 --> 00:21:31,039
+uses in this case money.com, airtable
+
+587
+00:21:31,039 --> 00:21:33,280
+and Gmail. And then we have one more
+
+588
+00:21:33,280 --> 00:21:34,880
+which is the booking scheduling that
+
+589
+00:21:34,880 --> 00:21:37,600
+uses a combination of Google Sheets, ASA
+
+590
+00:21:37,600 --> 00:21:39,360
+and scheduling a consultation using
+
+591
+00:21:39,360 --> 00:21:41,200
+Zoom. So now that we have all the puzzle
+
+592
+00:21:41,200 --> 00:21:43,600
+pieces set up, so it can just pick and
+
+593
+00:21:43,600 --> 00:21:45,360
+choose these different nodes and we
+
+594
+00:21:45,360 --> 00:21:46,799
+don't have to obsess over the
+
+595
+00:21:46,799 --> 00:21:48,880
+functionality, the fact that these nodes
+
+596
+00:21:48,880 --> 00:21:50,799
+are connecting properly to the agent. It
+
+597
+00:21:50,799 --> 00:21:53,039
+can now also focus on the higher level
+
+598
+00:21:53,039 --> 00:21:55,679
+business decisions on what is practical.
+
+599
+00:21:55,679 --> 00:21:57,360
+What kind of agents make the most sense
+
+600
+00:21:57,360 --> 00:21:59,280
+for this kind of business given the
+
+601
+00:21:59,280 --> 00:22:01,120
+profile. And last but not least, we have
+
+602
+00:22:01,120 --> 00:22:04,480
+Chaos Coffee Co. that runs 15 quirky
+
+603
+00:22:04,480 --> 00:22:06,600
+coffee shops known for their organized
+
+604
+00:22:06,600 --> 00:22:09,840
+chaos. And in this case, we mention once
+
+605
+00:22:09,840 --> 00:22:11,360
+again Google Sheets, Air Table, and
+
+606
+00:22:11,360 --> 00:22:12,880
+ClickUp. Obviously, I could have added
+
+607
+00:22:12,880 --> 00:22:14,159
+more. I just wanted to be able to use
+
+608
+00:22:14,159 --> 00:22:15,760
+that one file for all of these use
+
+609
+00:22:15,760 --> 00:22:18,240
+cases. So, just bear with me. And in
+
+610
+00:22:18,240 --> 00:22:19,840
+this case, yet again, we're able to
+
+611
+00:22:19,840 --> 00:22:22,960
+crank out this operator agent here that
+
+612
+00:22:22,960 --> 00:22:25,520
+has its set of instructions. And then we
+
+613
+00:22:25,520 --> 00:22:27,440
+have subworkflows like inventory
+
+614
+00:22:27,440 --> 00:22:29,440
+ingredient discovery, a recipe
+
+615
+00:22:29,440 --> 00:22:32,000
+innovation agent, and a quality control
+
+616
+00:22:32,000 --> 00:22:34,480
+agent as well as a financial analytics
+
+617
+00:22:34,480 --> 00:22:36,640
+agent as well. So, it's very dynamic to
+
+618
+00:22:36,640 --> 00:22:38,480
+the specific business we have. And if we
+
+619
+00:22:38,480 --> 00:22:41,120
+pop into the subworkflows, we have an
+
+620
+00:22:41,120 --> 00:22:43,600
+interlocation coordinator AI that has
+
+621
+00:22:43,600 --> 00:22:45,240
+access to track deliveries via
+
+622
+00:22:45,240 --> 00:22:48,080
+monday.com, send coordination alerts in
+
+623
+00:22:48,080 --> 00:22:49,919
+Slack, and then create a coordination
+
+624
+00:22:49,919 --> 00:22:53,600
+task in ClickUp. We have an inventory
+
+625
+00:22:53,600 --> 00:22:55,600
+discovery agent that also has the
+
+626
+00:22:55,600 --> 00:22:57,280
+ability to, in this case, also update
+
+627
+00:22:57,280 --> 00:22:59,039
+ingredients in the database in Air
+
+628
+00:22:59,039 --> 00:23:01,280
+Table, update inventory board in
+
+629
+00:23:01,280 --> 00:23:04,000
+money.com, and yet again create a task.
+
+630
+00:23:04,000 --> 00:23:05,760
+And last but not least, we have my
+
+631
+00:23:05,760 --> 00:23:07,919
+favorite, which is the recipe innovation
+
+632
+00:23:07,919 --> 00:23:10,320
+agent that has access to schedule
+
+633
+00:23:10,320 --> 00:23:12,640
+tasting sessions with Zoom. Document
+
+634
+00:23:12,640 --> 00:23:14,640
+recipes in Google Sheets and announce
+
+635
+00:23:14,640 --> 00:23:17,200
+any big recipes to the whole crew. I
+
+636
+00:23:17,200 --> 00:23:18,559
+think there's 15 locations in this
+
+637
+00:23:18,559 --> 00:23:20,480
+hypothetical company. So, this would be
+
+638
+00:23:20,480 --> 00:23:22,799
+the final result here. And then you have
+
+639
+00:23:22,799 --> 00:23:24,320
+once again yet another prompt
+
+640
+00:23:24,320 --> 00:23:26,000
+orchestrating these agents. You can see
+
+641
+00:23:26,000 --> 00:23:28,000
+it's pretty consistent from workflow to
+
+642
+00:23:28,000 --> 00:23:29,679
+workflow. And that's pretty much it. So
+
+643
+00:23:29,679 --> 00:23:31,600
+hopefully you found this as cool as I
+
+644
+00:23:31,600 --> 00:23:33,280
+did building it and this will be
+
+645
+00:23:33,280 --> 00:23:35,360
+something useful to you to create your
+
+646
+00:23:35,360 --> 00:23:38,000
+own drafts of AI agent networks to get
+
+647
+00:23:38,000 --> 00:23:39,919
+you off the ground and get you from 0 to
+
+648
+00:23:39,919 --> 00:23:42,000
+80 as quickly as possible. Once again,
+
+649
+00:23:42,000 --> 00:23:43,520
+if you want access to the very first
+
+650
+00:23:43,520 --> 00:23:45,600
+prompt along with a sample agent network
+
+651
+00:23:45,600 --> 00:23:47,600
+that you can use to try to repurpose
+
+652
+00:23:47,600 --> 00:23:49,280
+this, then I'll make that available in
+
+653
+00:23:49,280 --> 00:23:50,640
+the first link in the description below.
+
+654
+00:23:50,640 --> 00:23:51,760
+But if you want access to the
+
+655
+00:23:51,760 --> 00:23:53,679
+supercharged prompt along with the
+
+656
+00:23:53,679 --> 00:23:55,200
+underlying cheat sheet guide for the
+
+657
+00:23:55,200 --> 00:23:57,440
+Claude project, then that will be in my
+
+658
+00:23:57,440 --> 00:23:58,960
+community in the second link in the
+
+659
+00:23:58,960 --> 00:24:00,320
+description below where you'll have
+
+660
+00:24:00,320 --> 00:24:02,400
+access to more mad scientist experiments
+
+661
+00:24:02,400 --> 00:24:04,080
+than you can imagine and exclusive
+
+662
+00:24:04,080 --> 00:24:05,360
+content that you'll never see on
+
+663
+00:24:05,360 --> 00:24:07,039
+YouTube. Enjoy building and I'll see you
+
+664
+00:24:07,039 --> 00:24:09,360
+in the next
+

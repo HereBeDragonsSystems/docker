@@ -1,0 +1,50 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="reset@n8n" type="docker-deploy" factoryName="docker-compose.yml" folderName="n8n" server-name="Docker">
+    <deployment type="docker-compose.yml">
+      <settings>
+        <option name="envFilePath" value="$PROJECT_DIR$/docker/n8n/.env" />
+        <option name="envVars">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="ARCH" />
+              <option name="value" value="" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="BASE_PATH" />
+              <option name="value" value="../" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="PATH_PREFIX" />
+              <option name="value" value="" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="TZ" />
+              <option name="value" value="Europe/Lisbon" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="N8N_PUID" />
+              <option name="value" value="1001" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="N8N_GUID" />
+              <option name="value" value="1001" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
+        <option name="removeVolumesOnComposeDown" value="true" />
+        <option name="sourceFilePath" value="docker/n8n/n8n-compose.yml" />
+      </settings>
+    </deployment>
+    <method v="2">
+      <option name="NpmBeforeRunTask" enabled="true">
+        <package-json value="$PROJECT_DIR$/package.json" />
+        <command value="run" />
+        <scripts>
+          <script value="n8n:reset" />
+        </scripts>
+        <node-interpreter value="$USER_HOME$/.nvm/versions/node/v22.14.0/bin/node" />
+        <envs />
+      </option>
+    </method>
+  </configuration>
+</component>

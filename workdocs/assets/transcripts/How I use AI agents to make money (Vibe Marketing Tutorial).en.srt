@@ -1,0 +1,2332 @@
+﻿1
+00:00:00,240 --> 00:00:01,760
+Today's episode, we are going to talk
+
+2
+00:00:01,760 --> 00:00:04,319
+about an introduction to Vibe Marketing.
+
+3
+00:00:04,319 --> 00:00:05,920
+Now, if you're listening to this, you've
+
+4
+00:00:05,920 --> 00:00:08,000
+probably heard of Vibe Coding, but you
+
+5
+00:00:08,000 --> 00:00:09,120
+might have not have heard of Vibe
+
+6
+00:00:09,120 --> 00:00:10,880
+Marketing, and I'm going to break down
+
+7
+00:00:10,880 --> 00:00:13,360
+exactly what it is, why you should care,
+
+8
+00:00:13,360 --> 00:00:14,799
+why this is going to propel your
+
+9
+00:00:14,799 --> 00:00:17,119
+business, your startup idea, and why
+
+10
+00:00:17,119 --> 00:00:18,960
+most people should actually be focusing
+
+11
+00:00:18,960 --> 00:00:20,640
+on Vibe Marketing a little more than
+
+12
+00:00:20,640 --> 00:00:22,720
+Vibe coding. I'm actually going to give
+
+13
+00:00:22,720 --> 00:00:25,359
+away a bunch of workflows of how you can
+
+14
+00:00:25,359 --> 00:00:27,599
+do Vibe Marketing. Towards the end, I'm
+
+15
+00:00:27,599 --> 00:00:29,840
+going to talk about some of the tools uh
+
+16
+00:00:29,840 --> 00:00:32,320
+that you could use. And by the end of
+
+17
+00:00:32,320 --> 00:00:33,920
+this, you should have a pretty good
+
+18
+00:00:33,920 --> 00:00:37,520
+foundation of how you can get going uh
+
+19
+00:00:37,520 --> 00:00:40,640
+do vibe marketing, use AI, use agents to
+
+20
+00:00:40,640 --> 00:00:43,360
+automate a lot of the tedious marketing
+
+21
+00:00:43,360 --> 00:00:44,370
+tasks.
+
+22
+00:00:44,370 --> 00:00:52,879
+[Music]
+
+23
+00:00:52,879 --> 00:00:55,600
+So, uh, before I begin, if you're new to
+
+24
+00:00:55,600 --> 00:00:57,440
+the channel, new to the startup ideas
+
+25
+00:00:57,440 --> 00:00:59,120
+podcast, why you should listen to me.
+
+26
+00:00:59,120 --> 00:01:00,879
+I've started and sold three ventureback
+
+27
+00:01:00,879 --> 00:01:02,719
+companies. I was an adviser to Tik Tok.
+
+28
+00:01:02,719 --> 00:01:05,519
+I was an adviser to Reddit. And, uh, I
+
+29
+00:01:05,519 --> 00:01:08,000
+am a co-founder in LCA, which is a
+
+30
+00:01:08,000 --> 00:01:10,560
+design agency for the AI age. We
+
+31
+00:01:10,560 --> 00:01:12,320
+literally work with pretty much all the
+
+32
+00:01:12,320 --> 00:01:14,799
+biggest AI companies or software
+
+33
+00:01:14,799 --> 00:01:17,439
+companies looking to get into AI. So I
+
+34
+00:01:17,439 --> 00:01:20,320
+know a thing or two about um consumer
+
+35
+00:01:20,320 --> 00:01:23,040
+businesses, growing them, marketing uh
+
+36
+00:01:23,040 --> 00:01:23,880
+and
+
+37
+00:01:23,880 --> 00:01:27,439
+AI. So I posted this on on X and it went
+
+38
+00:01:27,439 --> 00:01:29,840
+absolutely uh viral. I said vibe
+
+39
+00:01:29,840 --> 00:01:32,560
+marketing is the new marketing. So when
+
+40
+00:01:32,560 --> 00:01:34,400
+you think about what is vibe coding,
+
+41
+00:01:34,400 --> 00:01:35,920
+right? Vibe coding is using tools like
+
+42
+00:01:35,920 --> 00:01:39,840
+bolt, raplet, lovable. What is uh Vibe
+
+43
+00:01:39,840 --> 00:01:41,680
+marketing? Well, it's actually the
+
+44
+00:01:41,680 --> 00:01:43,759
+combination of some of these Vibe coding
+
+45
+00:01:43,759 --> 00:01:47,079
+tools with things like Gum Loop, Manis,
+
+46
+00:01:47,079 --> 00:01:50,640
+N8N, Tascade, and it's using AI agents
+
+47
+00:01:50,640 --> 00:01:53,520
+and workflows to actually go and build
+
+48
+00:01:53,520 --> 00:01:54,759
+marketing
+
+49
+00:01:54,759 --> 00:01:58,320
+campaigns. So, my co-founder, uh, Boring
+
+50
+00:01:58,320 --> 00:02:00,479
+Marketer, and shout out, uh, shout out
+
+51
+00:02:00,479 --> 00:02:02,320
+to him, James, for helping me kind of
+
+52
+00:02:02,320 --> 00:02:04,159
+put some of these present, uh,
+
+53
+00:02:04,159 --> 00:02:05,680
+presentation materials together. He's
+
+54
+00:02:05,680 --> 00:02:07,280
+the goat when it comes to VI market
+
+55
+00:02:07,280 --> 00:02:09,598
+marketing. Uh he said something that I
+
+56
+00:02:09,598 --> 00:02:12,239
+totally uh resonate with which is
+
+57
+00:02:12,239 --> 00:02:14,800
+marketing will resemble highfrequency
+
+58
+00:02:14,800 --> 00:02:17,599
+stock trading in the near future. Agents
+
+59
+00:02:17,599 --> 00:02:20,760
+working 24/7 monitoring surfacing
+
+60
+00:02:20,760 --> 00:02:23,000
+opportunities personalized micro
+
+61
+00:02:23,000 --> 00:02:25,520
+interactions. You'll be like a portfolio
+
+62
+00:02:25,520 --> 00:02:28,800
+manager or day trader adjusting risk
+
+63
+00:02:28,800 --> 00:02:30,400
+deploying money based on real-time
+
+64
+00:02:30,400 --> 00:02:33,040
+market signals. I totally believe that's
+
+65
+00:02:33,040 --> 00:02:35,599
+where we're going. Why is VI marketing
+
+66
+00:02:35,599 --> 00:02:37,680
+even happening in the first place? I
+
+67
+00:02:37,680 --> 00:02:39,200
+think it's because three things have
+
+68
+00:02:39,200 --> 00:02:41,760
+actually converged at the same time. One
+
+69
+00:02:41,760 --> 00:02:44,160
+is that AI got good enough at marketing
+
+70
+00:02:44,160 --> 00:02:46,720
+tasks. So now agents can actually handle
+
+71
+00:02:46,720 --> 00:02:48,720
+the execution. I don't even think that
+
+72
+00:02:48,720 --> 00:02:51,120
+was true a month ago, by the way. So
+
+73
+00:02:51,120 --> 00:02:53,760
+this is happening in real time. Two,
+
+74
+00:02:53,760 --> 00:02:56,080
+Vibe coding tools made automation
+
+75
+00:02:56,080 --> 00:02:58,640
+accessible to non-developers. No coding
+
+76
+00:02:58,640 --> 00:03:01,360
+required. And three, the custom tool
+
+77
+00:03:01,360 --> 00:03:03,200
+building costs have basically collapsed.
+
+78
+00:03:03,200 --> 00:03:06,239
+So you can build personalized software
+
+79
+00:03:06,239 --> 00:03:10,080
+for pennies basically. Um and because of
+
+80
+00:03:10,080 --> 00:03:12,480
+that, you know, you can basically do a
+
+81
+00:03:12,480 --> 00:03:15,280
+lot of customized marketing campaigns.
+
+82
+00:03:15,280 --> 00:03:17,360
+The old world and the new world. The old
+
+83
+00:03:17,360 --> 00:03:19,440
+world of marketing was basically having
+
+84
+00:03:19,440 --> 00:03:22,239
+these bigger teams, 10 specialists, SEO
+
+85
+00:03:22,239 --> 00:03:23,920
+people, copywriters, designers,
+
+86
+00:03:23,920 --> 00:03:26,400
+analytics people, media buyers. These
+
+87
+00:03:26,400 --> 00:03:28,159
+guys were these people are basically
+
+88
+00:03:28,159 --> 00:03:30,080
+working in silos. you know, they're in
+
+89
+00:03:30,080 --> 00:03:31,760
+meetings, they're in Slack threads, and
+
+90
+00:03:31,760 --> 00:03:33,360
+it takes a while to launch when you have
+
+91
+00:03:33,360 --> 00:03:35,599
+a lot of people. This new world, and
+
+92
+00:03:35,599 --> 00:03:37,599
+which gets me so excited about this new
+
+93
+00:03:37,599 --> 00:03:39,440
+world is, you know, you don't have to
+
+94
+00:03:39,440 --> 00:03:41,280
+raise millions of dollars or have a huge
+
+95
+00:03:41,280 --> 00:03:45,040
+team to actually go and uh and run with
+
+96
+00:03:45,040 --> 00:03:47,040
+this. You basically need a single smart
+
+97
+00:03:47,040 --> 00:03:50,879
+marketer with taste, of course. Uh pair
+
+98
+00:03:50,879 --> 00:03:53,280
+that with AI agents and workflows. We'll
+
+99
+00:03:53,280 --> 00:03:55,200
+get into workflows by the end. I will
+
+100
+00:03:55,200 --> 00:03:56,560
+I'm I'm not going to leave you hanging.
+
+101
+00:03:56,560 --> 00:03:58,959
+testing tons of marketing angles in real
+
+102
+00:03:58,959 --> 00:04:02,799
+time with hundreds hundreds of AI agents
+
+103
+00:04:02,799 --> 00:04:05,120
+running the show launching in days, not
+
+104
+00:04:05,120 --> 00:04:07,920
+weeks. So, uh before we do get into the
+
+105
+00:04:07,920 --> 00:04:09,519
+workflows, let's just talk about what
+
+106
+00:04:09,519 --> 00:04:12,480
+you need to get started, uh in the Vibe
+
+107
+00:04:12,480 --> 00:04:14,720
+marketing toolkit. Uh some of this may
+
+108
+00:04:14,720 --> 00:04:16,478
+be obvious to to some people. You're
+
+109
+00:04:16,478 --> 00:04:18,079
+going to want to have a vibe coding tool
+
+110
+00:04:18,079 --> 00:04:22,079
+like Replet, Bolt, Lovable. So, um, you
+
+111
+00:04:22,079 --> 00:04:24,160
+know, it it is crazy that you can with a
+
+112
+00:04:24,160 --> 00:04:26,320
+prompt go make me a website for new
+
+113
+00:04:26,320 --> 00:04:28,560
+homeowners that help subscribe to
+
+114
+00:04:28,560 --> 00:04:30,800
+exclusive content with flexible payment
+
+115
+00:04:30,800 --> 00:04:32,560
+options. I mean, today, the fact that
+
+116
+00:04:32,560 --> 00:04:35,600
+you can actually put in a prompt and get
+
+117
+00:04:35,600 --> 00:04:38,800
+a prototype uh is a gamecher when you're
+
+118
+00:04:38,800 --> 00:04:40,960
+creating a lot of these uh marketing
+
+119
+00:04:40,960 --> 00:04:42,880
+campaigns. Uh, you're going to want to
+
+120
+00:04:42,880 --> 00:04:46,160
+play with something like NAN. So, NAN,
+
+121
+00:04:46,160 --> 00:04:48,560
+you know, this is their their homepage,
+
+122
+00:04:48,560 --> 00:04:50,880
+flexible AI workflow automation for
+
+123
+00:04:50,880 --> 00:04:52,880
+technical teams. So, you see they have
+
+124
+00:04:52,880 --> 00:04:54,440
+this um
+
+125
+00:04:54,440 --> 00:04:56,400
+flowchart. Uh so, you can basically
+
+126
+00:04:56,400 --> 00:04:58,400
+create these flowcharts that basically
+
+127
+00:04:58,400 --> 00:05:01,040
+help you drag and drop and automate uh
+
+128
+00:05:01,040 --> 00:05:04,560
+with AI agents um and different tools.
+
+129
+00:05:04,560 --> 00:05:06,880
+But I will say one thing, I think NAND
+
+130
+00:05:06,880 --> 00:05:10,240
+is for, you know, more of the experts.
+
+131
+00:05:10,240 --> 00:05:13,680
+Um, so, uh, definitely fun to play
+
+132
+00:05:13,680 --> 00:05:15,520
+around with, but you know, you do need
+
+133
+00:05:15,520 --> 00:05:18,080
+to be pretty savvy to use it. If people
+
+134
+00:05:18,080 --> 00:05:20,960
+want, I can do an NAN, uh, demo and
+
+135
+00:05:20,960 --> 00:05:22,880
+tutorial. Uh, just let me know in the
+
+136
+00:05:22,880 --> 00:05:25,120
+comment section. Uh, Gum Loop is a lot
+
+137
+00:05:25,120 --> 00:05:27,520
+like NADN, but there are some more guard
+
+138
+00:05:27,520 --> 00:05:30,720
+rails. Um, so you know, the example they
+
+139
+00:05:30,720 --> 00:05:32,560
+use on their website, you can scrape a
+
+140
+00:05:32,560 --> 00:05:34,880
+website, scrape a website, you can ask
+
+141
+00:05:34,880 --> 00:05:36,960
+AI, and then you can write it into a
+
+142
+00:05:36,960 --> 00:05:39,840
+Google Sheets. So, uh, it's a lot like
+
+143
+00:05:39,840 --> 00:05:42,560
+NAN, but there's it's just a the it's
+
+144
+00:05:42,560 --> 00:05:46,880
+more user friendly. Um, and, uh, yeah,
+
+145
+00:05:46,880 --> 00:05:49,680
+that's Gum Loop. Um, I also did an
+
+146
+00:05:49,680 --> 00:05:52,520
+episode with Flo from
+
+147
+00:05:52,520 --> 00:05:55,280
+lindy.ai. Uh, in a lot of ways, it's
+
+148
+00:05:55,280 --> 00:05:57,759
+similar to Gum Loop. Um, it's it's
+
+149
+00:05:57,759 --> 00:06:00,639
+basically like an NAN agent platform
+
+150
+00:06:00,639 --> 00:06:04,319
+that allows you to, uh, basically
+
+151
+00:06:04,319 --> 00:06:06,720
+automate a bunch of stuff. So, uh, if
+
+152
+00:06:06,720 --> 00:06:10,000
+you haven't checked out the, um, the
+
+153
+00:06:10,000 --> 00:06:13,680
+episode with Flo, um, you know, we we
+
+154
+00:06:13,680 --> 00:06:16,400
+kind of went through how to automate,
+
+155
+00:06:16,400 --> 00:06:19,639
+uh, a a recruiter, how to do sales
+
+156
+00:06:19,639 --> 00:06:22,400
+prospecting, all automated, uh, all
+
+157
+00:06:22,400 --> 00:06:24,720
+using AI agents and not just one agent,
+
+158
+00:06:24,720 --> 00:06:26,560
+hundreds, or what they call agent
+
+159
+00:06:26,560 --> 00:06:29,639
+swarms, which is a key part of I
+
+160
+00:06:29,639 --> 00:06:31,919
+marketing. Quick break in the pod to
+
+161
+00:06:31,919 --> 00:06:33,759
+tell you a little bit about Startup
+
+162
+00:06:33,759 --> 00:06:37,639
+Empire. So, Startup Empire is my private
+
+163
+00:06:37,639 --> 00:06:41,039
+membership where it's a bunch of people
+
+164
+00:06:41,039 --> 00:06:44,319
+like me, like you who want to build out
+
+165
+00:06:44,319 --> 00:06:46,639
+their startup ideas. Now, they're
+
+166
+00:06:46,639 --> 00:06:48,560
+looking for content to help accelerate
+
+167
+00:06:48,560 --> 00:06:50,160
+that. They're looking for potential
+
+168
+00:06:50,160 --> 00:06:52,639
+co-founders. They're looking for uh
+
+169
+00:06:52,639 --> 00:06:55,919
+tutorials from people like me to come in
+
+170
+00:06:55,919 --> 00:06:57,440
+and tell them, "How do you do email
+
+171
+00:06:57,440 --> 00:06:59,199
+marketing? How do you build an audience?
+
+172
+00:06:59,199 --> 00:07:00,960
+How do you go viral on Twitter?" All
+
+173
+00:07:00,960 --> 00:07:03,120
+these different things. That's exactly
+
+174
+00:07:03,120 --> 00:07:05,759
+what Startup Empire is. And it's for
+
+175
+00:07:05,759 --> 00:07:08,080
+people who want to start a startup but
+
+176
+00:07:08,080 --> 00:07:10,560
+are looking for ideas or it's for people
+
+177
+00:07:10,560 --> 00:07:12,800
+who have a startup but just they're not
+
+178
+00:07:12,800 --> 00:07:15,440
+seeing the traction uh that they need.
+
+179
+00:07:15,440 --> 00:07:18,360
+So you can check out the link to
+
+180
+00:07:18,360 --> 00:07:21,280
+startupmpire.co in the description. Uh
+
+181
+00:07:21,280 --> 00:07:23,520
+Manis, I've done an episode on Manis
+
+182
+00:07:23,520 --> 00:07:26,720
+before. Um, in fact, you know, I
+
+183
+00:07:26,720 --> 00:07:29,120
+actually threw this presentation into
+
+184
+00:07:29,120 --> 00:07:31,840
+Manis to help design and and help me
+
+185
+00:07:31,840 --> 00:07:33,840
+think through it. So, the fact that I
+
+186
+00:07:33,840 --> 00:07:35,599
+can do that is, you know, it's kind of
+
+187
+00:07:35,599 --> 00:07:37,680
+meta, but that's vibe marketing, right?
+
+188
+00:07:37,680 --> 00:07:39,520
+You know, I I put it in here and it
+
+189
+00:07:39,520 --> 00:07:41,039
+helps me kind of think through what I
+
+190
+00:07:41,039 --> 00:07:43,360
+need to put in here. You know, it's a
+
+191
+00:07:43,360 --> 00:07:45,680
+designer, it's a strategist, it's a
+
+192
+00:07:45,680 --> 00:07:49,360
+McKenzie level analyst. Uh, so highly
+
+193
+00:07:49,360 --> 00:07:51,919
+recommend playing with that. And then of
+
+194
+00:07:51,919 --> 00:07:56,080
+course um Claude or Clude as I say uh
+
+195
+00:07:56,080 --> 00:07:58,800
+you can definitely use it to uh you know
+
+196
+00:07:58,800 --> 00:08:00,160
+write. It's probably one of the best
+
+197
+00:08:00,160 --> 00:08:03,440
+writing tools out there right now. Open
+
+198
+00:08:03,440 --> 00:08:06,400
+router um you know people know this a
+
+199
+00:08:06,400 --> 00:08:08,319
+bit less uh but it's basically a way to
+
+200
+00:08:08,319 --> 00:08:11,680
+get one single AI key that helps manage
+
+201
+00:08:11,680 --> 00:08:15,120
+multiple multiple models. So, um, you
+
+202
+00:08:15,120 --> 00:08:17,440
+know, if you're creating, you know, if
+
+203
+00:08:17,440 --> 00:08:19,440
+if you want to use DeepSseek R1 for this
+
+204
+00:08:19,440 --> 00:08:22,319
+and open AAI 03 for that, uh, using
+
+205
+00:08:22,319 --> 00:08:24,080
+something like open router is something
+
+206
+00:08:24,080 --> 00:08:25,800
+that you're going to want to play around
+
+207
+00:08:25,800 --> 00:08:28,800
+with. Sora, I've done episodes on this
+
+208
+00:08:28,800 --> 00:08:32,159
+before. Well, chat GBT image den uh you
+
+209
+00:08:32,159 --> 00:08:33,760
+know one of the interesting things that
+
+210
+00:08:33,760 --> 00:08:36,479
+Jacob Posel said on on on the tuto on
+
+211
+00:08:36,479 --> 00:08:39,200
+one of our tutorials uh on on on the
+
+212
+00:08:39,200 --> 00:08:41,599
+channel was that he actually thinks that
+
+213
+00:08:41,599 --> 00:08:44,240
+Sora is you know you get better results
+
+214
+00:08:44,240 --> 00:08:46,720
+on Sora than you do on chat GBT image
+
+215
+00:08:46,720 --> 00:08:49,600
+gen. But this idea that you can go into
+
+216
+00:08:49,600 --> 00:08:52,640
+a Sora or Chat GBT image gen and
+
+217
+00:08:52,640 --> 00:08:55,680
+generate these extremely high quality uh
+
+218
+00:08:55,680 --> 00:08:58,959
+photos, videos um and content. I mean,
+
+219
+00:08:58,959 --> 00:09:00,959
+how doesn't that change the game in
+
+220
+00:09:00,959 --> 00:09:02,959
+social, right? Like, how, you know, it
+
+221
+00:09:02,959 --> 00:09:07,040
+it helps arm you with this huge uh
+
+222
+00:09:07,040 --> 00:09:09,200
+advantage, unfair advantage to actually
+
+223
+00:09:09,200 --> 00:09:11,200
+go and create content that's going to
+
+224
+00:09:11,200 --> 00:09:14,560
+resonate with your audience. So, this is
+
+225
+00:09:14,560 --> 00:09:16,720
+something um that my co-founder, Boring
+
+226
+00:09:16,720 --> 00:09:19,600
+Marketing, put together uh for for his
+
+227
+00:09:19,600 --> 00:09:21,600
+holding company, and I think it's one of
+
+228
+00:09:21,600 --> 00:09:23,920
+those things that I think uh everyone
+
+229
+00:09:23,920 --> 00:09:26,160
+should basically do. Um, it's a
+
+230
+00:09:26,160 --> 00:09:28,720
+scorecard. Um, and the reason I put it
+
+231
+00:09:28,720 --> 00:09:30,640
+in here is it's a scorecard of all the
+
+232
+00:09:30,640 --> 00:09:33,040
+different models. You can see 40 mini,
+
+233
+00:09:33,040 --> 00:09:37,360
+03 mini, gro 3, uh, code 3.7, deepsee
+
+234
+00:09:37,360 --> 00:09:39,440
+reasoner, perplexity, sonar, deep
+
+235
+00:09:39,440 --> 00:09:42,160
+research. And it basically scores it by
+
+236
+00:09:42,160 --> 00:09:44,480
+analyst brief blog. And the point of
+
+237
+00:09:44,480 --> 00:09:46,279
+this is that
+
+238
+00:09:46,279 --> 00:09:49,279
+uh certain models are going to be better
+
+239
+00:09:49,279 --> 00:09:51,360
+for certain things for whatever it is
+
+240
+00:09:51,360 --> 00:09:53,279
+you're doing within Vibe Marketing.
+
+241
+00:09:53,279 --> 00:09:55,200
+though you know I talked about you know
+
+242
+00:09:55,200 --> 00:09:58,560
+when it comes to uh you know writing for
+
+243
+00:09:58,560 --> 00:10:00,640
+example blog creation you can see at the
+
+244
+00:10:00,640 --> 00:10:03,920
+bottom here uh you know code 3.7 it's
+
+245
+00:10:03,920 --> 00:10:06,000
+actually amazing for content brief and
+
+246
+00:10:06,000 --> 00:10:09,519
+blog creation so you know well-crafted
+
+247
+00:10:09,519 --> 00:10:11,360
+blog with humanlike content it
+
+248
+00:10:11,360 --> 00:10:13,120
+understands brand voice and maintains
+
+249
+00:10:13,120 --> 00:10:15,200
+consistency and adds relevant internal
+
+250
+00:10:15,200 --> 00:10:18,800
+links when we add it for when when we uh
+
+251
+00:10:18,800 --> 00:10:21,320
+when we add website for it to refer to
+
+252
+00:10:21,320 --> 00:10:24,480
+now you have to figure out uh for
+
+253
+00:10:24,480 --> 00:10:26,720
+yourself which which models and which
+
+254
+00:10:26,720 --> 00:10:29,680
+LLMs are going to be your LLM marketing
+
+255
+00:10:29,680 --> 00:10:31,120
+friends. Some things are going to be
+
+256
+00:10:31,120 --> 00:10:32,480
+better, some things are going to be
+
+257
+00:10:32,480 --> 00:10:34,079
+worse, and I encourage people to
+
+258
+00:10:34,079 --> 00:10:36,000
+actually go and create scorecards so
+
+259
+00:10:36,000 --> 00:10:38,399
+that they know uh what's working uh for
+
+260
+00:10:38,399 --> 00:10:40,880
+them. I will say as a caveat that these
+
+261
+00:10:40,880 --> 00:10:42,959
+models are changing all the time. I've
+
+262
+00:10:42,959 --> 00:10:44,480
+noticed actually over the last couple
+
+263
+00:10:44,480 --> 00:10:47,600
+weeks that uh code 37 is actually kind
+
+264
+00:10:47,600 --> 00:10:49,920
+of getting worse at writing. So uh you
+
+265
+00:10:49,920 --> 00:10:52,320
+know, you got to continue update this.
+
+266
+00:10:52,320 --> 00:10:54,320
+So, the moment you've all been waiting
+
+267
+00:10:54,320 --> 00:10:56,959
+for. Let's actually see some workflows
+
+268
+00:10:56,959 --> 00:11:01,519
+so we can learn how you can copy uh Vibe
+
+269
+00:11:01,519 --> 00:11:04,160
+Marketing Pros and and start automating
+
+270
+00:11:04,160 --> 00:11:05,760
+you and just sort, you know, you can lay
+
+271
+00:11:05,760 --> 00:11:08,079
+on the beach while this this weird, you
+
+272
+00:11:08,079 --> 00:11:10,120
+know, robot thing is going to serve you
+
+273
+00:11:10,120 --> 00:11:12,680
+cash. Let's talk about
+
+274
+00:11:12,680 --> 00:11:16,160
+um basically a few workflows here. So,
+
+275
+00:11:16,160 --> 00:11:19,200
+uh, for your stack on this, uh, you're
+
+276
+00:11:19,200 --> 00:11:20,560
+going to want N8 to N. You're going to
+
+277
+00:11:20,560 --> 00:11:21,920
+want a Google Sheets, you're going to
+
+278
+00:11:21,920 --> 00:11:23,760
+need an AI model, you're going to need
+
+279
+00:11:23,760 --> 00:11:25,839
+Google Cloud Console, you're going to
+
+280
+00:11:25,839 --> 00:11:28,079
+need, um, some data sources, so social
+
+281
+00:11:28,079 --> 00:11:29,839
+platforms or other inputs, and you're
+
+282
+00:11:29,839 --> 00:11:31,360
+going to need open router, which we
+
+283
+00:11:31,360 --> 00:11:32,880
+talked about before. It's basically
+
+284
+00:11:32,880 --> 00:11:34,800
+access multiple AI models through one
+
+285
+00:11:34,800 --> 00:11:37,040
+API. Now, once you have that stack,
+
+286
+00:11:37,040 --> 00:11:38,560
+you're going to be able to create a few
+
+287
+00:11:38,560 --> 00:11:40,320
+different workflows. You'll be able to
+
+288
+00:11:40,320 --> 00:11:42,079
+create a data analyzer, so you can
+
+289
+00:11:42,079 --> 00:11:44,800
+connect sheets with AI for insights.
+
+290
+00:11:44,800 --> 00:11:46,160
+You'll be able to create a content
+
+291
+00:11:46,160 --> 00:11:48,160
+monitor. You can scrape Reddit and
+
+292
+00:11:48,160 --> 00:11:50,320
+summarize with AI. You can create a
+
+293
+00:11:50,320 --> 00:11:52,399
+competitor alert, get notifications of
+
+294
+00:11:52,399 --> 00:11:54,519
+competitor posts, email
+
+295
+00:11:54,519 --> 00:11:56,880
+summarizer, weekly AI summaries of
+
+296
+00:11:56,880 --> 00:11:58,640
+emails. You can even do a meeting
+
+297
+00:11:58,640 --> 00:12:01,040
+assistant, although this exists uh a a
+
+298
+00:12:01,040 --> 00:12:03,480
+lot, you know, in other products.
+
+299
+00:12:03,480 --> 00:12:06,720
+Um but uh yeah basically the formula is
+
+300
+00:12:06,720 --> 00:12:08,800
+you pull data from sources, you
+
+301
+00:12:08,800 --> 00:12:11,200
+transform it with AI, you analyze the
+
+302
+00:12:11,200 --> 00:12:13,839
+results, you apply insights to strategy,
+
+303
+00:12:13,839 --> 00:12:16,800
+and you create a closed loop uh strategy
+
+304
+00:12:16,800 --> 00:12:19,120
+with output. So this is just some really
+
+305
+00:12:19,120 --> 00:12:20,800
+really simple ways to actually create
+
+306
+00:12:20,800 --> 00:12:22,560
+some of your first workflows. We're
+
+307
+00:12:22,560 --> 00:12:24,320
+going to get to more interesting stuff
+
+308
+00:12:24,320 --> 00:12:28,160
+um over here. So Jordan Mix, who uh is a
+
+309
+00:12:28,160 --> 00:12:29,600
+partner at Late Checkout, my holding
+
+310
+00:12:29,600 --> 00:12:32,160
+company, uh who has been on the pod
+
+311
+00:12:32,160 --> 00:12:34,720
+before, had this really cool thing where
+
+312
+00:12:34,720 --> 00:12:37,519
+um his workflow was the one-click CRM.
+
+313
+00:12:37,519 --> 00:12:41,920
+So he basically uh was able to um you
+
+314
+00:12:41,920 --> 00:12:43,680
+know, you can think of the use case of
+
+315
+00:12:43,680 --> 00:12:46,000
+this podcast, the Startup Ideas podcast,
+
+316
+00:12:46,000 --> 00:12:50,000
+every single week having a uh here's the
+
+317
+00:12:50,000 --> 00:12:52,160
+five guests that we should invite on the
+
+318
+00:12:52,160 --> 00:12:56,639
+podcast. uh automated uh and it's and
+
+319
+00:12:56,639 --> 00:12:59,120
+and vetted and reaching out based on
+
+320
+00:12:59,120 --> 00:13:01,120
+their social links basing based on other
+
+321
+00:13:01,120 --> 00:13:02,880
+content that they've done. So, how does
+
+322
+00:13:02,880 --> 00:13:05,360
+it work? You uh step one is you trigger
+
+323
+00:13:05,360 --> 00:13:09,200
+with Gum Loop browser extension. Um and
+
+324
+00:13:09,200 --> 00:13:10,880
+you can check that out on your own time,
+
+325
+00:13:10,880 --> 00:13:15,079
+but um the browser extension basically
+
+326
+00:13:15,079 --> 00:13:18,720
+uh you know what, I can show it to you
+
+327
+00:13:18,720 --> 00:13:21,519
+real quick. It's this Chrome extension
+
+328
+00:13:21,519 --> 00:13:23,920
+that automates your browser with AI. So
+
+329
+00:13:23,920 --> 00:13:25,519
+basically, you can record your browser
+
+330
+00:13:25,519 --> 00:13:27,600
+actions and replay them with a single
+
+331
+00:13:27,600 --> 00:13:29,600
+click. No coding required. You can
+
+332
+00:13:29,600 --> 00:13:32,560
+scrape and process web content with AI.
+
+333
+00:13:32,560 --> 00:13:34,880
+Um, so super helpful. It's a Chrome
+
+334
+00:13:34,880 --> 00:13:36,399
+extension, by the way. I'm not
+
+335
+00:13:36,399 --> 00:13:40,480
+affiliated with Gum Loop or uh yeah, I'm
+
+336
+00:13:40,480 --> 00:13:42,639
+not affiliated with with this company at
+
+337
+00:13:42,639 --> 00:13:47,200
+all. Uh, and let's go back to the
+
+338
+00:13:47,200 --> 00:13:50,200
+presentation.
+
+339
+00:13:51,200 --> 00:13:52,800
+Yeah, someone asked me, "Are you filming
+
+340
+00:13:52,800 --> 00:13:54,639
+with Gum Loop?" No, no, I just I'm
+
+341
+00:13:54,639 --> 00:13:56,160
+trying to give you the sauce. I want to
+
+342
+00:13:56,160 --> 00:13:59,800
+see what you can create. Um, and,
+
+343
+00:13:59,800 --> 00:14:03,839
+uh, let's, uh, let's continue. So, uh,
+
+344
+00:14:03,839 --> 00:14:05,440
+you trigger with the Gum Loop browser
+
+345
+00:14:05,440 --> 00:14:07,920
+extension. You scrape the website so you
+
+346
+00:14:07,920 --> 00:14:09,600
+can get a transcript, for example, if
+
+347
+00:14:09,600 --> 00:14:11,360
+it's a YouTube video. Then you can
+
+348
+00:14:11,360 --> 00:14:14,320
+analyze the content and web search. Um,
+
+349
+00:14:14,320 --> 00:14:16,079
+you can extract the data. You get the
+
+350
+00:14:16,079 --> 00:14:17,920
+social links and other relevant links.
+
+351
+00:14:17,920 --> 00:14:19,440
+And then you can craft an outreach
+
+352
+00:14:19,440 --> 00:14:22,079
+message, store it in Air Table, and then
+
+353
+00:14:22,079 --> 00:14:23,600
+you can send a weekly summary to your
+
+354
+00:14:23,600 --> 00:14:24,959
+team. Now, you actually don't even need
+
+355
+00:14:24,959 --> 00:14:26,480
+to use Gum Loop for that. You can use
+
+356
+00:14:26,480 --> 00:14:29,519
+Lindy, you can use other platforms. Um,
+
+357
+00:14:29,519 --> 00:14:31,600
+but this is super cool because it does a
+
+358
+00:14:31,600 --> 00:14:33,360
+lot of the heavy lifting, the boring
+
+359
+00:14:33,360 --> 00:14:37,279
+stuff uh around actually figuring out
+
+360
+00:14:37,279 --> 00:14:39,199
+who to reach out to and and how to reach
+
+361
+00:14:39,199 --> 00:14:40,040
+out to
+
+362
+00:14:40,040 --> 00:14:43,120
+them. Uh, this is a classic Vibe
+
+363
+00:14:43,120 --> 00:14:46,720
+Marketing uh example. Uh we I did a
+
+364
+00:14:46,720 --> 00:14:49,839
+podcast on this how we basically built
+
+365
+00:14:49,839 --> 00:14:54,320
+this Disney Pixar level videos of myself
+
+366
+00:14:54,320 --> 00:14:58,399
+um using Chat GBT uh Leonardo Chat GBT
+
+367
+00:14:58,399 --> 00:14:59,519
+was on the script writing I think
+
+368
+00:14:59,519 --> 00:15:02,639
+Leonardo AI cling AI uh stitching that
+
+369
+00:15:02,639 --> 00:15:04,240
+together to actually make these
+
+370
+00:15:04,240 --> 00:15:07,440
+beautiful images move into videos and 11
+
+371
+00:15:07,440 --> 00:15:12,800
+labs for um for the voice and uh highly
+
+372
+00:15:12,800 --> 00:15:14,079
+recommend to watch this. It's pretty
+
+373
+00:15:14,079 --> 00:15:16,320
+long, but um it's an interesting way
+
+374
+00:15:16,320 --> 00:15:18,320
+because you know why is this interesting
+
+375
+00:15:18,320 --> 00:15:20,480
+in in the context of Vibe marketing?
+
+376
+00:15:20,480 --> 00:15:22,959
+Because if you can create there's this
+
+377
+00:15:22,959 --> 00:15:24,800
+arbitrage moment that exists right now
+
+378
+00:15:24,800 --> 00:15:26,880
+where you can actually go and create
+
+379
+00:15:26,880 --> 00:15:31,199
+Pixar level content that's going to fly
+
+380
+00:15:31,199 --> 00:15:33,839
+on social media if it's actually good uh
+
+381
+00:15:33,839 --> 00:15:35,800
+and your competitors are
+
+382
+00:15:35,800 --> 00:15:39,040
+not. Uh you can even create a completely
+
+383
+00:15:39,040 --> 00:15:41,560
+AIdriven newsletter. So you use Google
+
+384
+00:15:41,560 --> 00:15:44,399
+appcript that takes a topic and a point
+
+385
+00:15:44,399 --> 00:15:46,639
+of view from a Google sheet and then and
+
+386
+00:15:46,639 --> 00:15:48,639
+then uses perplexity for all the deep
+
+387
+00:15:48,639 --> 00:15:51,199
+research uh code for writing and
+
+388
+00:15:51,199 --> 00:15:53,440
+midjourney for images. Imagine that like
+
+389
+00:15:53,440 --> 00:15:55,839
+a completely AIdriven newsletter. Now, I
+
+390
+00:15:55,839 --> 00:15:57,839
+know some people in the comment section
+
+391
+00:15:57,839 --> 00:15:59,759
+are going to be like, "Oh my god, that's
+
+392
+00:15:59,759 --> 00:16:03,440
+just going to be AI slop." And it might
+
+393
+00:16:03,440 --> 00:16:06,160
+it might be AI slop, but if you have the
+
+394
+00:16:06,160 --> 00:16:09,120
+right prompts um and you're Yeah, you
+
+395
+00:16:09,120 --> 00:16:10,959
+have the right prompts and you do have
+
+396
+00:16:10,959 --> 00:16:14,000
+some human in the loop at some point. Um
+
+397
+00:16:14,000 --> 00:16:16,720
+it it you know, I I wouldn't say that's
+
+398
+00:16:16,720 --> 00:16:19,600
+it's 100% true. I've seen AIdriven
+
+399
+00:16:19,600 --> 00:16:22,079
+newsletters that are so so valuable and
+
+400
+00:16:22,079 --> 00:16:24,240
+I love getting in my inbox and you you
+
+401
+00:16:24,240 --> 00:16:25,759
+probably didn't wouldn't even know that
+
+402
+00:16:25,759 --> 00:16:28,199
+it's uh
+
+403
+00:16:28,199 --> 00:16:31,920
+AI. Um okay, so how to scale content
+
+404
+00:16:31,920 --> 00:16:33,920
+with Vibe Marketing. Couple tools that
+
+405
+00:16:33,920 --> 00:16:37,199
+we're we're using NAN, Google Sheets,
+
+406
+00:16:37,199 --> 00:16:41,440
+Open Router, Open AAI, and Clo37. So how
+
+407
+00:16:41,440 --> 00:16:43,759
+it works, you get insight from specific
+
+408
+00:16:43,759 --> 00:16:46,240
+subreddits. You come up with content
+
+409
+00:16:46,240 --> 00:16:48,720
+ideas using open AI. You store the
+
+410
+00:16:48,720 --> 00:16:51,920
+ideas. You get one idea per execution
+
+411
+00:16:51,920 --> 00:16:54,560
+and then you use code point uh 3.7 to
+
+412
+00:16:54,560 --> 00:16:56,880
+create content for LinkedIn, YouTube
+
+413
+00:16:56,880 --> 00:16:58,560
+video scripts and blog post. Shout out
+
+414
+00:16:58,560 --> 00:16:59,920
+to boring marketer who put this
+
+415
+00:16:59,920 --> 00:17:02,000
+together. Um I just think it's
+
+416
+00:17:02,000 --> 00:17:03,440
+brilliant, right? Reddit, you have all
+
+417
+00:17:03,440 --> 00:17:05,839
+these validated ideas and then you use
+
+418
+00:17:05,839 --> 00:17:08,359
+open AI to sort of remix it and
+
+419
+00:17:08,359 --> 00:17:11,280
+brainstorm. Um it's just it helps. You
+
+420
+00:17:11,280 --> 00:17:13,119
+know so many people come to me and said
+
+421
+00:17:13,119 --> 00:17:14,880
+say I you know I don't have time to do
+
+422
+00:17:14,880 --> 00:17:16,959
+content I can't do content ideas I need
+
+423
+00:17:16,959 --> 00:17:19,599
+a system for creating content this is
+
+424
+00:17:19,599 --> 00:17:23,039
+your system vibe marketing is here sales
+
+425
+00:17:23,039 --> 00:17:25,919
+agent you can create a you know use an
+
+426
+00:17:25,919 --> 00:17:29,039
+LLM to validate a raw list of leads then
+
+427
+00:17:29,039 --> 00:17:32,080
+get info from that website analyze it
+
+428
+00:17:32,080 --> 00:17:33,919
+generate a report and send custom
+
+429
+00:17:33,919 --> 00:17:36,120
+outreach you don't need a junior
+
+430
+00:17:36,120 --> 00:17:38,720
+salesperson literally just automate it
+
+431
+00:17:38,720 --> 00:17:41,480
+using Vibe marketing
+
+432
+00:17:41,480 --> 00:17:44,240
+e-commerce, a system that takes Amazon
+
+433
+00:17:44,240 --> 00:17:46,320
+as that's like basically the Amazon
+
+434
+00:17:46,320 --> 00:17:49,360
+skew, uh, and runs it through seven AI
+
+435
+00:17:49,360 --> 00:17:51,760
+agents, pulls in reviews, keywords,
+
+436
+00:17:51,760 --> 00:17:53,600
+search behavior, turns it into a full
+
+437
+00:17:53,600 --> 00:17:55,840
+listing, bullets, titles, back-end
+
+438
+00:17:55,840 --> 00:17:58,400
+terms, image overlay copy, even A+
+
+439
+00:17:58,400 --> 00:18:00,880
+content, all structured, all conversion
+
+440
+00:18:00,880 --> 00:18:02,880
+focused. It's basically like having a
+
+441
+00:18:02,880 --> 00:18:05,280
+strategist, copywriter, and SEO person
+
+442
+00:18:05,280 --> 00:18:07,120
+in one click. Are you getting fired up
+
+443
+00:18:07,120 --> 00:18:08,960
+about Vibe marketing? I am just talking
+
+444
+00:18:08,960 --> 00:18:12,080
+about it and it goes on and on you know
+
+445
+00:18:12,080 --> 00:18:15,280
+um you can you could uh here's another
+
+446
+00:18:15,280 --> 00:18:18,880
+content idea content one uh using NAN
+
+447
+00:18:18,880 --> 00:18:21,440
+search reddit for relevant combos in my
+
+448
+00:18:21,440 --> 00:18:23,600
+niche you know how much I like Reddit ex
+
+449
+00:18:23,600 --> 00:18:25,840
+extract themes painoints for content
+
+450
+00:18:25,840 --> 00:18:28,320
+ideas and then generate psychologically
+
+451
+00:18:28,320 --> 00:18:30,480
+powerful hooks outlines and briefs and
+
+452
+00:18:30,480 --> 00:18:31,840
+just store it in a Google sheet for
+
+453
+00:18:31,840 --> 00:18:33,360
+editing so it's similar to what we saw
+
+454
+00:18:33,360 --> 00:18:35,840
+before um but thinking you maybe you
+
+455
+00:18:35,840 --> 00:18:37,360
+just do it for hooks maybe you just do
+
+456
+00:18:37,360 --> 00:18:39,480
+it for outines Maybe you just do it for
+
+457
+00:18:39,480 --> 00:18:42,720
+briefs. Um, so this one is about, you
+
+458
+00:18:42,720 --> 00:18:44,000
+know, who, you know, people who want to
+
+459
+00:18:44,000 --> 00:18:46,240
+start YouTube channels but need content
+
+460
+00:18:46,240 --> 00:18:48,160
+ideas. So first, you know, you're going
+
+461
+00:18:48,160 --> 00:18:51,039
+to use again NAN, YouTube API, Open AI,
+
+462
+00:18:51,039 --> 00:18:52,640
+Open Router, Google Sheets, Google
+
+463
+00:18:52,640 --> 00:18:55,039
+Cloud. How you do it? Step one is you
+
+464
+00:18:55,039 --> 00:18:57,360
+find videos. So you search YouTube for a
+
+465
+00:18:57,360 --> 00:18:59,440
+keyword and fetch trending videos in
+
+466
+00:18:59,440 --> 00:19:02,880
+your niche. Uh, then you extract the
+
+467
+00:19:02,880 --> 00:19:04,960
+info, get title, description, views, and
+
+468
+00:19:04,960 --> 00:19:07,120
+channel details. Then you store the raw
+
+469
+00:19:07,120 --> 00:19:09,039
+data. You save that video into Google
+
+470
+00:19:09,039 --> 00:19:12,080
+Sheets. Analyze the content. Use AI to
+
+471
+00:19:12,080 --> 00:19:14,400
+extract content angles from titles and
+
+472
+00:19:14,400 --> 00:19:17,120
+descriptions. Generate ideas. Ask idea.
+
+473
+00:19:17,120 --> 00:19:20,000
+Ask AI to suggest new video ideas based
+
+474
+00:19:20,000 --> 00:19:22,559
+on those angles. And by the way, use the
+
+475
+00:19:22,559 --> 00:19:25,039
+model that you know will come will come
+
+476
+00:19:25,039 --> 00:19:26,880
+up with the best stuff here. And then
+
+477
+00:19:26,880 --> 00:19:28,960
+store the results. So save those angles
+
+478
+00:19:28,960 --> 00:19:31,679
+in Google Sheets all in the cloud. I
+
+479
+00:19:31,679 --> 00:19:33,440
+don't you know those are just a few of
+
+480
+00:19:33,440 --> 00:19:35,120
+the workflows I encourage people to go
+
+481
+00:19:35,120 --> 00:19:37,039
+and try and come up with their own. Use
+
+482
+00:19:37,039 --> 00:19:40,559
+any tool you'd like. Uh this is where um
+
+483
+00:19:40,559 --> 00:19:42,400
+you know I I think that the world of
+
+484
+00:19:42,400 --> 00:19:44,160
+marketing is going to is really going to
+
+485
+00:19:44,160 --> 00:19:45,840
+change over the next 12 to 18 months.
+
+486
+00:19:45,840 --> 00:19:48,400
+This is an image from from my co-founder
+
+487
+00:19:48,400 --> 00:19:50,880
+um where you know he said you know he
+
+488
+00:19:50,880 --> 00:19:53,679
+says basically marketers using AI tools
+
+489
+00:19:53,679 --> 00:19:56,000
+in isolated ways for specific outputs on
+
+490
+00:19:56,000 --> 00:19:57,520
+individual channels. That's how people
+
+491
+00:19:57,520 --> 00:19:59,760
+work today. But basically in the next 12
+
+492
+00:19:59,760 --> 00:20:01,440
+to 18 months, we're going to see an
+
+493
+00:20:01,440 --> 00:20:03,520
+interconnected AI system working
+
+494
+00:20:03,520 --> 00:20:05,520
+together with shared contexts. You're
+
+495
+00:20:05,520 --> 00:20:08,400
+going to have basically uh multiple AI
+
+496
+00:20:08,400 --> 00:20:10,160
+agents and workflows. And these are
+
+497
+00:20:10,160 --> 00:20:12,320
+going to be managed by manager agents
+
+498
+00:20:12,320 --> 00:20:14,240
+trained by human experts. This is the
+
+499
+00:20:14,240 --> 00:20:16,320
+future of marketing. Everyone marketers
+
+500
+00:20:16,320 --> 00:20:18,880
+will evolve from individual ex uh
+
+501
+00:20:18,880 --> 00:20:21,280
+executors to orchestrator of these
+
+502
+00:20:21,280 --> 00:20:23,760
+systems. Small marketing teams of five
+
+503
+00:20:23,760 --> 00:20:25,679
+will accomplish what previously required
+
+504
+00:20:25,679 --> 00:20:27,919
+much larger teams. We talked about that.
+
+505
+00:20:27,919 --> 00:20:30,480
+Adding new marketing channels isn't a,
+
+506
+00:20:30,480 --> 00:20:32,400
+you know, won't require hiring. It's
+
+507
+00:20:32,400 --> 00:20:35,120
+literally just an agent away. Outputs
+
+508
+00:20:35,120 --> 00:20:38,000
+will be more consistent and with less
+
+509
+00:20:38,000 --> 00:20:40,400
+feedback cycles needed and systems will
+
+510
+00:20:40,400 --> 00:20:42,320
+be goal oriented. So, it's going to be
+
+511
+00:20:42,320 --> 00:20:43,919
+about telling your agents, hey man, I
+
+512
+00:20:43,919 --> 00:20:46,159
+need 50,000 new organic visitors
+
+513
+00:20:46,159 --> 00:20:48,240
+monthly. Go figure out how to do it.
+
+514
+00:20:48,240 --> 00:20:49,919
+There's going to be real time
+
+515
+00:20:49,919 --> 00:20:51,919
+adaptation. So, real-time adaptation
+
+516
+00:20:51,919 --> 00:20:53,760
+will occur as systems analyze market
+
+517
+00:20:53,760 --> 00:20:56,240
+gaps, create opportunities instantly.
+
+518
+00:20:56,240 --> 00:20:58,240
+marketing might resemble high frequency
+
+519
+00:20:58,240 --> 00:21:00,720
+trading. We talked about that. Um, you
+
+520
+00:21:00,720 --> 00:21:02,799
+get the idea. Marketing is changing so
+
+521
+00:21:02,799 --> 00:21:04,960
+much right now and now is the time to
+
+522
+00:21:04,960 --> 00:21:07,000
+actually get good at this vibe marketing
+
+523
+00:21:07,000 --> 00:21:09,440
+stuff. So, what makes a good vibe
+
+524
+00:21:09,440 --> 00:21:11,600
+marketer? I think that if you can think
+
+525
+00:21:11,600 --> 00:21:13,840
+in systems, not campaigns, creating
+
+526
+00:21:13,840 --> 00:21:15,919
+these like systems, these flowcharts
+
+527
+00:21:15,919 --> 00:21:19,120
+type things, you'll outperform. If
+
+528
+00:21:19,120 --> 00:21:21,760
+you're good at testing relentlessly, you
+
+529
+00:21:21,760 --> 00:21:23,440
+know, now you're no longer testing two
+
+530
+00:21:23,440 --> 00:21:25,679
+ads. you're testing 50 variations, 100
+
+531
+00:21:25,679 --> 00:21:27,120
+variations. You're doing a lot of
+
+532
+00:21:27,120 --> 00:21:29,280
+testing every single day. Uh, and you're
+
+533
+00:21:29,280 --> 00:21:31,520
+learning quick. Um, you're frontloading
+
+534
+00:21:31,520 --> 00:21:33,440
+value in everything you create. You
+
+535
+00:21:33,440 --> 00:21:35,120
+know, you build once, you distribute
+
+536
+00:21:35,120 --> 00:21:37,360
+forever, and you let machines handle the
+
+537
+00:21:37,360 --> 00:21:40,480
+boring stuff. By the way, if you want to
+
+538
+00:21:40,480 --> 00:21:43,039
+see more Vibe Marketing tutorials,
+
+539
+00:21:43,039 --> 00:21:45,120
+highly recommend following Boring
+
+540
+00:21:45,120 --> 00:21:47,840
+Marketer on X. Uh, he shares a bunch of
+
+541
+00:21:47,840 --> 00:21:49,440
+workflows.
+
+542
+00:21:49,440 --> 00:21:53,520
+Uh this is his agency where he automates
+
+543
+00:21:53,520 --> 00:21:56,720
+five marketing um for folks. I'm a
+
+544
+00:21:56,720 --> 00:21:58,960
+co-founder in this
+
+545
+00:21:58,960 --> 00:22:01,360
+um and he also has a school community
+
+546
+00:22:01,360 --> 00:22:05,080
+which will include in the links
+
+547
+00:22:05,080 --> 00:22:07,640
+uh for other vibe
+
+548
+00:22:07,640 --> 00:22:12,039
+marketers and uh I think he charges 100
+
+549
+00:22:12,039 --> 00:22:13,640
+bucks
+
+550
+00:22:13,640 --> 00:22:16,880
+lifetime to join but the price goes up
+
+551
+00:22:16,880 --> 00:22:19,280
+every 100 members. So, for for people
+
+552
+00:22:19,280 --> 00:22:22,480
+interested, check it out. Um, that's the
+
+553
+00:22:22,480 --> 00:22:24,159
+introduction to VI marketing. I hope
+
+554
+00:22:24,159 --> 00:22:25,600
+that was helpful. I wanted to give you
+
+555
+00:22:25,600 --> 00:22:28,080
+all the sauce. Didn't want to hold back.
+
+556
+00:22:28,080 --> 00:22:30,720
+Um, if you enjoyed this thing, I think
+
+557
+00:22:30,720 --> 00:22:32,799
+you you kind of you got to let me know
+
+558
+00:22:32,799 --> 00:22:34,960
+at least. So, like, comment, and sub,
+
+559
+00:22:34,960 --> 00:22:36,799
+and share this with a friend so you can
+
+560
+00:22:36,799 --> 00:22:38,480
+go actually build something. I don't
+
+561
+00:22:38,480 --> 00:22:39,919
+want you just to like, comment, and
+
+562
+00:22:39,919 --> 00:22:41,840
+subscribe. That's not fun. I want you to
+
+563
+00:22:41,840 --> 00:22:44,400
+build something, and I want to see you
+
+564
+00:22:44,400 --> 00:22:46,799
+win. I'm rooting for you. The best thing
+
+565
+00:22:46,799 --> 00:22:49,679
+you can do uh is to actually just play
+
+566
+00:22:49,679 --> 00:22:52,320
+with the tools. Uh see what you learn.
+
+567
+00:22:52,320 --> 00:22:54,400
+Put it in your schedule. Every day I'm
+
+568
+00:22:54,400 --> 00:22:55,919
+going to spend 30 minutes on this. I'm
+
+569
+00:22:55,919 --> 00:22:57,039
+going to create a workflow. I'm going to
+
+570
+00:22:57,039 --> 00:22:59,039
+automate this. I'm going to ask my team
+
+571
+00:22:59,039 --> 00:23:02,000
+what are what are repetitive tasks that
+
+572
+00:23:02,000 --> 00:23:04,240
+I can go and automate. Honestly, that's
+
+573
+00:23:04,240 --> 00:23:06,480
+the best thing you can do. Um and that
+
+574
+00:23:06,480 --> 00:23:10,000
+doesn't cost you any money. So, um a lot
+
+575
+00:23:10,000 --> 00:23:13,360
+of these platforms have free trials. um
+
+576
+00:23:13,360 --> 00:23:17,600
+check it out, have fun, and uh and yeah,
+
+577
+00:23:17,600 --> 00:23:19,120
+maybe we can use the comment section as
+
+578
+00:23:19,120 --> 00:23:22,720
+a place to uh just share share our
+
+579
+00:23:22,720 --> 00:23:24,880
+learnings and and share how we're
+
+580
+00:23:24,880 --> 00:23:29,280
+feeling about this. So, um go get them.
+
+581
+00:23:29,280 --> 00:23:31,919
+Till next time, that was the Startup
+
+582
+00:23:31,919 --> 00:23:34,640
+Ideas podcast introduction to Vibe
+
+583
+00:23:34,640 --> 00:23:36,880
+Marketing.
+

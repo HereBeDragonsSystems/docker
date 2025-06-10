@@ -10,16 +10,24 @@
               <option name="value" value="" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
-              <option name="name" value="PATH_PREFIX" />
-              <option name="value" value="" />
-            </DockerEnvVarImpl>
-            <DockerEnvVarImpl>
               <option name="name" value="BASE_PATH" />
               <option name="value" value="../" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
+              <option name="name" value="PATH_PREFIX" />
+              <option name="value" value="" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
               <option name="name" value="TZ" />
               <option name="value" value="Europe/Lisbon" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="N8N_PUID" />
+              <option name="value" value="1001" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="N8N_GUID" />
+              <option name="value" value="1001" />
             </DockerEnvVarImpl>
           </list>
         </option>

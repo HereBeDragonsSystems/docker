@@ -1,0 +1,1004 @@
+﻿1
+00:00:00,160 --> 00:00:02,360
+that brings us to the biggest update
+
+2
+00:00:02,360 --> 00:00:05,279
+custom gpts to get to them just click
+
+3
+00:00:05,279 --> 00:00:08,000
+explore gpts on the sidebar near the top
+
+4
+00:00:08,000 --> 00:00:09,120
+a lot of these that are built by
+
+5
+00:00:09,120 --> 00:00:11,240
+companies are honestly just a less
+
+6
+00:00:11,240 --> 00:00:13,360
+userfriendly way to use their product
+
+7
+00:00:13,360 --> 00:00:14,719
+but the fact that you can call them
+
+8
+00:00:14,719 --> 00:00:16,760
+within chats and stack functionalities
+
+9
+00:00:16,760 --> 00:00:18,160
+across a bunch of different tools now
+
+10
+00:00:18,160 --> 00:00:19,880
+starts to become really powerful I'll
+
+11
+00:00:19,880 --> 00:00:21,279
+show you some examples of that near the
+
+12
+00:00:21,279 --> 00:00:23,599
+end this is one step closer to agents
+
+13
+00:00:23,599 --> 00:00:25,640
+but overall there is a ton to sift
+
+14
+00:00:25,640 --> 00:00:27,039
+through in here I want to quickly show
+
+15
+00:00:27,039 --> 00:00:29,119
+just a really useful and easy to use one
+
+16
+00:00:29,119 --> 00:00:30,720
+this can create cool diagrams with
+
+17
+00:00:30,720 --> 00:00:32,880
+flowcharts and mind maps so I'll find it
+
+18
+00:00:32,880 --> 00:00:35,920
+using the search bar for Whimsical
+
+19
+00:00:35,920 --> 00:00:38,079
+diagrams then it starts a new chat with
+
+20
+00:00:38,079 --> 00:00:39,760
+it you can type in here or what will
+
+21
+00:00:39,760 --> 00:00:41,559
+tend to be more common with one like
+
+22
+00:00:41,559 --> 00:00:43,760
+this if you're in the middle of a chat
+
+23
+00:00:43,760 --> 00:00:46,399
+like this one about how llms are trained
+
+24
+00:00:46,399 --> 00:00:48,280
+I want help visualizing that so I'll use
+
+25
+00:00:48,280 --> 00:00:51,800
+the at symbol and select it then I'll
+
+26
+00:00:51,800 --> 00:00:54,520
+say show me that as a mind map and it
+
+27
+00:00:54,520 --> 00:00:57,280
+will ask me to
+
+28
+00:00:57,280 --> 00:00:59,600
+approve then pretty quickly it has this
+
+29
+00:00:59,600 --> 00:01:01,559
+awesome mind map created then there's a
+
+30
+00:01:01,559 --> 00:01:02,879
+link that will take you to the site
+
+31
+00:01:02,879 --> 00:01:04,239
+where you can edit it further if you'd
+
+32
+00:01:04,239 --> 00:01:05,920
+like this is a really cool one and once
+
+33
+00:01:05,920 --> 00:01:07,799
+you start experimenting and just finding
+
+34
+00:01:07,799 --> 00:01:10,080
+different gpts that apply to you just
+
+35
+00:01:10,080 --> 00:01:11,960
+opens up a whole world of possibilities
+
+36
+00:01:11,960 --> 00:01:13,439
+and as a side note if you're actually
+
+37
+00:01:13,439 --> 00:01:15,439
+interested in how llms are trained and
+
+38
+00:01:15,439 --> 00:01:18,880
+how they work on carpath video is by far
+
+39
+00:01:18,880 --> 00:01:20,720
+the best intro to that topic I've come
+
+40
+00:01:20,720 --> 00:01:22,400
+across sorry for the pronunciation
+
+41
+00:01:22,400 --> 00:01:24,799
+there's a lot of cool gpts already built
+
+42
+00:01:24,799 --> 00:01:26,119
+but let's build one of our own I'll
+
+43
+00:01:26,119 --> 00:01:27,439
+start off really simple so I have a
+
+44
+00:01:27,439 --> 00:01:29,360
+3-year-old and he loves to color and for
+
+45
+00:01:29,360 --> 00:01:30,720
+a while I've been using mid journey to
+
+46
+00:01:30,720 --> 00:01:32,360
+create coloring book pages for him I
+
+47
+00:01:32,360 --> 00:01:34,000
+have a few prompts saved and just switch
+
+48
+00:01:34,000 --> 00:01:35,200
+a couple words around and let it
+
+49
+00:01:35,200 --> 00:01:37,159
+generate that does work well but with a
+
+50
+00:01:37,159 --> 00:01:39,520
+custom GPT I can make it even easier
+
+51
+00:01:39,520 --> 00:01:41,560
+I'll do this conversationally at first
+
+52
+00:01:41,560 --> 00:01:43,280
+before showing how to customize these
+
+53
+00:01:43,280 --> 00:01:44,479
+and build them from
+
+54
+00:01:44,479 --> 00:01:48,399
+scratch I just click create up
+
+55
+00:01:48,399 --> 00:01:51,360
+here an image generator that only
+
+56
+00:01:51,360 --> 00:01:54,680
+generates coloring book pages for
+
+57
+00:01:54,680 --> 00:01:57,079
+children it has the preview on the other
+
+58
+00:01:57,079 --> 00:01:59,600
+side as we build just from that it would
+
+59
+00:01:59,600 --> 00:02:01,479
+actually probably be usable already
+
+60
+00:02:01,479 --> 00:02:03,119
+under configure it's already filled in
+
+61
+00:02:03,119 --> 00:02:05,960
+these fields it also suggested a title I
+
+62
+00:02:05,960 --> 00:02:08,080
+want something a little more
+
+63
+00:02:08,080 --> 00:02:10,038
+imaginative that's
+
+64
+00:02:10,038 --> 00:02:12,400
+good now it's generating a profile
+
+65
+00:02:12,400 --> 00:02:15,680
+picture and that's perfect and now it's
+
+66
+00:02:15,680 --> 00:02:17,800
+asking about the interaction style so I
+
+67
+00:02:17,800 --> 00:02:19,040
+went through a couple back and forths
+
+68
+00:02:19,040 --> 00:02:20,680
+here it was all easy stuff so I wanted
+
+69
+00:02:20,680 --> 00:02:22,000
+to speed it up basically I was just
+
+70
+00:02:22,000 --> 00:02:24,000
+telling it to keep everything simple and
+
+71
+00:02:24,000 --> 00:02:26,160
+kid-friendly then asked it to act like a
+
+72
+00:02:26,160 --> 00:02:28,480
+creative friend now we can test it out I
+
+73
+00:02:28,480 --> 00:02:30,000
+want to make sure it works with as
+
+74
+00:02:30,000 --> 00:02:31,680
+little input as possible so I'll just
+
+75
+00:02:31,680 --> 00:02:34,480
+write a
+
+76
+00:02:34,920 --> 00:02:37,599
+dinosaur that's a really solid dinosaur
+
+77
+00:02:37,599 --> 00:02:39,760
+and it has a fun description the Emojis
+
+78
+00:02:39,760 --> 00:02:41,200
+are a nice touch but I want it to be
+
+79
+00:02:41,200 --> 00:02:44,518
+simpler since my son is only
+
+80
+00:02:45,760 --> 00:02:48,599
+three all right now it's updated so I'll
+
+81
+00:02:48,599 --> 00:02:50,840
+give it another
+
+82
+00:02:50,840 --> 00:02:53,200
+try all right that's great I want to try
+
+83
+00:02:53,200 --> 00:02:54,680
+one that's a little more complex and see
+
+84
+00:02:54,680 --> 00:02:59,120
+how it does a bear driving a race car
+
+85
+00:02:59,120 --> 00:03:01,000
+through a
+
+86
+00:03:01,000 --> 00:03:03,040
+forest all right that one ended up with
+
+87
+00:03:03,040 --> 00:03:04,480
+some color I thought it would have been
+
+88
+00:03:04,480 --> 00:03:05,920
+implied by calling it a coloring book
+
+89
+00:03:05,920 --> 00:03:07,920
+page but I'll ask it to make sure it
+
+90
+00:03:07,920 --> 00:03:10,720
+only generates in black and white all
+
+91
+00:03:10,720 --> 00:03:13,920
+right now I'll try again that is amazing
+
+92
+00:03:13,920 --> 00:03:15,319
+this is already done I could just click
+
+93
+00:03:15,319 --> 00:03:16,840
+save right now but let's look at the
+
+94
+00:03:16,840 --> 00:03:19,480
+configure tab to see what it did here so
+
+95
+00:03:19,480 --> 00:03:21,400
+it has the title and a brief description
+
+96
+00:03:21,400 --> 00:03:23,000
+that's what will show up to other users
+
+97
+00:03:23,000 --> 00:03:24,640
+if you make it public it has the
+
+98
+00:03:24,640 --> 00:03:26,760
+instruction for what it does these are
+
+99
+00:03:26,760 --> 00:03:28,480
+short because this one was pretty simple
+
+100
+00:03:28,480 --> 00:03:30,480
+but it guides how the imag will be
+
+101
+00:03:30,480 --> 00:03:32,519
+created with the constraints and how it
+
+102
+00:03:32,519 --> 00:03:34,040
+will interact in a fun way and for the
+
+103
+00:03:34,040 --> 00:03:35,439
+conversation starters I want to make
+
+104
+00:03:35,439 --> 00:03:37,159
+some changes here so they're more
+
+105
+00:03:37,159 --> 00:03:38,760
+interactive in case he doesn't have an
+
+106
+00:03:38,760 --> 00:03:41,400
+idea list some themes to choose from
+
+107
+00:03:41,400 --> 00:03:44,280
+some characters settings then surprise
+
+108
+00:03:44,280 --> 00:03:46,159
+me that should be fun and we didn't need
+
+109
+00:03:46,159 --> 00:03:47,879
+to upload anything to the knowledge base
+
+110
+00:03:47,879 --> 00:03:49,159
+but this is where you can upload
+
+111
+00:03:49,159 --> 00:03:51,640
+additional files for your GPT to use as
+
+112
+00:03:51,640 --> 00:03:53,519
+context things like a tutorial
+
+113
+00:03:53,519 --> 00:03:55,720
+transcripts or writing samples and the
+
+114
+00:03:55,720 --> 00:03:57,439
+only capability we really needed is
+
+115
+00:03:57,439 --> 00:03:59,840
+Dolly for image generation but it left
+
+116
+00:03:59,840 --> 00:04:01,599
+web browsing on generally it makes sense
+
+117
+00:04:01,599 --> 00:04:03,879
+to leave on any that you think it may
+
+118
+00:04:03,879 --> 00:04:05,879
+use doesn't really hurt then action is
+
+119
+00:04:05,879 --> 00:04:07,360
+where you could interact with other
+
+120
+00:04:07,360 --> 00:04:09,439
+applications through apis that's where
+
+121
+00:04:09,439 --> 00:04:11,439
+these can get really powerful but also
+
+122
+00:04:11,439 --> 00:04:13,799
+more complex you can go find existing
+
+123
+00:04:13,799 --> 00:04:15,920
+apis you can use or use one from your
+
+124
+00:04:15,920 --> 00:04:17,839
+business if you have one then convert it
+
+125
+00:04:17,839 --> 00:04:20,440
+into an open API schema to paste in here
+
+126
+00:04:20,440 --> 00:04:22,199
+that's beyond the scope of this video
+
+127
+00:04:22,199 --> 00:04:23,800
+there's also people that cover it better
+
+128
+00:04:23,800 --> 00:04:25,520
+than I would I don't have a development
+
+129
+00:04:25,520 --> 00:04:27,600
+background Liam Atley is one person I
+
+130
+00:04:27,600 --> 00:04:29,240
+saw cover that pretty in depth if you're
+
+131
+00:04:29,240 --> 00:04:31,720
+looking to build gpts to make money with
+
+132
+00:04:31,720 --> 00:04:33,199
+once they launch the monetization
+
+133
+00:04:33,199 --> 00:04:35,080
+features that will be the only way to
+
+134
+00:04:35,080 --> 00:04:36,560
+stand out otherwise someone can just
+
+135
+00:04:36,560 --> 00:04:38,280
+look at the functions of your GPT and
+
+136
+00:04:38,280 --> 00:04:40,199
+create it themselves I'm going to save
+
+137
+00:04:40,199 --> 00:04:41,800
+this one and just keep it for me you
+
+138
+00:04:41,800 --> 00:04:43,520
+could also make it accessible to anyone
+
+139
+00:04:43,520 --> 00:04:45,520
+with the link or fully public a very
+
+140
+00:04:45,520 --> 00:04:47,000
+important note is if you are building
+
+141
+00:04:47,000 --> 00:04:48,759
+one of these to make public all the
+
+142
+00:04:48,759 --> 00:04:51,039
+information made available to the GPT
+
+143
+00:04:51,039 --> 00:04:52,560
+that includes the prompt the
+
+144
+00:04:52,560 --> 00:04:55,440
+instructions and attached files it can
+
+145
+00:04:55,440 --> 00:04:57,320
+be used by the model to construct a
+
+146
+00:04:57,320 --> 00:04:59,120
+response to the user so just don't
+
+147
+00:04:59,120 --> 00:05:00,800
+include any information you don't want
+
+148
+00:05:00,800 --> 00:05:02,560
+the user to know there was also a hack
+
+149
+00:05:02,560 --> 00:05:04,000
+going around of a prompt you could use
+
+150
+00:05:04,000 --> 00:05:06,080
+to extract the full custom instructions
+
+151
+00:05:06,080 --> 00:05:07,880
+I just don't put any confidential info
+
+152
+00:05:07,880 --> 00:05:09,280
+into these um but here's the one I just
+
+153
+00:05:09,280 --> 00:05:11,880
+made want to test out these conversation
+
+154
+00:05:11,880 --> 00:05:14,400
+starters right that gave a great list of
+
+155
+00:05:14,400 --> 00:05:16,759
+characters to choose from I can almost
+
+156
+00:05:16,759 --> 00:05:19,600
+guarantee he would choose robot there it
+
+157
+00:05:19,600 --> 00:05:22,000
+is that's perfect and I want to test out
+
+158
+00:05:22,000 --> 00:05:24,919
+that surprise me
+
+159
+00:05:26,039 --> 00:05:28,400
+too all right that's great all I have to
+
+160
+00:05:28,400 --> 00:05:29,960
+do is open this up and just let him
+
+161
+00:05:29,960 --> 00:05:31,319
+click a button and it'll generate
+
+162
+00:05:31,319 --> 00:05:32,680
+another thing kind of cool here is on my
+
+163
+00:05:32,680 --> 00:05:34,639
+phone I'll be able to use voice and have
+
+164
+00:05:34,639 --> 00:05:36,440
+him just say what he wants into it then
+
+165
+00:05:36,440 --> 00:05:38,160
+it will make it for him and then also
+
+166
+00:05:38,160 --> 00:05:40,000
+say those fun descriptions out loud I
+
+167
+00:05:40,000 --> 00:05:41,160
+think this will be pretty fun this was
+
+168
+00:05:41,160 --> 00:05:43,160
+all created in just a few minutes from a
+
+169
+00:05:43,160 --> 00:05:44,800
+short conversation that anyone could
+
+170
+00:05:44,800 --> 00:05:46,319
+have had I know a lot of us have gotten
+
+171
+00:05:46,319 --> 00:05:48,520
+used to how far AI has come but when I
+
+172
+00:05:48,520 --> 00:05:50,319
+stop and think about this it's really
+
+173
+00:05:50,319 --> 00:05:52,280
+insane how easy that was if you
+
+174
+00:05:52,280 --> 00:05:54,479
+regularly use chat GPT for any specific
+
+175
+00:05:54,479 --> 00:05:57,160
+thing like coding writing brainstorming
+
+176
+00:05:57,160 --> 00:05:59,639
+or topics like Fitness Nutrition things
+
+177
+00:05:59,639 --> 00:06:01,319
+things like that if it needs information
+
+178
+00:06:01,319 --> 00:06:03,440
+about you or knowledge only you have you
+
+179
+00:06:03,440 --> 00:06:05,319
+can create a GPT then call it into any
+
+180
+00:06:05,319 --> 00:06:07,000
+chat instead of having to use a complex
+
+181
+00:06:07,000 --> 00:06:08,639
+prompt each time a common example would
+
+182
+00:06:08,639 --> 00:06:10,120
+be for writing instead of giving
+
+183
+00:06:10,120 --> 00:06:11,800
+examples using the F shot prompting
+
+184
+00:06:11,800 --> 00:06:13,240
+method from earlier you could upload
+
+185
+00:06:13,240 --> 00:06:15,160
+your examples into the knowledge base
+
+186
+00:06:15,160 --> 00:06:17,240
+and instructions of a GPT then anytime
+
+187
+00:06:17,240 --> 00:06:18,960
+you want to write something just call it
+
+188
+00:06:18,960 --> 00:06:20,479
+and it will write in your style then for
+
+189
+00:06:20,479 --> 00:06:21,880
+things that don't require your own
+
+190
+00:06:21,880 --> 00:06:23,960
+knowledge or resources there's probably
+
+191
+00:06:23,960 --> 00:06:25,759
+already one made that you can test out
+
+192
+00:06:25,759 --> 00:06:27,080
+there's hundreds of thousands of these
+
+193
+00:06:27,080 --> 00:06:28,960
+built already and again you can start
+
+194
+00:06:28,960 --> 00:06:30,759
+stacking the functionality on top of
+
+195
+00:06:30,759 --> 00:06:32,479
+each other I want to show a few examples
+
+196
+00:06:32,479 --> 00:06:33,800
+of people doing that this calling
+
+197
+00:06:33,800 --> 00:06:35,520
+feature just came out a few days ago so
+
+198
+00:06:35,520 --> 00:06:36,639
+I haven't started building out any
+
+199
+00:06:36,639 --> 00:06:38,520
+systems myself quite yet mainly because
+
+200
+00:06:38,520 --> 00:06:40,479
+I've been working on this video but
+
+201
+00:06:40,479 --> 00:06:41,919
+here's a few really cool ones I saw on
+
+202
+00:06:41,919 --> 00:06:44,319
+Twitter so this is Petro chirano
+
+203
+00:06:44,319 --> 00:06:46,240
+creating an app using grimoire which is
+
+204
+00:06:46,240 --> 00:06:48,400
+one of the most popular gpts it creates
+
+205
+00:06:48,400 --> 00:06:50,440
+all the code for a website about a
+
+206
+00:06:50,440 --> 00:06:52,319
+coffee shop in New York City specialized
+
+207
+00:06:52,319 --> 00:06:54,400
+in Italian coffee then he sends all that
+
+208
+00:06:54,400 --> 00:06:56,720
+code to designer GPT which will launch
+
+209
+00:06:56,720 --> 00:06:58,520
+and host the
+
+210
+00:06:58,520 --> 00:07:01,520
+site
+
+211
+00:07:13,599 --> 00:07:15,680
+and I'll skim through this one but zat
+
+212
+00:07:15,680 --> 00:07:18,280
+uses academic paper finder that finds
+
+213
+00:07:18,280 --> 00:07:20,440
+papers about smart contract auditing
+
+214
+00:07:20,440 --> 00:07:22,599
+then he uses ask your PDF research
+
+215
+00:07:22,599 --> 00:07:24,280
+assistant to download and explain a
+
+216
+00:07:24,280 --> 00:07:26,000
+couple of them then use his literature
+
+217
+00:07:26,000 --> 00:07:27,720
+review writer to write a literature
+
+218
+00:07:27,720 --> 00:07:29,800
+review using the contents of both papers
+
+219
+00:07:29,800 --> 00:07:31,520
+so then it writes a review and cites the
+
+220
+00:07:31,520 --> 00:07:33,080
+references you would of course want to
+
+221
+00:07:33,080 --> 00:07:35,120
+do more factchecking and due diligence
+
+222
+00:07:35,120 --> 00:07:36,520
+for something like this I'm just trying
+
+223
+00:07:36,520 --> 00:07:38,879
+to demo some of the functionality Ryan
+
+224
+00:07:38,879 --> 00:07:41,440
+Carson created a chief product officer
+
+225
+00:07:41,440 --> 00:07:43,400
+Chief Financial Officer and investor to
+
+226
+00:07:43,400 --> 00:07:45,080
+be able to call and interact with at any
+
+227
+00:07:45,080 --> 00:07:46,680
+time building gpts with different
+
+228
+00:07:46,680 --> 00:07:48,560
+knowledge sets about your business then
+
+229
+00:07:48,560 --> 00:07:50,039
+almost reading them like different
+
+230
+00:07:50,039 --> 00:07:52,159
+employees like a marketing specialist
+
+231
+00:07:52,159 --> 00:07:53,879
+sales associate customer service
+
+232
+00:07:53,879 --> 00:07:55,759
+representative designer things like that
+
+233
+00:07:55,759 --> 00:07:57,159
+and then just calling them anytime you
+
+234
+00:07:57,159 --> 00:07:58,680
+need them could be really helpful you
+
+235
+00:07:58,680 --> 00:08:00,319
+would of course want to be careful with
+
+236
+00:08:00,319 --> 00:08:01,479
+what information you're sharing with
+
+237
+00:08:01,479 --> 00:08:03,879
+chat GPT but it's a cool idea and Dan
+
+238
+00:08:03,879 --> 00:08:06,360
+shipper built this notion GPT that uses
+
+239
+00:08:06,360 --> 00:08:08,639
+zappier to connect directly to his
+
+240
+00:08:08,639 --> 00:08:10,680
+notion so he can save things from chat
+
+241
+00:08:10,680 --> 00:08:12,879
+GPT into his notion workspace instead of
+
+242
+00:08:12,879 --> 00:08:14,440
+having to copy and paste there's a ton
+
+243
+00:08:14,440 --> 00:08:15,639
+of different ways especially building
+
+244
+00:08:15,639 --> 00:08:17,720
+things into a tool like zapier that can
+
+245
+00:08:17,720 --> 00:08:19,400
+connect all of your different apps can
+
+246
+00:08:19,400 --> 00:08:21,199
+be really really powerful I'm sure
+
+247
+00:08:21,199 --> 00:08:23,039
+people will be coming up with a lot more
+
+248
+00:08:23,039 --> 00:08:24,800
+really cool stuff with this but more
+
+249
+00:08:24,800 --> 00:08:26,400
+importantly is to figure out ways that
+
+250
+00:08:26,400 --> 00:08:28,360
+you can apply it to your own career and
+
+251
+00:08:28,360 --> 00:08:30,879
+life
+

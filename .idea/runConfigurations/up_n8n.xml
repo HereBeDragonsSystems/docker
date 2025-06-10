@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="up@n8n" type="js.build_tools.npm" folderName="n8n">
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="n8n:up" />
+    </scripts>
+    <node-interpreter value="$USER_HOME$/.nvm/versions/node/v22.14.0/bin/node" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

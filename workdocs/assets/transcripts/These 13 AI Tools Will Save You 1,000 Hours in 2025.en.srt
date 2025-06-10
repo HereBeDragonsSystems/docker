@@ -1,0 +1,2124 @@
+﻿1
+00:00:00,040 --> 00:00:02,480
+new AI tools come out every day I test a
+
+2
+00:00:02,480 --> 00:00:04,440
+lot of them but very few make the cut
+
+3
+00:00:04,440 --> 00:00:06,520
+into my permanent stack the ones that do
+
+4
+00:00:06,520 --> 00:00:08,559
+tend to be tools that save the most time
+
+5
+00:00:08,559 --> 00:00:11,200
+saving 3 hours a day saves you over a,
+
+6
+00:00:11,200 --> 00:00:13,440
+hours per year and for a lot of people
+
+7
+00:00:13,440 --> 00:00:15,320
+AI is already able to do that an
+
+8
+00:00:15,320 --> 00:00:17,320
+exercise I recommend everyone do is over
+
+9
+00:00:17,320 --> 00:00:19,039
+the course of like a week write down all
+
+10
+00:00:19,039 --> 00:00:21,199
+your most timeconsuming tasks then set
+
+11
+00:00:21,199 --> 00:00:23,359
+aside a day to find the best AI workflow
+
+12
+00:00:23,359 --> 00:00:25,680
+to assist or even fully automate those
+
+13
+00:00:25,680 --> 00:00:27,240
+tasks many people will find that they're
+
+14
+00:00:27,240 --> 00:00:29,199
+able to save multiple hours a day I'll
+
+15
+00:00:29,199 --> 00:00:30,960
+go through a big list of tools across
+
+16
+00:00:30,960 --> 00:00:32,840
+different use cases to help us that so a
+
+17
+00:00:32,840 --> 00:00:34,960
+lot will apply to you some won't let's
+
+18
+00:00:34,960 --> 00:00:37,320
+get into
+
+19
+00:00:38,960 --> 00:00:41,600
+it Google felt like they were behind in
+
+20
+00:00:41,600 --> 00:00:43,600
+AI for a while but have been dropping
+
+21
+00:00:43,600 --> 00:00:45,640
+some amazing stuff recently A lot of it
+
+22
+00:00:45,640 --> 00:00:47,520
+is completely free I'll cover a couple
+
+23
+00:00:47,520 --> 00:00:49,360
+of the biggest Time Savers for me I'll
+
+24
+00:00:49,360 --> 00:00:51,920
+start with Google AI Studios realtime AI
+
+25
+00:00:51,920 --> 00:00:53,600
+assistant it can be used for a lot of
+
+26
+00:00:53,600 --> 00:00:55,480
+things it's awesome in particular for
+
+27
+00:00:55,480 --> 00:00:57,600
+learning new software this is at aist
+
+28
+00:00:57,600 --> 00:01:00,199
+studio. google.com there's a lot of
+
+29
+00:01:00,199 --> 00:01:01,519
+other tools in here mostly for
+
+30
+00:01:01,519 --> 00:01:03,559
+developers but anyone can use this one
+
+31
+00:01:03,559 --> 00:01:05,479
+right here that says stream real time
+
+32
+00:01:05,479 --> 00:01:06,799
+your first time doing this there will be
+
+33
+00:01:06,799 --> 00:01:08,680
+some approvals to allow it to access
+
+34
+00:01:08,680 --> 00:01:10,880
+your microphone and screen now I'll
+
+35
+00:01:10,880 --> 00:01:12,759
+click start
+
+36
+00:01:12,759 --> 00:01:15,400
+recording then select video source and
+
+37
+00:01:15,400 --> 00:01:17,040
+pick the window I want which will be
+
+38
+00:01:17,040 --> 00:01:19,159
+this one with Adobe
+
+39
+00:01:19,159 --> 00:01:21,360
+Premiere all right I have Premiere Pro
+
+40
+00:01:21,360 --> 00:01:23,680
+opened up how can I remove this
+
+41
+00:01:23,680 --> 00:01:25,960
+background sure you want to remove the
+
+42
+00:01:25,960 --> 00:01:28,200
+blue background in the video you can do
+
+43
+00:01:28,200 --> 00:01:30,040
+this by using the ultra key effect in in
+
+44
+00:01:30,040 --> 00:01:32,000
+Premiere Pro would you like to know how
+
+45
+00:01:32,000 --> 00:01:34,720
+to do that yes where's
+
+46
+00:01:34,720 --> 00:01:37,399
+that okay the ultra key effect can be
+
+47
+00:01:37,399 --> 00:01:39,520
+found in the effects panel do you know
+
+48
+00:01:39,520 --> 00:01:41,079
+how to get to the effects
+
+49
+00:01:41,079 --> 00:01:44,479
+panel is that down here where it says
+
+50
+00:01:44,479 --> 00:01:47,439
+effects yes that's the one now if you
+
+51
+00:01:47,439 --> 00:01:49,439
+type Ultra key in the search bar you can
+
+52
+00:01:49,439 --> 00:01:51,119
+find the effect do you know where the
+
+53
+00:01:51,119 --> 00:01:52,240
+search bar
+
+54
+00:01:52,240 --> 00:01:55,200
+is yep I see Ultra key
+
+55
+00:01:55,200 --> 00:01:57,960
+here great now drag that effect onto the
+
+56
+00:01:57,960 --> 00:02:00,079
+video clip in the timeline would you
+
+57
+00:02:00,079 --> 00:02:01,280
+like me to guide you through the rest of
+
+58
+00:02:01,280 --> 00:02:02,159
+the
+
+59
+00:02:02,159 --> 00:02:04,399
+steps yeah what's next the background is
+
+60
+00:02:04,399 --> 00:02:07,119
+still there okay now go to the effect
+
+61
+00:02:07,119 --> 00:02:09,479
+controls panel at the top left of the
+
+62
+00:02:09,479 --> 00:02:12,040
+screen there you should see the options
+
+63
+00:02:12,040 --> 00:02:14,360
+for the ultra key effect click the
+
+64
+00:02:14,360 --> 00:02:16,440
+eyedropper icon next to the key color
+
+65
+00:02:16,440 --> 00:02:17,920
+option and then click on the blue
+
+66
+00:02:17,920 --> 00:02:20,200
+background in the program
+
+67
+00:02:20,200 --> 00:02:23,080
+monitor okay yeah that removed it pretty
+
+68
+00:02:23,080 --> 00:02:27,400
+well um but it looks a bit hazy
+
+69
+00:02:27,400 --> 00:02:29,560
+still got it it looks like it's a bit
+
+70
+00:02:29,560 --> 00:02:30,599
+hazy
+
+71
+00:02:30,599 --> 00:02:32,400
+you can adjust the mat generation
+
+72
+00:02:32,400 --> 00:02:34,120
+settings in the ultra key effect to
+
+73
+00:02:34,120 --> 00:02:35,959
+refine the key do you want me to help
+
+74
+00:02:35,959 --> 00:02:37,440
+you with
+
+75
+00:02:37,440 --> 00:02:40,280
+that I just like drag them around looks
+
+76
+00:02:40,280 --> 00:02:42,879
+like transparency is doing something um
+
+77
+00:02:42,879 --> 00:02:44,400
+what should I do
+
+78
+00:02:44,400 --> 00:02:47,040
+here okay it looks like the transparency
+
+79
+00:02:47,040 --> 00:02:49,239
+setting is affecting the haze try
+
+80
+00:02:49,239 --> 00:02:52,080
+adjusting the transparency highlight and
+
+81
+00:02:52,080 --> 00:02:54,440
+Shadow sliders to refine the edges of
+
+82
+00:02:54,440 --> 00:02:55,720
+the key do you want to keep
+
+83
+00:02:55,720 --> 00:02:57,560
+experimenting with the sliders yourself
+
+84
+00:02:57,560 --> 00:02:59,080
+or would you like some specific guidance
+
+85
+00:02:59,080 --> 00:03:01,560
+on how to adjust them they're looking
+
+86
+00:03:01,560 --> 00:03:02,879
+all right is there any other settings I
+
+87
+00:03:02,879 --> 00:03:05,599
+should do all right you can also try
+
+88
+00:03:05,599 --> 00:03:07,319
+adjusting the matte cleanup settings
+
+89
+00:03:07,319 --> 00:03:09,360
+like choke and soften to further refine
+
+90
+00:03:09,360 --> 00:03:11,400
+the edges would you like me to explain
+
+91
+00:03:11,400 --> 00:03:12,319
+what those
+
+92
+00:03:12,319 --> 00:03:15,000
+do no I think I've got it looking pretty
+
+93
+00:03:15,000 --> 00:03:17,799
+good here so now can I have you teach me
+
+94
+00:03:17,799 --> 00:03:20,040
+how to clean up and enhance my audio
+
+95
+00:03:20,040 --> 00:03:22,760
+sure I can help with that in premere Pro
+
+96
+00:03:22,760 --> 00:03:24,560
+you can use the essential sound panel to
+
+97
+00:03:24,560 --> 00:03:26,319
+clean up you get the idea that's
+
+98
+00:03:26,319 --> 00:03:28,439
+incredible it answers almost instantly
+
+99
+00:03:28,439 --> 00:03:30,439
+and you can interrupt and clarify when
+
+100
+00:03:30,439 --> 00:03:32,560
+needed an expert real-time tutor to help
+
+101
+00:03:32,560 --> 00:03:34,400
+you learn anything has been one of the
+
+102
+00:03:34,400 --> 00:03:36,599
+dreams in AI it is not all the way there
+
+103
+00:03:36,599 --> 00:03:37,840
+yet it will still make plenty of
+
+104
+00:03:37,840 --> 00:03:39,840
+mistakes but it will be right and save
+
+105
+00:03:39,840 --> 00:03:41,439
+time quite a bit and YouTube won't
+
+106
+00:03:41,439 --> 00:03:43,319
+always have like the specific scenario
+
+107
+00:03:43,319 --> 00:03:44,879
+you need or sometimes you don't even
+
+108
+00:03:44,879 --> 00:03:47,040
+know what you need to look up to achieve
+
+109
+00:03:47,040 --> 00:03:48,640
+something and on your phone you can do
+
+110
+00:03:48,640 --> 00:03:50,480
+the same thing but using the camera
+
+111
+00:03:50,480 --> 00:03:52,000
+maybe you have some homework you need a
+
+112
+00:03:52,000 --> 00:03:54,040
+tutor for and are totally not just
+
+113
+00:03:54,040 --> 00:03:55,319
+cheating you could have it walk you
+
+114
+00:03:55,319 --> 00:03:56,959
+through a science experiment help you
+
+115
+00:03:56,959 --> 00:03:58,959
+set up Furniture understand documents
+
+116
+00:03:58,959 --> 00:04:00,400
+all sorts of stuff it's like the vision
+
+117
+00:04:00,400 --> 00:04:02,400
+feature in chat GPT but real time
+
+118
+00:04:02,400 --> 00:04:04,360
+instead of uploading photos another one
+
+119
+00:04:04,360 --> 00:04:06,959
+from them is Google Gemini deep research
+
+120
+00:04:06,959 --> 00:04:08,720
+it's an agentic model that will take
+
+121
+00:04:08,720 --> 00:04:10,599
+multiple steps to deeply research a
+
+122
+00:04:10,599 --> 00:04:12,319
+topic here's an example I actually just
+
+123
+00:04:12,319 --> 00:04:14,599
+got a PRP injection in my shoulder a few
+
+124
+00:04:14,599 --> 00:04:17,040
+days ago I did a ton of research into it
+
+125
+00:04:17,040 --> 00:04:18,839
+beforehand but here's how I could have
+
+126
+00:04:18,839 --> 00:04:20,720
+done that in here so I'll make sure deep
+
+127
+00:04:20,720 --> 00:04:23,240
+research is selected from the dropdown
+
+128
+00:04:23,240 --> 00:04:25,600
+then add a prompt provide a detailed
+
+129
+00:04:25,600 --> 00:04:26,960
+summary of platelet rich plasma
+
+130
+00:04:26,960 --> 00:04:28,440
+injections for shoulder related
+
+131
+00:04:28,440 --> 00:04:30,080
+conditions with a focus on tendonopathy
+
+132
+00:04:30,080 --> 00:04:32,160
+include potential risks and current
+
+133
+00:04:32,160 --> 00:04:34,160
+clinical evidence highlight any recent
+
+134
+00:04:34,160 --> 00:04:35,960
+advancements or controversies specific
+
+135
+00:04:35,960 --> 00:04:37,840
+to shoulder treatments also compare the
+
+136
+00:04:37,840 --> 00:04:39,360
+outcomes of PRP injections with
+
+137
+00:04:39,360 --> 00:04:40,880
+corticosteroid treatments for
+
+138
+00:04:40,880 --> 00:04:44,680
+musculoskeletal conditions so I'll send
+
+139
+00:04:44,680 --> 00:04:47,080
+that it thinks for a second then it
+
+140
+00:04:47,080 --> 00:04:49,919
+shows me its plan it has eight steps it
+
+141
+00:04:49,919 --> 00:04:51,960
+will walk through I can edit that if I'd
+
+142
+00:04:51,960 --> 00:04:54,720
+like to but I'll start it as
+
+143
+00:04:54,720 --> 00:04:58,000
+is now it starts its research it's
+
+144
+00:04:58,000 --> 00:05:00,400
+researching 27 websites that seems like
+
+145
+00:05:00,400 --> 00:05:01,880
+a lot but it's actually on the low end
+
+146
+00:05:01,880 --> 00:05:03,320
+for what it usually uses this will be
+
+147
+00:05:03,320 --> 00:05:05,160
+over a 100 websites a lot of the time I
+
+148
+00:05:05,160 --> 00:05:07,120
+chose a pretty simple example it's got
+
+149
+00:05:07,120 --> 00:05:08,919
+some PubMed what looks like some
+
+150
+00:05:08,919 --> 00:05:10,560
+different clinics a bunch of other
+
+151
+00:05:10,560 --> 00:05:12,440
+journals looks like a solid list I'll
+
+152
+00:05:12,440 --> 00:05:13,800
+come back when it's done all right that
+
+153
+00:05:13,800 --> 00:05:15,520
+took around 3 minutes and here's what it
+
+154
+00:05:15,520 --> 00:05:18,319
+came back with this is an incredibly
+
+155
+00:05:18,319 --> 00:05:19,919
+comprehensive report based on these
+
+156
+00:05:19,919 --> 00:05:22,639
+findings with what it is how it works
+
+157
+00:05:22,639 --> 00:05:24,880
+side effects treatment protocols got
+
+158
+00:05:24,880 --> 00:05:27,160
+risks Effectiveness comparisons there's
+
+159
+00:05:27,160 --> 00:05:28,919
+a lot in here which basically confirms
+
+160
+00:05:28,919 --> 00:05:30,639
+the reasons why I got the treatment
+
+161
+00:05:30,639 --> 00:05:33,120
+already but deep research is well named
+
+162
+00:05:33,120 --> 00:05:34,800
+and I was able to tailor it specific to
+
+163
+00:05:34,800 --> 00:05:36,360
+my situation with my shoulder rather
+
+164
+00:05:36,360 --> 00:05:38,440
+than all PRP uses this isn't for just
+
+165
+00:05:38,440 --> 00:05:39,880
+random oneoff questions that you might
+
+166
+00:05:39,880 --> 00:05:42,199
+pop into chat GPT or Google but it is
+
+167
+00:05:42,199 --> 00:05:44,400
+incredible for deep research and the use
+
+168
+00:05:44,400 --> 00:05:46,080
+cases are endless and this is part of
+
+169
+00:05:46,080 --> 00:05:48,199
+Gemini Advanced which comes with a lot
+
+170
+00:05:48,199 --> 00:05:50,440
+of other features but does cost $20 a
+
+171
+00:05:50,440 --> 00:05:52,400
+month after a one-month free trial there
+
+172
+00:05:52,400 --> 00:05:54,280
+are of course and this ways to use chat
+
+173
+00:05:54,280 --> 00:05:56,720
+GPT to save time so in the description
+
+174
+00:05:56,720 --> 00:05:59,120
+will be a free chat GPT resource bundle
+
+175
+00:05:59,120 --> 00:06:01,039
+provided by HubSpot there's a total of
+
+176
+00:06:01,039 --> 00:06:03,080
+five PDFs that go in-depth on how you
+
+177
+00:06:03,080 --> 00:06:05,280
+can utilize Chachi PT in your career and
+
+178
+00:06:05,280 --> 00:06:07,560
+it was just updated for 2025 there's one
+
+179
+00:06:07,560 --> 00:06:09,240
+that walks through a process similar to
+
+180
+00:06:09,240 --> 00:06:10,440
+how I mentioned to find your most
+
+181
+00:06:10,440 --> 00:06:12,280
+time-consuming tasks AI can help with
+
+182
+00:06:12,280 --> 00:06:13,919
+but it's a much deeper and more
+
+183
+00:06:13,919 --> 00:06:15,599
+step-by-step guide to do that but my
+
+184
+00:06:15,599 --> 00:06:16,960
+favorite in here is called supercharge
+
+185
+00:06:16,960 --> 00:06:18,960
+your workday with chat GPT it covers
+
+186
+00:06:18,960 --> 00:06:21,120
+specific examples of how chat GPT can be
+
+187
+00:06:21,120 --> 00:06:22,919
+used in various Industries sales and
+
+188
+00:06:22,919 --> 00:06:24,800
+marketing customer support time
+
+189
+00:06:24,800 --> 00:06:26,479
+management and task organization
+
+190
+00:06:26,479 --> 00:06:28,199
+personal development and learning it
+
+191
+00:06:28,199 --> 00:06:30,120
+walks through stepbystep with different
+
+192
+00:06:30,120 --> 00:06:31,720
+tips and I really like the section
+
+193
+00:06:31,720 --> 00:06:34,280
+titled 100 ways to try chachy PT today
+
+194
+00:06:34,280 --> 00:06:36,160
+it has 100 sample prompts you can use
+
+195
+00:06:36,160 --> 00:06:38,080
+and modify no matter what career you
+
+196
+00:06:38,080 --> 00:06:39,599
+have there sure to be a bunch in there
+
+197
+00:06:39,599 --> 00:06:41,479
+that apply and keeping in line with this
+
+198
+00:06:41,479 --> 00:06:43,280
+video prompts templates like that are
+
+199
+00:06:43,280 --> 00:06:45,199
+another way to save a ton of time again
+
+200
+00:06:45,199 --> 00:06:46,919
+that resource is completely free just
+
+201
+00:06:46,919 --> 00:06:48,360
+use the link in the description to go
+
+202
+00:06:48,360 --> 00:06:50,039
+download that I'm always happy to
+
+203
+00:06:50,039 --> 00:06:51,720
+partner with HubSpot to provide free
+
+204
+00:06:51,720 --> 00:06:53,240
+resources to the people that watch this
+
+205
+00:06:53,240 --> 00:06:55,039
+channel but back on the free end from
+
+206
+00:06:55,039 --> 00:06:57,120
+Google is notebook LM which I've covered
+
+207
+00:06:57,120 --> 00:06:58,800
+extensively before but they have some
+
+208
+00:06:58,800 --> 00:07:00,560
+new features since then it's another
+
+209
+00:07:00,560 --> 00:07:02,280
+personalized AI powered research
+
+210
+00:07:02,280 --> 00:07:04,080
+assistant deep seek R1 came out the
+
+211
+00:07:04,080 --> 00:07:06,240
+other day and blew everyone away so I
+
+212
+00:07:06,240 --> 00:07:08,400
+uploaded a PDF of the research paper a
+
+213
+00:07:08,400 --> 00:07:10,280
+link to the GitHub and a couple websites
+
+214
+00:07:10,280 --> 00:07:12,000
+about it in here you can also upload
+
+215
+00:07:12,000 --> 00:07:14,319
+YouTube videos or I'll even use PDFs of
+
+216
+00:07:14,319 --> 00:07:16,400
+an entire book I'm reading sometimes it
+
+217
+00:07:16,400 --> 00:07:19,039
+can take in a lot of information now I
+
+218
+00:07:19,039 --> 00:07:20,319
+can have it summarize all the
+
+219
+00:07:20,319 --> 00:07:22,160
+information or even more helpful is I
+
+220
+00:07:22,160 --> 00:07:24,039
+can ask a question then it will give me
+
+221
+00:07:24,039 --> 00:07:26,000
+an answer and site exactly where that
+
+222
+00:07:26,000 --> 00:07:29,680
+information came from in my uploads
+
+223
+00:07:29,680 --> 00:07:31,360
+I can also create a study guide that
+
+224
+00:07:31,360 --> 00:07:33,599
+will give me a quiz with an answer key
+
+225
+00:07:33,599 --> 00:07:35,400
+essay questions and a glossery of key
+
+226
+00:07:35,400 --> 00:07:37,680
+terms I could also create a briefing doc
+
+227
+00:07:37,680 --> 00:07:40,479
+FAQs timeline or the most unique option
+
+228
+00:07:40,479 --> 00:07:42,280
+is the podcast feature you can add
+
+229
+00:07:42,280 --> 00:07:43,840
+prompts to customize and guide what they
+
+230
+00:07:43,840 --> 00:07:45,919
+talk about if you'd like then this will
+
+231
+00:07:45,919 --> 00:07:48,039
+generate a full podcast all about the
+
+232
+00:07:48,039 --> 00:07:49,879
+topic with the new interactive mode you
+
+233
+00:07:49,879 --> 00:07:51,879
+can also jump into the podcast and ask a
+
+234
+00:07:51,879 --> 00:07:53,960
+question they'll answer that or you can
+
+235
+00:07:53,960 --> 00:07:55,680
+steer the conversation in any direction
+
+236
+00:07:55,680 --> 00:07:58,120
+you want yeah I'm excited to dive in and
+
+237
+00:07:58,120 --> 00:07:59,639
+what's really interesting is how their
+
+238
+00:07:59,639 --> 00:08:01,800
+achieving this reasoning in AI it's
+
+239
+00:08:01,800 --> 00:08:03,400
+quite a departure from how things are
+
+240
+00:08:03,400 --> 00:08:05,159
+normally done yeah usually we think
+
+241
+00:08:05,159 --> 00:08:07,520
+about AI being trained on you know these
+
+242
+00:08:07,520 --> 00:08:09,560
+massive data sets like feeding it you
+
+243
+00:08:09,560 --> 00:08:11,240
+know the entire Library of Congress or
+
+244
+00:08:11,240 --> 00:08:13,039
+something and that's how it learns but
+
+245
+00:08:13,039 --> 00:08:15,000
+that can be really expensive and time
+
+246
+00:08:15,000 --> 00:08:16,720
+consuming and what happens when it
+
+247
+00:08:16,720 --> 00:08:18,360
+encounters something outside of that
+
+248
+00:08:18,360 --> 00:08:20,599
+data set you know something totally new
+
+249
+00:08:20,599 --> 00:08:22,240
+it's not going to be able to adapt very
+
+250
+00:08:22,240 --> 00:08:24,400
+well exactly and that's one of the
+
+251
+00:08:24,400 --> 00:08:26,400
+limitations that deep seeks team has
+
+252
+00:08:26,400 --> 00:08:29,520
+been really focused on addressing
+
+253
+00:08:29,520 --> 00:08:31,280
+they've created this model called Deep
+
+254
+00:08:31,280 --> 00:08:32,320
+seek
+
+255
+00:08:32,320 --> 00:08:35,159
+r10 and the Really fascinating thing is
+
+256
+00:08:35,159 --> 00:08:37,559
+it was trained using only reinforcement
+
+257
+00:08:37,559 --> 00:08:40,640
+learning No Label data at all whoa did
+
+258
+00:08:40,640 --> 00:08:42,440
+someone just break the fourth wall let's
+
+259
+00:08:42,440 --> 00:08:44,519
+hear it and they open sourced the whole
+
+260
+00:08:44,519 --> 00:08:46,040
+thing right can you speak about that for
+
+261
+00:08:46,040 --> 00:08:48,959
+a minute absolutely and it's a really
+
+262
+00:08:48,959 --> 00:08:50,920
+key part of what makes deep seek stand
+
+263
+00:08:50,920 --> 00:08:52,800
+out yeah it's not just the technology
+
+264
+00:08:52,800 --> 00:08:54,120
+itself but the way they're sharing it
+
+265
+00:08:54,120 --> 00:08:55,720
+with everyone the fact that they've made
+
+266
+00:08:55,720 --> 00:08:58,160
+their models and research open source is
+
+267
+00:08:58,160 --> 00:09:00,079
+a big deal it really sets the apart it's
+
+268
+00:09:00,079 --> 00:09:01,200
+kind of like they're saying here's what
+
+269
+00:09:01,200 --> 00:09:02,880
+we've done now let's all build on it
+
+270
+00:09:02,880 --> 00:09:04,519
+together those are the best options from
+
+271
+00:09:04,519 --> 00:09:06,160
+Google that I wanted to cover now I'll
+
+272
+00:09:06,160 --> 00:09:07,640
+jump through some other tools a lot
+
+273
+00:09:07,640 --> 00:09:09,320
+faster they're across different use
+
+274
+00:09:09,320 --> 00:09:11,800
+cases so some may or may not be related
+
+275
+00:09:11,800 --> 00:09:14,079
+to what you
+
+276
+00:09:14,079 --> 00:09:16,880
+need with gamma just write a text prompt
+
+277
+00:09:16,880 --> 00:09:18,959
+and it will generate an entire beautiful
+
+278
+00:09:18,959 --> 00:09:21,040
+presentation with engaging text and
+
+279
+00:09:21,040 --> 00:09:22,680
+relevant images there are other tools
+
+280
+00:09:22,680 --> 00:09:24,040
+that do this but gamma has been my
+
+281
+00:09:24,040 --> 00:09:25,600
+favorite one you can also create
+
+282
+00:09:25,600 --> 00:09:27,560
+documents and websites with gamma but
+
+283
+00:09:27,560 --> 00:09:31,359
+I've primarily used it for presentation
+
+284
+00:09:33,880 --> 00:09:35,560
+now if you need a coding assistant
+
+285
+00:09:35,560 --> 00:09:37,680
+cursor is the leading tool right now you
+
+286
+00:09:37,680 --> 00:09:39,640
+can build and deploy fully functioning
+
+287
+00:09:39,640 --> 00:09:41,279
+apps without any coding knowledge it's
+
+288
+00:09:41,279 --> 00:09:43,200
+all just from prompting then you go back
+
+289
+00:09:43,200 --> 00:09:45,000
+and forth for any changes you need I
+
+290
+00:09:45,000 --> 00:09:46,399
+don't have time to go into that much
+
+291
+00:09:46,399 --> 00:09:47,959
+here and I'm definitely not an expert at
+
+292
+00:09:47,959 --> 00:09:50,040
+this anyways um Riley Brown has a bunch
+
+293
+00:09:50,040 --> 00:09:51,720
+of videos on building cool stuff with it
+
+294
+00:09:51,720 --> 00:09:52,880
+there's lots of channels with deeper
+
+295
+00:09:52,880 --> 00:09:54,480
+dives into cursor to go check out
+
+296
+00:09:54,480 --> 00:09:56,720
+complimentary to that is Wizard which is
+
+297
+00:09:56,720 --> 00:09:59,360
+ideal for creating UI mockups wire
+
+298
+00:09:59,360 --> 00:10:01,440
+frames and Designs quickly using AI you
+
+299
+00:10:01,440 --> 00:10:03,560
+can generate from text turn a screenshot
+
+300
+00:10:03,560 --> 00:10:06,320
+into an editable mockup or a handdrawn
+
+301
+00:10:06,320 --> 00:10:08,160
+sketch into a digital design then
+
+302
+00:10:08,160 --> 00:10:09,600
+through prompting you can iterate
+
+303
+00:10:09,600 --> 00:10:12,160
+quickly add or modify components and for
+
+304
+00:10:12,160 --> 00:10:14,160
+a powerful combination you can export
+
+305
+00:10:14,160 --> 00:10:15,920
+the code Snippets and pass them into
+
+306
+00:10:15,920 --> 00:10:18,320
+cursor so wizard can create the entire
+
+307
+00:10:18,320 --> 00:10:20,120
+visual design quickly then cursor can
+
+308
+00:10:20,120 --> 00:10:21,959
+handle the backend logic and fine-tune
+
+309
+00:10:21,959 --> 00:10:24,000
+it all you can do this All without any
+
+310
+00:10:24,000 --> 00:10:26,200
+deep technical skills the ability to
+
+311
+00:10:26,200 --> 00:10:27,839
+easily build out apps that you can
+
+312
+00:10:27,839 --> 00:10:29,839
+customize exactly to your like is
+
+313
+00:10:29,839 --> 00:10:31,279
+incredible whether that's like a
+
+314
+00:10:31,279 --> 00:10:33,320
+personalized app just for your own use
+
+315
+00:10:33,320 --> 00:10:35,560
+or to build for deploying publicly the
+
+316
+00:10:35,560 --> 00:10:37,680
+entire SAS world is changing rapidly
+
+317
+00:10:37,680 --> 00:10:39,959
+with all these new
+
+318
+00:10:39,959 --> 00:10:43,399
+tools napkin AI is amazing for creating
+
+319
+00:10:43,399 --> 00:10:45,440
+graphics and visuals from text they just
+
+320
+00:10:45,440 --> 00:10:47,360
+came out with a big update that's faster
+
+321
+00:10:47,360 --> 00:10:49,360
+and has a lot more designs it's super
+
+322
+00:10:49,360 --> 00:10:51,320
+easy to use and is still completely free
+
+323
+00:10:51,320 --> 00:10:53,000
+as of the filming of this video I'll do
+
+324
+00:10:53,000 --> 00:10:54,560
+an example I used before so I can see
+
+325
+00:10:54,560 --> 00:10:56,279
+how the new update Compares you can
+
+326
+00:10:56,279 --> 00:10:58,000
+upload your own information or I'll use
+
+327
+00:10:58,000 --> 00:11:00,079
+AI to help with this one five things
+
+328
+00:11:00,079 --> 00:11:02,320
+most likely to cause the AI Apocalypse
+
+329
+00:11:02,320 --> 00:11:04,600
+in order of
+
+330
+00:11:04,600 --> 00:11:06,560
+likelihood all right there's a solid
+
+331
+00:11:06,560 --> 00:11:08,639
+list I'll start with just the first one
+
+332
+00:11:08,639 --> 00:11:11,079
+I'll click the lightning button and
+
+333
+00:11:11,079 --> 00:11:14,839
+here's a bunch of visuals I can cycle
+
+334
+00:11:14,959 --> 00:11:17,959
+through a lot of these look awesome then
+
+335
+00:11:17,959 --> 00:11:19,320
+if you find one you like there's
+
+336
+00:11:19,320 --> 00:11:21,480
+additional styles for each so there's
+
+337
+00:11:21,480 --> 00:11:23,279
+tons and tons to choose from and the
+
+338
+00:11:23,279 --> 00:11:24,959
+colors are all fully customizable as
+
+339
+00:11:24,959 --> 00:11:26,839
+well I could also highlight all the text
+
+340
+00:11:26,839 --> 00:11:28,760
+and do it for all five I'll give that a
+
+341
+00:11:28,760 --> 00:11:31,000
+try and now there's a bunch more really
+
+342
+00:11:31,000 --> 00:11:33,320
+solid
+
+343
+00:11:38,120 --> 00:11:40,279
+visuals and I think these are awesome to
+
+344
+00:11:40,279 --> 00:11:42,399
+use in videos I can download one then
+
+345
+00:11:42,399 --> 00:11:44,279
+blur out parts and add some zooms and
+
+346
+00:11:44,279 --> 00:11:46,120
+now it's an amazing looking really
+
+347
+00:11:46,120 --> 00:11:47,959
+engaging graphic that I made in just a
+
+348
+00:11:47,959 --> 00:11:50,200
+few
+
+349
+00:11:50,200 --> 00:11:52,720
+seconds using an AI meeting assistant
+
+350
+00:11:52,720 --> 00:11:54,600
+can be a huge timesaver there's a lot of
+
+351
+00:11:54,600 --> 00:11:56,399
+options out there I've tested a few my
+
+352
+00:11:56,399 --> 00:11:58,240
+favorite was otter especially if you're
+
+353
+00:11:58,240 --> 00:11:59,880
+looking for something you user friendly
+
+354
+00:11:59,880 --> 00:12:01,360
+with a shorter learning curve on the
+
+355
+00:12:01,360 --> 00:12:03,200
+more advanced side with a lot more
+
+356
+00:12:03,200 --> 00:12:05,279
+features and advanced functionalities I
+
+357
+00:12:05,279 --> 00:12:06,959
+liked fireflies but these all work
+
+358
+00:12:06,959 --> 00:12:08,920
+similarly integrating into Zoom Google
+
+359
+00:12:08,920 --> 00:12:10,839
+meet and Microsoft teams it will
+
+360
+00:12:10,839 --> 00:12:12,519
+transcribe your full meeting then give
+
+361
+00:12:12,519 --> 00:12:14,440
+you a summary then you can search the
+
+362
+00:12:14,440 --> 00:12:16,199
+text to play back the audio at
+
+363
+00:12:16,199 --> 00:12:18,360
+adjustable speeds then tap the words to
+
+364
+00:12:18,360 --> 00:12:20,440
+jump to different spots it can highlight
+
+365
+00:12:20,440 --> 00:12:22,240
+key points to review later it has
+
+366
+00:12:22,240 --> 00:12:24,240
+automated slide capture it will insert
+
+367
+00:12:24,240 --> 00:12:26,240
+into the notes it's super helpful if you
+
+368
+00:12:26,240 --> 00:12:27,880
+have a lot of meetings to be able to
+
+369
+00:12:27,880 --> 00:12:29,920
+review them but also to be able to stay
+
+370
+00:12:29,920 --> 00:12:31,720
+focused and attentive during the meeting
+
+371
+00:12:31,720 --> 00:12:33,160
+and there's further use cases depending
+
+372
+00:12:33,160 --> 00:12:34,920
+on what you do like if you or your team
+
+373
+00:12:34,920 --> 00:12:37,240
+do a lot of sales calls you could ask to
+
+374
+00:12:37,240 --> 00:12:39,040
+identify weak points in the process or
+
+375
+00:12:39,040 --> 00:12:40,920
+to find common objections if you need
+
+376
+00:12:40,920 --> 00:12:42,839
+more advanced uses like that I'd
+
+377
+00:12:42,839 --> 00:12:44,839
+recommend fireflies this next one is a
+
+378
+00:12:44,839 --> 00:12:46,760
+big one if you have a YouTube channel I
+
+379
+00:12:46,760 --> 00:12:49,240
+have a flux Laura trained on my face and
+
+380
+00:12:49,240 --> 00:12:51,320
+anytime I want an image of myself in any
+
+381
+00:12:51,320 --> 00:12:53,240
+setting or pose I can just prompt for it
+
+382
+00:12:53,240 --> 00:12:54,839
+I use this on replicate and I've taught
+
+383
+00:12:54,839 --> 00:12:56,399
+this multiple times on this channel so
+
+384
+00:12:56,399 --> 00:12:58,360
+I'll link to a longer video if you need
+
+385
+00:12:58,360 --> 00:13:00,160
+it but it's really easy to do basically
+
+386
+00:13:00,160 --> 00:13:01,920
+you just need at least 10 images of
+
+387
+00:13:01,920 --> 00:13:03,279
+yourself from different angles and
+
+388
+00:13:03,279 --> 00:13:05,800
+expressions you upload those then name
+
+389
+00:13:05,800 --> 00:13:08,000
+it and select a few drop downs it costs
+
+390
+00:13:08,000 --> 00:13:10,000
+around $5 to train which you only need
+
+391
+00:13:10,000 --> 00:13:11,839
+to do once then it's just a few cents
+
+392
+00:13:11,839 --> 00:13:13,399
+after that anytime you need to generate
+
+393
+00:13:13,399 --> 00:13:15,800
+an image you can easily make amazing
+
+394
+00:13:15,800 --> 00:13:17,440
+unique thumbnails without setting up
+
+395
+00:13:17,440 --> 00:13:19,560
+your camera and lighting every time it's
+
+396
+00:13:19,560 --> 00:13:21,560
+awesome another research assistant that
+
+397
+00:13:21,560 --> 00:13:23,160
+probably everyone watching this channel
+
+398
+00:13:23,160 --> 00:13:25,320
+Knows by now is perplexity I mainly use
+
+399
+00:13:25,320 --> 00:13:27,240
+perplexity because of its speed at
+
+400
+00:13:27,240 --> 00:13:29,120
+finding things like stats research or
+
+401
+00:13:29,120 --> 00:13:30,800
+quotes I may need for a video although I
+
+402
+00:13:30,800 --> 00:13:32,240
+don't have the Pro Plan anymore all I
+
+403
+00:13:32,240 --> 00:13:33,639
+need is the free and I have actually
+
+404
+00:13:33,639 --> 00:13:35,680
+started to move back to chat PT for a
+
+405
+00:13:35,680 --> 00:13:37,120
+lot of this since their native search
+
+406
+00:13:37,120 --> 00:13:38,639
+feature has gotten so much better but
+
+407
+00:13:38,639 --> 00:13:40,959
+now displays images and sources it does
+
+408
+00:13:40,959 --> 00:13:42,399
+a lot of what perplexity has been really
+
+409
+00:13:42,399 --> 00:13:44,120
+good at I debated on still including it
+
+410
+00:13:44,120 --> 00:13:46,000
+in this video but for some use cases you
+
+411
+00:13:46,000 --> 00:13:48,079
+may find it to be the best tool and they
+
+412
+00:13:48,079 --> 00:13:49,639
+are starting to implement actions with
+
+413
+00:13:49,639 --> 00:13:51,600
+perplexity assistant you can ask it to
+
+414
+00:13:51,600 --> 00:13:53,800
+play a specific song it can help book a
+
+415
+00:13:53,800 --> 00:13:55,600
+restaurant you can search with vision
+
+416
+00:13:55,600 --> 00:13:57,440
+which is a nice upgrade chat GPT came
+
+417
+00:13:57,440 --> 00:13:59,480
+out with operators as well over all
+
+418
+00:13:59,480 --> 00:14:01,199
+agents like this even though there's a
+
+419
+00:14:01,199 --> 00:14:02,800
+lot of hype around them they're not
+
+420
+00:14:02,800 --> 00:14:04,480
+there yet for anything practical I do
+
+421
+00:14:04,480 --> 00:14:06,120
+think it's a good idea to mess around
+
+422
+00:14:06,120 --> 00:14:08,240
+with them to get a feel for how AI
+
+423
+00:14:08,240 --> 00:14:10,079
+interacts with websites on its own just
+
+424
+00:14:10,079 --> 00:14:12,120
+for learning sake and to stay ahead of
+
+425
+00:14:12,120 --> 00:14:13,759
+the curve one day we may have a
+
+426
+00:14:13,759 --> 00:14:15,839
+dashboard of Agents we're overseeing
+
+427
+00:14:15,839 --> 00:14:17,480
+just kind of watching for mistakes and
+
+428
+00:14:17,480 --> 00:14:19,279
+places to intervene and nudge but I
+
+429
+00:14:19,279 --> 00:14:20,920
+think we're a ways out from that but
+
+430
+00:14:20,920 --> 00:14:22,639
+sticking with llms these are the type of
+
+431
+00:14:22,639 --> 00:14:24,440
+AI tool people are generally the most
+
+432
+00:14:24,440 --> 00:14:26,519
+familiar with but it's also one of the
+
+433
+00:14:26,519 --> 00:14:28,399
+biggest Time Savers for me personally
+
+434
+00:14:28,399 --> 00:14:30,040
+and I assume could be for most people
+
+435
+00:14:30,040 --> 00:14:31,440
+too this is an area where like I
+
+436
+00:14:31,440 --> 00:14:32,759
+mentioned at the beginning if you write
+
+437
+00:14:32,759 --> 00:14:34,839
+down your most timeconsuming tasks there
+
+438
+00:14:34,839 --> 00:14:37,519
+is very often a way that AI can automate
+
+439
+00:14:37,519 --> 00:14:39,680
+or assist with those tasks and llms are
+
+440
+00:14:39,680 --> 00:14:41,519
+the most common solution the top two I
+
+441
+00:14:41,519 --> 00:14:43,959
+use are Claude and chat GPT Claude is my
+
+442
+00:14:43,959 --> 00:14:45,560
+go-to writing assistant although chat
+
+443
+00:14:45,560 --> 00:14:47,160
+GPT has definitely gotten better at
+
+444
+00:14:47,160 --> 00:14:48,440
+creative writing but I don't think it's
+
+445
+00:14:48,440 --> 00:14:49,680
+as good as Claud yet there's other
+
+446
+00:14:49,680 --> 00:14:52,680
+writing tools like Jasper Lex WR Sonic
+
+447
+00:14:52,680 --> 00:14:54,839
+copy and tons of others if there's a
+
+448
+00:14:54,839 --> 00:14:56,800
+specific type of writing you do a lot
+
+449
+00:14:56,800 --> 00:14:58,360
+you may want to find one that's tailored
+
+450
+00:14:58,360 --> 00:15:00,079
+for that they typically all use CLA or
+
+451
+00:15:00,079 --> 00:15:01,720
+chaty PT under the hood but they just
+
+452
+00:15:01,720 --> 00:15:03,759
+have solid prompt engineering and a nice
+
+453
+00:15:03,759 --> 00:15:05,600
+UI on top of it for me I just do my own
+
+454
+00:15:05,600 --> 00:15:06,880
+prompting and have never felt the need
+
+455
+00:15:06,880 --> 00:15:08,839
+for a specialized writing tool typically
+
+456
+00:15:08,839 --> 00:15:10,440
+I just get outlines and do the bulk of
+
+457
+00:15:10,440 --> 00:15:11,920
+the actual tone and writing myself
+
+458
+00:15:11,920 --> 00:15:14,680
+anyways with chat GPT using custom gpts
+
+459
+00:15:14,680 --> 00:15:16,959
+or projects to streamline a repetitive
+
+460
+00:15:16,959 --> 00:15:18,920
+task is something just about everyone
+
+461
+00:15:18,920 --> 00:15:20,680
+will be able to do the projects allow
+
+462
+00:15:20,680 --> 00:15:22,399
+you to keep chats organized and
+
+463
+00:15:22,399 --> 00:15:24,399
+contextually connected it's great for
+
+464
+00:15:24,399 --> 00:15:26,560
+long-term multi-step workflows here's a
+
+465
+00:15:26,560 --> 00:15:28,160
+pretty easy one that I use for shorts so
+
+466
+00:15:28,160 --> 00:15:29,880
+I have a big list of types of hooks and
+
+467
+00:15:29,880 --> 00:15:31,440
+example hooks that I uploaded to the
+
+468
+00:15:31,440 --> 00:15:33,360
+project files then I have step-by-step
+
+469
+00:15:33,360 --> 00:15:35,319
+instructions as well to start all I have
+
+470
+00:15:35,319 --> 00:15:37,199
+to do is input my topic and it will give
+
+471
+00:15:37,199 --> 00:15:39,240
+me a list of hooks in each style so I
+
+472
+00:15:39,240 --> 00:15:40,920
+can refine and pick one from there then
+
+473
+00:15:40,920 --> 00:15:42,680
+it will move on to the next step of the
+
+474
+00:15:42,680 --> 00:15:44,600
+workflow it's a whole collaborative
+
+475
+00:15:44,600 --> 00:15:46,120
+process that speeds up short form
+
+476
+00:15:46,120 --> 00:15:47,839
+creation a lot I do also have this set
+
+477
+00:15:47,839 --> 00:15:49,680
+up in cloud this isn't particularly
+
+478
+00:15:49,680 --> 00:15:51,560
+creative writing so both work really
+
+479
+00:15:51,560 --> 00:15:54,600
+well custom gpts are great for very
+
+480
+00:15:54,600 --> 00:15:56,639
+specific fixed behaviors and they also
+
+481
+00:15:56,639 --> 00:15:58,519
+have the benefit of exploring gpts
+
+482
+00:15:58,519 --> 00:15:59,959
+others have made public if you have
+
+483
+00:15:59,959 --> 00:16:01,360
+something you're thinking of creating
+
+484
+00:16:01,360 --> 00:16:02,959
+see if someone else already has there's
+
+485
+00:16:02,959 --> 00:16:04,759
+tons of options in here one example I
+
+486
+00:16:04,759 --> 00:16:06,959
+use that I really like is I have gpts
+
+487
+00:16:06,959 --> 00:16:08,839
+for crafting prompts that's a huge
+
+488
+00:16:08,839 --> 00:16:11,040
+timesaver this one's for videos I just
+
+489
+00:16:11,040 --> 00:16:12,560
+enter a simple prompt and it will
+
+490
+00:16:12,560 --> 00:16:14,519
+elaborate into a much longer prompt that
+
+491
+00:16:14,519 --> 00:16:16,600
+works better for AI video tools and it
+
+492
+00:16:16,600 --> 00:16:18,519
+gives multiple options that's really
+
+493
+00:16:18,519 --> 00:16:21,240
+nice to have I have another one for llms
+
+494
+00:16:21,240 --> 00:16:23,319
+basically training chat GPT to prompt
+
+495
+00:16:23,319 --> 00:16:25,240
+itself and another for text to image
+
+496
+00:16:25,240 --> 00:16:27,319
+prompts and an often overlooked feature
+
+497
+00:16:27,319 --> 00:16:29,600
+is you can summon your gpts in any chat
+
+498
+00:16:29,600 --> 00:16:31,319
+just click the at sign and choose your
+
+499
+00:16:31,319 --> 00:16:33,560
+GPT from the list then ask for what you
+
+500
+00:16:33,560 --> 00:16:35,399
+need then it will use all the context
+
+501
+00:16:35,399 --> 00:16:36,920
+and instructions you've built into that
+
+502
+00:16:36,920 --> 00:16:39,000
+GPT to tailor a response so this is a
+
+503
+00:16:39,000 --> 00:16:40,680
+coloring book page generator I made for
+
+504
+00:16:40,680 --> 00:16:42,639
+my four-year-old and I'll send that and
+
+505
+00:16:42,639 --> 00:16:44,480
+even though this is in an existing chat
+
+506
+00:16:44,480 --> 00:16:46,240
+without any additional context it knows
+
+507
+00:16:46,240 --> 00:16:48,040
+what to do and generates me a coloring
+
+508
+00:16:48,040 --> 00:16:50,279
+book page again I do recommend you
+
+509
+00:16:50,279 --> 00:16:51,759
+actually create a list of your most
+
+510
+00:16:51,759 --> 00:16:53,399
+timec consuming tasks and try to find
+
+511
+00:16:53,399 --> 00:16:55,040
+ways AI can help hopefully this video
+
+512
+00:16:55,040 --> 00:16:57,040
+will give you some ideas and this huge
+
+513
+00:16:57,040 --> 00:16:58,519
+list of tools will be a good place to
+
+514
+00:16:58,519 --> 00:17:00,360
+start I've got a huge update from
+
+515
+00:17:00,360 --> 00:17:02,560
+futurepedia we partnered with skill leap
+
+516
+00:17:02,560 --> 00:17:04,319
+AI so we looked around and they had
+
+517
+00:17:04,319 --> 00:17:06,319
+built the best AI learning platform I
+
+518
+00:17:06,319 --> 00:17:08,280
+could find so we partnered with them and
+
+519
+00:17:08,280 --> 00:17:10,000
+have now built that platform into
+
+520
+00:17:10,000 --> 00:17:12,400
+futurepedia there's over 20 amazing
+
+521
+00:17:12,400 --> 00:17:14,280
+extremely in-depth courses covering all
+
+522
+00:17:14,280 --> 00:17:15,959
+different aspects of AI and how to use
+
+523
+00:17:15,959 --> 00:17:17,599
+it in your own life and business it's
+
+524
+00:17:17,599 --> 00:17:19,079
+the perfect place to learn a lot of the
+
+525
+00:17:19,079 --> 00:17:21,000
+stuff I talked about in this video it is
+
+526
+00:17:21,000 --> 00:17:22,439
+also where I will be launching all of
+
+527
+00:17:22,439 --> 00:17:24,280
+the courses I'm working on right now
+
+528
+00:17:24,280 --> 00:17:25,559
+I'll have a link down in the description
+
+529
+00:17:25,559 --> 00:17:26,919
+where you can go to try that out for
+
+530
+00:17:26,919 --> 00:17:28,960
+free and thank you so much for watching
+
+531
+00:17:28,960 --> 00:17:31,960
+I'll see you in the next one
+
