@@ -31,7 +31,7 @@
     "n8n:stop": "SERVICE=n8n npm run service:stop",
     "n8n:down": "SERVICE=n8n npm run service:down",
     "n8n:reboot": "SERVICE=n8n npm run service:reboot",
-    "n8n:reset": "SERVICE=n8n npm run service:reset -- ./data/.* ./postgres/* ./redis/*",
+    "n8n:reset": "SERVICE=n8n npm run service:reset -- ./data/* ./postgres/* ./redis/*",
     "n8n:reset:reboot": "SERVICE=n8n npm run service:reset:reboot",
     "n8n:up2": "cd ./docker/n8n && docker compose -f n8n-compose.yml --env-file ./docker/.env --env-file ./docker/.env.local --env-file ./docker/n8n/.env --env-file ./docker/n8n/.env.local up -d",
     "n8n:down2": "cd ./docker/n8n && docker compose -f n8n-compose.yml --env-file ./docker/.env --env-file ./docker/.env.local --env-file ./docker/n8n/.env --env-file ./docker/n8n/.env.local down -v --rmi local",
